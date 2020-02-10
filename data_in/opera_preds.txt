@@ -1,0 +1,26 @@
+---------- PhysChem properties ----------
+LogP(Log10)
+MP (Deg. C)
+BP (Deg. C)
+LogVP (Log10 mmHg)
+LogWS (Log10 M)
+LogHL (Log10 atm-m3/V)
+RT (Mins.
+LogKOA (Log10)
+pKa (unitless)
+LogD (Log10)
+pKa- and LogP-based predictions
+---------- Env. Fate Endpoints ----------
+LogOH (Log10 cm3/molecule-sec)
+LogBCF (Log10)
+Biodeg. half-life (Log10 days)
+Ready-Biodegradability (Binary 0/1)
+LogKm half-life (Log10 days)
+LogKoc (Log10 L/Kg)
+---------- ADME Endpoints ----------
+FuB (fraction)
+Clint
+---------- Toxcity Endpoints ----------
+Estrogen Receptor Activity (CERAPP)
+Androgen Receptor Activity (CoMPARA)
+Acute Oral Tox. endpoints (CATMoS)

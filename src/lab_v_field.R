@@ -3,7 +3,11 @@ library(dplyr)
 library(tidyr)
 library(wesanderson)
 library(cowplot)
-setwd("C:\\Users\\eliza\\Documents\\EPA\\ORISE\\Amphibian_Paper\\amphib_code\\labvfield_cleaned")
+
+if(Sys.info()[4]=="LZ26EPAULUKO"){
+  ams_dir <- "c:/git/amphibian_model_selection/"
+}
+
 sw<-read.csv('swanson.csv')
 bg<-read.csv('battaglin.csv')
 sm15<-read.csv('smalling15.csv')

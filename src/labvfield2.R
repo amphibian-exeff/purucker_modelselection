@@ -85,18 +85,9 @@ g13f<-g13[,c(2,1,3,5,6,7,4)] #reorder
 
 
 #check structure and names match
-str(bg_f)
-str(sw_f)
-str(sm_f)
-str(sm2_f)
-str(sm18f) 
-str(g13f)
-names(bg_f)
-names(sw_f)
-names(sm_f)
-names(sm2_f)
-names(sm18f)
-names(g13f)
+df_list<-list(bg_f,sw_f,sm_f,sm2_f,sm18f,g13f)
+unlist(lapply(df_list,str)) #for easier comparison
+lapply(df_list,names)
 field<-rbind(bg_f,sw_f, sm_f, sm2_f,sm18f) #all except glinski have alternative units
 field$tissue<-as.numeric(as.character(field$tissue))
 field$tissue<-field$tissue/1000 #put all in same units; both ug/kg and ng/g to ug/g 

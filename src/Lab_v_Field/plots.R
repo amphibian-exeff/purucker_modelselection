@@ -70,7 +70,7 @@ sm18$chemical<-'various'
 head(sm18)
 sm18f<-sm18[,c(1,7,2:6)] #reorder
 
-#Glinski 13 #do 9/1/20 (GA)
+#Glinski 13 (GA)
 names(g13)
 g13<-g13[,c(4,6:7,9)]
 colnames(g13)[1]<-'chemical'
@@ -95,8 +95,6 @@ field$tissue<-field$tissue/1000 #put all in same units; both ug/kg and ng/g to u
 str(field)
 field<-rbind(field,g13f) #add in glinski, which is already in ug/g
 field$applicationrate<-'unknown'
-
-
 write.csv(field,'field_bodyburdensNEW.csv')
 
 ##Lab
@@ -163,7 +161,7 @@ all$chemical<- gsub("x34.dca", "34'dca", all$chemical)
 #for this one we will remove rows from the USGS, as specific chemicals weren't reported
 alln<-subset(all, Source!="USGS 2018"& Source!="Glinski 2013")
 
-unique(alln$Source)
+unique(alln$Source) #double check
 pp <- ggplot(alln, aes(x=chemical, y=tissue, fill=Type)) + 
   # geom_boxplot()+
   geom_point(aes(color=Type))+
@@ -183,7 +181,7 @@ pp
 
 ###plot by density, source (KDES, figure 2) - make some alterations to names and structure to align plots
 #stack figures on top of each other; one with all lab studies, and one with all field studies
-#drop lab data for figure 2a
+#drop lab data for figure 2a, field data for 2b
 
 allf<-subset(all, Type!="Lab")
 allf$Paper<-allf$Source
@@ -195,22 +193,9 @@ ps <- ggplot(allf, aes(x=tissue, group=Paper)) +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
         panel.background = element_blank(), axis.line = element_line(colour = "black"), axis.text.x = element_text(size = 12))
 ps
-# build the data displayed on the plot.
-ps.data <- ggplot_build(ps)$data[[1]]
-# Note that column 'scaled' is used for plotting
-# so we extract the max density row for each group
-ps.text <- lapply(split(ps.data, f = ps.data$group), function(df){
-  df[which.max(df$scaled), ]
-})
-ps.text <- do.call(rbind, ps.text)
-# now add the text layer to the plot
-ps + annotate('text', x = ps.text$x, y = ps.text$y,
-              label = sprintf('n = %d', ps.text$n), vjust = -0.6, hjust =1.0, angle=0, size=5)
-
 
 #use original lab data
 #add in names for each source
-
 #Van Meter 2016
 #Van Meter 2015
 #Van Meter 2017
@@ -219,7 +204,6 @@ ps + annotate('text', x = ps.text$x, y = ps.text$y,
 #Henson-Ramsey 2008
 #Glinski 201 (metabolites)
 #Glinski 2018b (dermal)
-
 lab_f$Paper<-lab_f$Source
 lab_f$Paper<- gsub("rvm2015", "Van Meter 2015", lab_f$Paper)
 lab_f$Paper<- gsub("rvm2016", "Van Meter 2016", lab_f$Paper)
@@ -240,20 +224,6 @@ psl <- ggplot(lab_f, aes(x=tissue, group=Paper)) +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
         panel.background = element_blank(), axis.line = element_line(colour = "black"), axis.text.x = element_text(size = 12))
 psl
-# build the data displayed on the plot.
-psl.data <- ggplot_build(psl)$data[[1]]
-# Note that column 'scaled' is used for plotting
-# so we extract the max density row for each group
-psl.text <- lapply(split(psl.data, f = psl.data$group), function(df){
-  df[which.max(df$scaled), ]
-})
-psl.text <- do.call(rbind, psl.text)
-# now add the text layer to the plot
-psl + annotate('text', x = psl.text$x, y = psl.text$y,
-              label = sprintf('n = %d', psl.text$n), vjust = -0.6, hjust =1.0, angle=0, size=5)
-
-
-
 plot_grid(ps, psl,
           labels = c('Fig A','Fig B'),
           label_x = 0.2,

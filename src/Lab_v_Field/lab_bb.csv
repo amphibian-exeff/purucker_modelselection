@@ -1,0 +1,1015 @@
+app_rate_g_cm2,application,body_weight_g,chemical,type,exp_duration,formulation,sample_id,soil_conc_ugg,soil_type,source,species,tissue_conc_ugg
+2.36E-05,soil,2.7643,atrazine,H,8,0,ATZMED_ATZT,NA,NA,rvm2017,Rana_clamitans,72.62672175
+2.36E-05,soil,1.7134,atrazine,H,8,0,ATZ_ATZT,NA,NA,rvm2017,Rana_clamitans,71.52121587
+2.36E-05,soil,2.1582,atrazine,H,8,0,ATZ_ATZT,NA,NA,rvm2017,Rana_clamitans,42.67128214
+2.36E-05,soil,2.4907,atrazine,H,8,0,ATZME_ATZT,NA,NA,rvm2017,Rana_clamitans,40.42981243
+2.36E-05,soil,1.686,atrazine,H,8,0,ATZD_ATZT,NA,NA,rvm2017,Rana_clamitans,34.87420323
+2.36E-05,soil,1.6929,atrazine,H,8,0,ATZMED_ATZT,NA,NA,rvm2017,Rana_clamitans,32.23101361
+2.36E-05,soil,2.2087,atrazine,H,8,0,ATZD_ATZT,NA,NA,rvm2017,Rana_clamitans,30.38948929
+2.36E-05,soil,2.0137,atrazine,H,8,0,ATZMA_ATZT,NA,NA,rvm2017,Rana_clamitans,27.68256624
+2.36E-05,soil,3.6843,atrazine,H,8,0,ATZ_ATZT,NA,NA,rvm2017,Rana_clamitans,25.87712484
+2.36E-05,soil,2.8407,atrazine,H,8,0,ATZD_ATZT,NA,NA,rvm2017,Rana_clamitans,25.49430275
+2.36E-05,soil,2.5341,atrazine,H,8,0,ATZ_ATZT,NA,NA,rvm2017,Rana_clamitans,25.08110461
+2.36E-05,soil,0.9971,atrazine,H,8,0,ATZMED_ATZT,NA,NA,rvm2017,Rana_clamitans,24.80672939
+2.36E-05,soil,2.0979,atrazine,H,8,0,ATZME_ATZT,NA,NA,rvm2017,Rana_clamitans,23.94075151
+2.36E-05,soil,1.7687,atrazine,H,8,0,ATZMED_ATZT,NA,NA,rvm2017,Rana_clamitans,23.76512465
+2.40E-05,indirect,0.9611,atrazine,H,8,0,BAA2-2,14.63994466,PLE,dag_dehydration,Fowlers toad,23.52791046
+2.31E-05,overspray,2.22041,atrazine,H,8,0,HCOA1,19.12810511,PLE,rvm2015,Green treefrog,23.44129789
+2.36E-05,soil,1.4277,atrazine,H,8,0,ATZMAPZ_ATZT,NA,NA,rvm2017,Rana_clamitans,21.59188167
+2.40E-05,indirect,1.1003,atrazine,H,8,0,BAA8-4,11.64743641,PLE,dag_dehydration,Fowlers toad,20.84894976
+2.36E-05,soil,1.8523,atrazine,H,8,0,ATZME_ATZT,NA,NA,rvm2017,Rana_clamitans,20.57274567
+2.31E-05,overspray,3.35473,atrazine,H,8,0,HCOA2,19.12810511,PLE,rvm2015,Green treefrog,20.56163305
+2.36E-05,soil,1.8136,atrazine,H,8,0,ATZME_ATZT,NA,NA,rvm2017,Rana_clamitans,20.35015638
+2.36E-05,soil,2.8777,atrazine,H,8,0,ATZPZ_ATZT,NA,NA,rvm2017,Rana_clamitans,20.27148844
+2.31E-05,overspray,2.00039,atrazine,H,8,0,HCOA3,19.12810511,PLE,rvm2015,Green treefrog,19.95404302
+2.31E-05,overspray,2.82206,atrazine,H,8,0,HCOA4,19.12810511,PLE,rvm2015,Green treefrog,19.44679486
+2.36E-05,soil,2.0332,atrazine,H,8,0,ATZ_ATZT,NA,NA,rvm2017,Rana_clamitans,19.38292403
+2.36E-05,soil,1.8167,atrazine,H,8,0,ATZMA_ATZT,NA,NA,rvm2017,Rana_clamitans,19.04559785
+2.31E-05,overspray,3.13181,atrazine,H,8,0,HCOA5,19.12810511,PLE,rvm2015,Green treefrog,18.88325569
+2.36E-05,soil,2.2464,atrazine,H,8,0,ATZMA_ATZT,NA,NA,rvm2017,Rana_clamitans,18.0828639
+2.30E-05,overspray,2.36942,atrazine,H,8,0,HGOA4,15.10490982,PLE,rvm2015,Barking treefrog,17.83079959
+2.40E-05,indirect,0.7719,atrazine,H,8,0,BAA0-2,12.45547599,PLE,dag_dehydration,Fowlers toad,17.59483119
+2.36E-05,soil,1.7856,atrazine,H,8,0,ATZMAPZ_ATZT,NA,NA,rvm2017,Rana_clamitans,17.55825611
+2.36E-05,soil,2.0136,atrazine,H,8,0,ATZMED_ATZT,NA,NA,rvm2017,Rana_clamitans,17.23251263
+2.40E-05,indirect,0.9384,atrazine,H,8,0,BAA2-4,14.11139006,PLE,dag_dehydration,Fowlers toad,16.28574707
+2.40E-05,indirect,1.2243,atrazine,H,8,0,BAA4-4,15.6599606,PLE,dag_dehydration,Fowlers toad,16.17456476
+2.40E-05,indirect,1.5079,atrazine,H,8,0,BAA0-4,15.1520148,PLE,dag_dehydration,Fowlers toad,15.89886245
+2.28E-05,soil,1.04725,atrazine,H,8,0,FTA2,17.05417146,PLE,rvm2015,Fowlers toad,14.56173496
+2.30E-05,overspray,1.96104,atrazine,H,8,0,HGOA5,15.10490982,PLE,rvm2015,Barking treefrog,14.21727551
+2.36E-05,soil,1.2746,atrazine,H,8,0,ATZMA_ATZT,NA,NA,rvm2017,Rana_clamitans,13.29249991
+2.36E-05,soil,3.5113,atrazine,H,8,0,ATZPZ_ATZT,NA,NA,rvm2017,Rana_clamitans,13.26923261
+2.40E-05,indirect,1.1748,atrazine,H,8,0,BAA2-5,15.33431537,PLE,dag_dehydration,Fowlers toad,13.26608122
+2.40E-05,indirect,2.307,atrazine,H,8,0,LFA0-3,10.18871524,PLE,dag_dehydration,Leopard frog,12.52319717
+2.30E-05,overspray,2.02028,atrazine,H,8,0,HGOA1,15.10490982,PLE,rvm2015,Barking treefrog,12.2881692
+2.36E-05,soil,2.6348,atrazine,H,8,0,ATZMAPZ_ATZT,NA,NA,rvm2017,Rana_clamitans,12.22164293
+2.40E-05,indirect,1.2815,atrazine,H,8,0,BAA6-2,11.681079,PLE,dag_dehydration,Fowlers toad,12.22026175
+2.40E-05,indirect,1.1869,atrazine,H,8,0,BAA4-1,15.56081571,PLE,dag_dehydration,Fowlers toad,11.91207694
+2.40E-05,indirect,1.2022,atrazine,H,8,0,BAA10-1,20.47418687,PLE,dag_dehydration,Fowlers toad,11.79072742
+2.40E-05,indirect,1.0089,atrazine,H,8,0,BAA6-3,15.18962201,PLE,dag_dehydration,Fowlers toad,11.20688617
+2.40E-05,indirect,2.469,atrazine,H,8,0,LFA6-6,12.59011285,PLE,dag_dehydration,Leopard frog,11.18965486
+2.40E-05,indirect,1.1315,atrazine,H,8,0,BAA4-5,17.6440279,PLE,dag_dehydration,Fowlers toad,11.13571587
+2.36E-05,soil,2.7419,atrazine,H,8,0,ATZME_ATZT,NA,NA,rvm2017,Rana_clamitans,10.6958582
+2.40E-05,indirect,2.1958,atrazine,H,8,0,LFA6-1,15.28179321,PLE,dag_dehydration,Leopard frog,10.56528408
+2.28E-05,soil,2.57336,atrazine,H,8,0,FTA3,17.05417146,PLE,rvm2015,Fowlers toad,10.4565577
+2.31E-05,soil,2.21783,atrazine,H,8,0,HVA3,16.63951616,PLE,rvm2015,Gray treefrog,10.43128937
+2.40E-05,indirect,2.2651,atrazine,H,8,0,LFA10-3,12.23989264,PLE,dag_dehydration,Leopard frog,10.2979071
+2.40E-05,indirect,1.1548,atrazine,H,8,0,BAA2-1,12.38453564,PLE,dag_dehydration,Fowlers toad,10.23753505
+2.40E-05,indirect,1.0618,atrazine,H,8,0,BAA2-3,13.03487815,PLE,dag_dehydration,Fowlers toad,9.934344481
+2.28E-05,soil,2.811,atrazine,H,8,0,FTA1,17.05417146,PLE,rvm2015,Fowlers toad,9.865493013
+2.40E-05,indirect,0.9096,atrazine,H,8,0,BAA0-5,14.6984202,PLE,dag_dehydration,Fowlers toad,9.78279894
+2.30E-05,overspray,2.07221,atrazine,H,8,0,HGOA3,15.10490982,PLE,rvm2015,Barking treefrog,9.702578705
+2.28E-05,soil,1.93404,atrazine,H,8,0,FTA4,17.05417146,PLE,rvm2015,Fowlers toad,9.020873418
+2.40E-05,indirect,2.6681,atrazine,H,8,0,LFA2-4,13.65865567,PLE,dag_dehydration,Leopard frog,8.968187875
+2.30E-05,overspray,1.69156,atrazine,H,8,0,HGOA2,15.10490982,PLE,rvm2015,Barking treefrog,8.916353622
+2.40E-05,indirect,2.3059,atrazine,H,8,0,LFA10-4,11.84987009,PLE,dag_dehydration,Leopard frog,8.724901716
+2.28E-05,soil,0.82668,atrazine,H,8,0,FTA5,17.05417146,PLE,rvm2015,Fowlers toad,8.439433709
+2.31E-05,soil,1.42737,atrazine,H,8,0,HVA2,16.63951616,PLE,rvm2015,Gray treefrog,8.407586134
+2.31E-05,soil,1.56286,atrazine,H,8,0,HVA1,16.63951616,PLE,rvm2015,Gray treefrog,8.381738534
+2.40E-05,indirect,0.9488,atrazine,H,8,0,BAA4-2,11.04392922,PLE,dag_dehydration,Fowlers toad,8.377167028
+2.31E-05,soil,2.86963,atrazine,H,8,0,HVA4,16.63951616,PLE,rvm2015,Gray treefrog,8.072348131
+2.40E-05,indirect,2.1439,atrazine,H,8,0,LFA0-5,9.516150521,PLE,dag_dehydration,Leopard frog,8.050942336
+2.30E-05,soil,2.069224088,atrazine,H,8,0,HGA1,14.43612837,PLE,rvm2015,Barking treefrog,7.876952404
+2.36E-05,soil,1.7623,atrazine,H,8,0,ATZMAPZ_ATZT,NA,NA,rvm2017,Rana_clamitans,7.680368996
+2.29E-05,soil,0.5403,atrazine,H,4,0,atrazine_4hr_4,NA,NA,dag_metabolites,Fowlers toad,7.626486309
+2.29E-05,soil,0.77,atrazine,H,4,0,atrazine_4hr_1,NA,NA,dag_metabolites,Fowlers toad,7.624610214
+2.40E-05,indirect,1.8628,atrazine,H,8,0,LFA0-6,9.708402094,PLE,dag_dehydration,Leopard frog,7.478230678
+2.36E-05,soil,1.9827,atrazine,H,8,0,ATZMA_ATZT,NA,NA,rvm2017,Rana_clamitans,7.289789952
+2.40E-05,indirect,2.6426,atrazine,H,8,0,LFA4-2,10.31826446,PLE,dag_dehydration,Leopard frog,6.984378843
+2.40E-05,indirect,1.1718,atrazine,H,8,0,BAA4-3,15.21711265,PLE,dag_dehydration,Fowlers toad,6.954592123
+2.40E-05,indirect,1.6108,atrazine,H,8,0,LFA4-6,17.10511501,PLE,dag_dehydration,Leopard frog,6.938256641
+2.40E-05,indirect,2.0923,atrazine,H,8,0,LFA8-4,10.84867262,PLE,dag_dehydration,Leopard frog,6.916300496
+2.30E-05,soil,2.93262,atrazine,H,8,0,SA1,52.67554477,PLE,rvm2015,Mole salamander,6.823400408
+2.31E-05,soil,1.1115,atrazine,H,8,0,HVA5,16.63951616,PLE,rvm2015,Gray treefrog,6.806192479
+2.36E-05,soil,2.1559,atrazine,H,8,0,ATZ_ATZT,NA,NA,rvm2017,Rana_clamitans,6.776429551
+2.40E-05,indirect,1.446,atrazine,H,8,0,LFA8-3,13.47173605,PLE,dag_dehydration,Leopard frog,6.76940713
+2.36E-05,soil,1.6593,atrazine,H,8,0,ATZPZ_ATZT,NA,NA,rvm2017,Rana_clamitans,6.616713054
+2.36E-05,soil,3.0233,atrazine,H,8,0,ATZPZ_ATZT,NA,NA,rvm2017,Rana_clamitans,6.459787124
+2.29E-05,indirect,11.7687,atrazine,H,8,0,2_7_E,29.25664048,OLS,rvm2016,American toad,6.443801458
+2.40E-05,indirect,1.2956,atrazine,H,8,0,BAA6-4,9.038038715,PLE,dag_dehydration,Fowlers toad,6.405223668
+2.40E-05,indirect,2.4232,atrazine,H,8,0,LFA4-3,9.424200962,PLE,dag_dehydration,Leopard frog,6.344470461
+2.30E-05,soil,1.2818,atrazine,H,8,0,HGA2,14.43612837,PLE,rvm2015,Barking treefrog,6.342816533
+2.40E-05,indirect,2.948,atrazine,H,8,0,LFA4-5,12.47499464,PLE,dag_dehydration,Leopard frog,6.179038725
+2.28E-05,soil,3.042,atrazine,H,8,0,LFA2,21.53033266,PLE,rvm2015,Leopard frog,6.098643762
+2.36E-05,soil,2.0948,atrazine,H,8,0,ATZD_ATZT,NA,NA,rvm2017,Rana_clamitans,5.783764403
+2.28E-05,soil,2.0197,atrazine,H,8,0,LFA4,21.53033266,PLE,rvm2015,Leopard frog,5.751047214
+2.40E-05,indirect,1.8342,atrazine,H,8,0,LFA8-6,12.68276321,PLE,dag_dehydration,Leopard frog,5.714846427
+2.40E-05,indirect,2.1607,atrazine,H,8,0,LFA8-5,9.786848989,PLE,dag_dehydration,Leopard frog,5.647878305
+2.30E-05,soil,1.66783,atrazine,H,8,0,HGA4,14.43612837,PLE,rvm2015,Barking treefrog,5.640191973
+2.30E-05,soil,2.6954,atrazine,H,8,0,HGA5,14.43612837,PLE,rvm2015,Barking treefrog,5.631964095
+2.30E-05,soil,3.53977,atrazine,H,8,0,SA2,52.67554477,PLE,rvm2015,Mole salamander,5.611314977
+2.40E-05,indirect,0.9129,atrazine,H,8,0,BAA0-1,9.879328906,PLE,dag_dehydration,Fowlers toad,5.570048564
+2.30E-05,soil,1.14,atrazine,H,8,0,SA3,52.67554477,PLE,rvm2015,Mole salamander,5.443528911
+2.30E-05,soil,2.11135,atrazine,H,8,0,HCA3,17.60923519,PLE,rvm2015,Green treefrog,5.406937125
+2.36E-05,soil,3.4314,atrazine,H,8,0,ATZPZ_ATZT,NA,NA,rvm2017,Rana_clamitans,5.347041009
+2.40E-05,indirect,2.0345,atrazine,H,8,0,LFA2-2,12.1209408,PLE,dag_dehydration,Leopard frog,5.338854395
+2.40E-05,indirect,2.445,atrazine,H,8,0,LFA4-4,8.210686345,PLE,dag_dehydration,Leopard frog,5.22674822
+2.30E-05,soil,1.91549,atrazine,H,8,0,HGA3,14.43612837,PLE,rvm2015,Barking treefrog,5.059544246
+2.29E-05,soil,0.5668,atrazine,H,2,0,atrazine_2hr_3,NA,NA,dag_metabolites,Fowlers toad,4.701165885
+2.29E-05,soil,1.06,atrazine,H,12,0,atrazine_12hr_3,NA,NA,dag_metabolites,Fowlers toad,4.514882392
+2.36E-05,soil,1.6348,atrazine,H,8,0,ATZD_ATZT,NA,NA,rvm2017,Rana_clamitans,4.398786764
+2.28E-05,soil,2.243,atrazine,H,8,0,LFA3,21.53033266,PLE,rvm2015,Leopard frog,4.385147102
+2.36E-05,soil,1.8822,atrazine,H,8,0,ATZMAPZ_ATZT,NA,NA,rvm2017,Rana_clamitans,4.144203168
+2.29E-05,soil,0.7153,atrazine,H,4,0,atrazine_4hr_2,NA,NA,dag_metabolites,Fowlers toad,4.13430025
+2.36E-05,soil,1.766,atrazine,H,8,0,ATZMA_ATZT,NA,NA,rvm2017,Rana_clamitans,4.105411726
+2.40E-05,indirect,1.132,atrazine,H,8,0,BAA8-2,14.11458967,PLE,dag_dehydration,Fowlers toad,4.104816901
+2.40E-05,indirect,1.6483,atrazine,H,8,0,LFA6-4,16.37966534,PLE,dag_dehydration,Leopard frog,3.983431248
+2.36E-05,soil,2.2402,atrazine,H,8,0,ATZMED_ATZT,NA,NA,rvm2017,Rana_clamitans,3.945905477
+2.36E-05,soil,1.3043,atrazine,H,8,0,ATZMAPZ_ATZT,NA,NA,rvm2017,Rana_clamitans,3.846909215
+2.29E-05,soil,0.8564,atrazine,H,12,0,atrazine_12hr_2,NA,NA,dag_metabolites,Fowlers toad,3.786892753
+2.30E-05,soil,1.31617,atrazine,H,8,0,HCA1,17.60923519,PLE,rvm2015,Green treefrog,3.727357846
+2.40E-05,indirect,0.9895,atrazine,H,8,0,BAA8-3,9.505611335,PLE,dag_dehydration,Fowlers toad,3.707013001
+2.40E-05,indirect,1.0139,atrazine,H,8,0,BAA6-5,10.67586793,PLE,dag_dehydration,Fowlers toad,3.694084956
+2.29E-05,soil,0.89,atrazine,H,2,0,atrazine_2hr_2,NA,NA,dag_metabolites,Fowlers toad,3.689639699
+2.30E-05,soil,1.88638,atrazine,H,8,0,HCA4,17.60923519,PLE,rvm2015,Green treefrog,3.651702998
+2.36E-05,soil,2.2353,atrazine,H,8,0,ATZPZ_ATZT,NA,NA,rvm2017,Rana_clamitans,3.641157326
+2.40E-05,indirect,2.2728,atrazine,H,8,0,LFA10-6,7.01665685,PLE,dag_dehydration,Leopard frog,3.632494432
+2.40E-05,indirect,2.4663,atrazine,H,8,0,LFA10-1,7.717010983,PLE,dag_dehydration,Leopard frog,3.480676652
+2.31E-05,soil,1.74298,atrazine,H,8,0,LFA1,21.53033266,PLE,rvm2015,Leopard frog,3.440459903
+2.40E-05,indirect,1.2869,atrazine,H,8,0,LFA6-2,15.71271657,PLE,dag_dehydration,Leopard frog,3.335388968
+2.40E-05,indirect,1.0954,atrazine,H,8,0,BAA10-4,18.9224483,PLE,dag_dehydration,Fowlers toad,3.137873235
+2.40E-05,indirect,1.07,atrazine,H,8,0,BAA0-3,15.57844561,PLE,dag_dehydration,Fowlers toad,3.074205015
+2.29E-05,soil,0.8722,atrazine,H,2,0,atrazine_2hr_1,NA,NA,dag_metabolites,Fowlers toad,3.06820272
+2.30E-05,soil,1.8349,atrazine,H,8,0,HCA2,17.60923519,PLE,rvm2015,Green treefrog,3.065833762
+2.40E-05,indirect,2.2679,atrazine,H,8,0,LFA0-4,9.401012307,PLE,dag_dehydration,Leopard frog,2.970273811
+2.30E-05,soil,0.73631,atrazine,H,8,0,HCA5,17.60923519,PLE,rvm2015,Green treefrog,2.867269263
+2.40E-05,indirect,1.1552,atrazine,H,8,0,BAA6-1,13.38816703,PLE,dag_dehydration,Fowlers toad,2.757883195
+2.32E-05,soil,2.9446,atrazine,H,8,0,SA4,81.7111506,PLE,rvm2015,Mole salamander,2.748808693
+2.40E-05,indirect,0.9161,atrazine,H,8,0,BAA8-5,10.16095762,PLE,dag_dehydration,Fowlers toad,2.737473998
+2.40E-05,indirect,1.13031,atrazine,H,8,0,BAA10-2,9.68353939,PLE,dag_dehydration,Fowlers toad,2.638235074
+2.32E-05,soil,2.59184,atrazine,H,8,0,SA5,81.7111506,PLE,rvm2015,Mole salamander,2.620759616
+2.40E-05,indirect,1.8401,atrazine,H,8,0,LFA0-1,10.28385855,PLE,dag_dehydration,Leopard frog,2.579782807
+2.40E-05,indirect,2.1608,atrazine,H,8,0,LFA6-3,9.706286223,PLE,dag_dehydration,Leopard frog,2.457491841
+2.29E-05,soil,0.4111,atrazine,H,12,0,atrazine_12hr_1,NA,NA,dag_metabolites,Fowlers toad,2.452277711
+2.40E-05,indirect,1.0534,atrazine,H,8,0,BAA10-3,14.40605967,PLE,dag_dehydration,Fowlers toad,2.416921895
+2.40E-05,indirect,1.8843,atrazine,H,8,0,LFA6-5,10.61265033,PLE,dag_dehydration,Leopard frog,2.391884077
+2.29E-05,soil,0.5343,atrazine,H,24,0,atrazine_24hr_1,NA,NA,dag_metabolites,Fowlers toad,2.272491609
+2.40E-05,indirect,3.039,atrazine,H,8,0,LFA2-1,9.403882995,PLE,dag_dehydration,Leopard frog,2.186808836
+2.29E-05,indirect,12.3541,atrazine,H,8,0,2_2_F,17.87349815,OLS,rvm2016,American toad,2.185564918
+2.40E-05,indirect,3.1323,atrazine,H,8,0,LFA8-1,12.46770392,PLE,dag_dehydration,Leopard frog,2.162953353
+2.40E-05,indirect,1.0626,atrazine,H,8,0,BAA8-1,15.04668736,PLE,dag_dehydration,Fowlers toad,2.159341322
+2.29E-05,indirect,10.069,atrazine,H,8,1,2_2_G,19.5060604,OLS,rvm2016,American toad,2.05354599
+2.29E-05,soil,0.9739,atrazine,H,4,0,atrazine_4hr_3,NA,NA,dag_metabolites,Fowlers toad,2.050778713
+2.40E-05,indirect,1.1421,atrazine,H,8,0,BAA10-5,11.49634553,PLE,dag_dehydration,Fowlers toad,1.920017022
+2.40E-05,indirect,2.2861,atrazine,H,8,0,LFA10-5,8.395562665,PLE,dag_dehydration,Leopard frog,1.892744068
+2.29E-05,soil,0.7135,atrazine,H,2,0,atrazine_2hr_4,NA,NA,dag_metabolites,Fowlers toad,1.892494228
+2.40E-05,indirect,2.0268,atrazine,H,8,0,LFA10-2,9.412734091,PLE,dag_dehydration,Leopard frog,1.886771004
+2.29E-05,soil,0.687,atrazine,H,24,0,atrazine_24hr_2,NA,NA,dag_metabolites,Fowlers toad,1.843394997
+2.29E-05,soil,0.614,atrazine,H,12,0,atrazine_12hr_4,NA,NA,dag_metabolites,Fowlers toad,1.741192334
+2.40E-05,indirect,1.9188,atrazine,H,8,0,LFA2-6,6.981617026,PLE,dag_dehydration,Leopard frog,1.718054357
+2.40E-05,indirect,2.3476,atrazine,H,8,0,LFA4-1,8.71398867,PLE,dag_dehydration,Leopard frog,1.715569485
+2.40E-05,indirect,2.196,atrazine,H,8,0,LFA2-3,9.820321561,PLE,dag_dehydration,Leopard frog,1.693429589
+2.40E-05,indirect,2.8486,atrazine,H,8,0,LFA0-2,10.04358875,PLE,dag_dehydration,Leopard frog,1.691182353
+2.40E-05,indirect,2.2558,atrazine,H,8,0,LFA8-2,10.90836606,PLE,dag_dehydration,Leopard frog,1.650446686
+2.29E-05,soil,0.5903,atrazine,H,48,0,atrazine_48hr_4,NA,NA,dag_metabolites,Fowlers toad,1.484441109
+2.29E-05,indirect,11.1447,atrazine,H,8,0,2_2_I,16.59253376,OLS,rvm2016,American toad,1.460641759
+2.40E-05,indirect,2.3648,atrazine,H,8,0,LFA2-5,13.82500689,PLE,dag_dehydration,Leopard frog,1.454206808
+2.29E-05,indirect,11.7396,atrazine,H,8,1,2_6_F,8.640551756,PLE,rvm2016,American toad,1.29826811
+2.29E-05,indirect,15.8694,atrazine,H,8,0,2_1_H,39.57404439,PLE,rvm2016,American toad,1.227227091
+2.36E-05,soil,1.8649,atrazine,H,8,0,ATZME_ATZT,NA,NA,rvm2017,Rana_clamitans,1.22063448
+2.29E-05,indirect,11.0822,atrazine,H,8,1,2_1_E,14.25437079,OLS,rvm2016,American toad,1.138952601
+2.29E-05,soil,0.6553,atrazine,H,24,0,atrazine_24hr_3,NA,NA,dag_metabolites,Fowlers toad,1.12496207
+2.29E-05,soil,0.5026,atrazine,H,24,0,atrazine_24hr_4,NA,NA,dag_metabolites,Fowlers toad,0.978827141
+2.29E-05,soil,0.6456,atrazine,H,48,0,atrazine_48hr_1,NA,NA,dag_metabolites,Fowlers toad,0.961393825
+2.29E-05,soil,0.6276,atrazine,H,48,0,atrazine_48hr_3,NA,NA,dag_metabolites,Fowlers toad,0.93069942
+2.29E-05,indirect,10.5239,atrazine,H,8,1,2_1_D,23.57654351,PLE,rvm2016,American toad,0.867924815
+2.29E-05,indirect,16.59,atrazine,H,8,0,2_7_B,33.99919952,PLE,rvm2016,American toad,0.818657056
+2.29E-05,indirect,8.3884,atrazine,H,8,0,2_3_C,19.10798205,PLE,rvm2016,American toad,0.700940082
+2.29E-05,soil,0.6671,atrazine,H,48,0,atrazine_48hr_2,NA,NA,dag_metabolites,Fowlers toad,0.631015591
+2.29E-05,indirect,16.9753,atrazine,H,8,1,2_2_D,21.82224207,PLE,rvm2016,American toad,0.572604017
+2.29E-05,indirect,9.5568,atrazine,H,8,0,2_1_B,29.78251321,OLS,rvm2016,American toad,0.565666776
+2.29E-05,indirect,14.6051,atrazine,H,8,1,2_1_F,23.85857164,PLE,rvm2016,American toad,0.560925254
+2.29E-05,indirect,11.4693,atrazine,H,8,1,2_6_B,18.47118347,PLE,rvm2016,American toad,0.525853638
+2.29E-05,indirect,17.3882,atrazine,H,8,0,2_5_H,21.6577354,OLS,rvm2016,American toad,0.525601376
+2.29E-05,indirect,11.9615,atrazine,H,8,0,2_4_B,12.29392621,OLS,rvm2016,American toad,0.521202693
+2.29E-05,indirect,11.5272,atrazine,H,8,1,2_7_D,16.94936678,OLS,rvm2016,American toad,0.478180697
+2.29E-05,indirect,11.0174,atrazine,H,8,1,2_4_I,18.1116732,OLS,rvm2016,American toad,0.463586698
+2.29E-05,indirect,10.1878,atrazine,H,8,1,2_5_G,7.936778913,OLS,rvm2016,American toad,0.428099849
+2.29E-05,indirect,12.3638,atrazine,H,8,1,2_5_A,18.50933254,OLS,rvm2016,American toad,0.398005502
+2.29E-05,indirect,14.5384,atrazine,H,8,0,2_5_C,16.62668626,PLE,rvm2016,American toad,0.367019464
+2.29E-05,indirect,12.6029,atrazine,H,8,1,2_5_D,22.10602964,PLE,rvm2016,American toad,0.357537561
+2.29E-05,indirect,16.4296,atrazine,H,8,0,2_6_F,28.51661365,PLE,rvm2016,American toad,0.35231843
+2.29E-05,indirect,13.1831,atrazine,H,8,0,2_1_A,22.87721442,PLE,rvm2016,American toad,0.337135483
+2.36E-05,soil,3.5987,atrazine,H,8,0,ATZD_ATZT,NA,NA,rvm2017,Rana_clamitans,0.079700165
+3.45E-06,soil,4.62295,bifenthrin,I,8,0,TB MAX 6 Bifenthrin,2.865233495,NA,dag_biomarker,Leopard frog,1.027084129
+3.45E-06,soil,2.55504,bifenthrin,I,8,0,TB MAX 3 Bifenthrin,2.252342124,NA,dag_biomarker,Leopard frog,0.869713574
+3.45E-06,soil,3.85382,bifenthrin,I,8,0,TB MAX 2 Bifenthrin,5.265809405,NA,dag_biomarker,Leopard frog,0.832001609
+3.45E-06,soil,3.96452,bifenthrin,I,8,0,TB MAX 8 Bifenthrin,2.130388789,NA,dag_biomarker,Leopard frog,0.746263991
+3.45E-06,soil,3.1128,bifenthrin,I,8,0,MB MAX 4 Bifenthrin,2.767209159,NA,dag_biomarker,Leopard frog,0.705510327
+3.45E-06,soil,2.4111,bifenthrin,I,8,0,MB MAX 8 Bifenthrin,1.967572613,NA,dag_biomarker,Leopard frog,0.62657505
+3.45E-06,soil,3.14163,bifenthrin,I,8,0,MB MAX 5 Bifenthrin,2.049839727,NA,dag_biomarker,Leopard frog,0.611656036
+3.45E-06,soil,2.21972,bifenthrin,I,8,0,BIF MAX 7 Bifenthrin,2.275944569,NA,dag_biomarker,Leopard frog,0.60898339
+3.45E-06,soil,3.11787,bifenthrin,I,8,0,TMB MAX 7 Bifenthrin,2.566400289,NA,dag_biomarker,Leopard frog,0.599557528
+3.45E-06,soil,2.71935,bifenthrin,I,8,0,TB MAX 1 Bifenthrin,2.851624622,NA,dag_biomarker,Leopard frog,0.597884814
+3.45E-06,soil,2.1484,bifenthrin,I,8,0,MB MAX 3 Bifenthrin,2.261870031,NA,dag_biomarker,Leopard frog,0.574975074
+3.45E-06,soil,2.68341,bifenthrin,I,8,0,MB MAX 7 Bifenthrin,2.961934834,NA,dag_biomarker,Leopard frog,0.552404551
+3.45E-06,soil,3.25703,bifenthrin,I,8,0,TB MAX 7 Bifenthrin,2.564816941,NA,dag_biomarker,Leopard frog,0.494584378
+3.45E-06,soil,3.55775,bifenthrin,I,8,0,BIF MAX 5 Bifenthrin,3.154084485,NA,dag_biomarker,Leopard frog,0.482244063
+3.45E-06,soil,3.92043,bifenthrin,I,8,0,TMB MAX 2 Bifenthrin,3.302381419,NA,dag_biomarker,Leopard frog,0.467692383
+3.45E-06,soil,2.90877,bifenthrin,I,8,0,TMB MAX 6 Bifenthrin,2.504678325,NA,dag_biomarker,Leopard frog,0.465885553
+3.45E-06,soil,3.0214,bifenthrin,I,8,0,MB MAX 1 Bifenthrin,3.805763671,NA,dag_biomarker,Leopard frog,0.463968335
+3.45E-06,soil,4.04797,bifenthrin,I,8,0,TB MAX 5 Bifenthrin,2.516501833,NA,dag_biomarker,Leopard frog,0.462215292
+3.45E-06,soil,3.30725,bifenthrin,I,8,0,BIF MAX 2 Bifenthrin,1.097338337,NA,dag_biomarker,Leopard frog,0.407255463
+3.45E-06,soil,3.07945,bifenthrin,I,8,0,TMB MAX 4 Bifenthrin,3.325512342,NA,dag_biomarker,Leopard frog,0.379409382
+3.45E-06,soil,3.60502,bifenthrin,I,8,0,BIF MAX 1 Bifenthrin,3.239931871,NA,dag_biomarker,Leopard frog,0.36026833
+3.45E-06,soil,4.01293,bifenthrin,I,8,0,TMB MAX 8 Bifenthrin,1.933570147,NA,dag_biomarker,Leopard frog,0.358254938
+3.45E-06,soil,4.36943,bifenthrin,I,8,0,TB MAX 4 Bifenthrin,3.799378323,NA,dag_biomarker,Leopard frog,0.327463403
+3.45E-06,soil,2.96399,bifenthrin,I,8,0,BIF MAX 8 Bifenthrin,2.056335345,NA,dag_biomarker,Leopard frog,0.321041436
+3.45E-06,soil,2.36009,bifenthrin,I,8,0,TMB MAX 1 Bifenthrin,2.17719699,NA,dag_biomarker,Leopard frog,0.290805628
+3.45E-06,soil,3.26942,bifenthrin,I,8,0,TMB MAX 5 Bifenthrin,2.198149234,NA,dag_biomarker,Leopard frog,0.287218317
+3.45E-06,soil,2.97219,bifenthrin,I,8,0,BIF MAX 4 Bifenthrin,1.656011279,NA,dag_biomarker,Leopard frog,0.286703293
+3.45E-06,soil,2.5769,bifenthrin,I,8,0,BIF MAX 6 Bifenthrin,2.277478005,NA,dag_biomarker,Leopard frog,0.255883703
+2.89E-07,soil,1.4359,bifenthrin,I,8,0,Bif LF S 8 F,0.354871,OLS,dag_dermal_routes,Leopard frog,0.217679
+3.45E-07,soil,3.27729,bifenthrin,I,8,0,TMB 10 6 Bifenthrin,0.223995974,NA,dag_biomarker,Leopard frog,0.213677976
+3.45E-06,soil,2.89452,bifenthrin,I,8,0,BIF MAX 3 Bifenthrin,2.06668524,NA,dag_biomarker,Leopard frog,0.212162205
+3.45E-06,soil,3.7417,bifenthrin,I,8,0,TMB MAX 3 Bifenthrin,2.16368733,NA,dag_biomarker,Leopard frog,0.197174666
+3.45E-07,soil,3.20152,bifenthrin,I,8,0,BIF 10 2 Bifenthrin,1.793844153,NA,dag_biomarker,Leopard frog,0.19270545
+3.45E-06,soil,2.84461,bifenthrin,I,8,0,MB MAX 2 Bifenthrin,3.566986959,NA,dag_biomarker,Leopard frog,0.149362144
+3.45E-07,soil,2.24268,bifenthrin,I,8,0,TMB 10 7 Bifenthrin,0.306997161,NA,dag_biomarker,Leopard frog,0.14572334
+3.45E-07,soil,3.80045,bifenthrin,I,8,0,TMB 10 8 Bifenthrin,0.227,NA,dag_biomarker,Leopard frog,0.124587737
+3.45E-07,soil,3.22551,bifenthrin,I,8,0,TB 10 7 Bifenthrin,0.487492764,NA,dag_biomarker,Leopard frog,0.11521122
+3.45E-07,soil,2.19297,bifenthrin,I,8,0,TMB 10 1 Bifenthrin,0.403828374,NA,dag_biomarker,Leopard frog,0.114939598
+2.89E-07,soil,1.3741,bifenthrin,I,8,0,Bif LF S 3 F,0.354759,OLS,dag_dermal_routes,Leopard frog,0.114565
+2.89E-07,soil,1.313,bifenthrin,I,8,0,Bif LF S 1 F,0.33888,OLS,dag_dermal_routes,Leopard frog,0.108558
+3.45E-07,soil,3.6387,bifenthrin,I,8,0,BIF 10 4 Bifenthrin,0.662496327,NA,dag_biomarker,Leopard frog,0.100211894
+3.45E-07,soil,3.09445,bifenthrin,I,8,0,TMB 10 5 Bifenthrin,0.174485393,NA,dag_biomarker,Leopard frog,0.099714845
+2.89E-07,soil,1.915,bifenthrin,I,8,0,Bif LF S 5 F,0.286841,OLS,dag_dermal_routes,Leopard frog,0.095261
+2.89E-07,soil,2.2547,bifenthrin,I,8,0,Bif LF S 2 F,0.385833,OLS,dag_dermal_routes,Leopard frog,0.094022
+3.45E-07,soil,6.34508,bifenthrin,I,8,0,BIF 10 6 Bifenthrin,0.986503052,NA,dag_biomarker,Leopard frog,0.092611871
+3.45E-07,soil,3.90043,bifenthrin,I,8,0,TMB 10 2 Bifenthrin,0.32397881,NA,dag_biomarker,Leopard frog,0.092262595
+2.89E-07,soil,2.0466,bifenthrin,I,8,0,Bif LF S 7 F,0.248066,OLS,dag_dermal_routes,Leopard frog,0.082735
+3.45E-07,soil,2.39935,bifenthrin,I,8,0,BIF 10 1 Bifenthrin,0.803046328,NA,dag_biomarker,Leopard frog,0.081060634
+3.45E-07,soil,1.0121,bifenthrin,I,8,0,TB 10 8 Bifenthrin,0.309115743,NA,dag_biomarker,Leopard frog,0.078742028
+3.45E-07,soil,3.80297,bifenthrin,I,8,0,BIF 10 7 Bifenthrin,1.048073516,NA,dag_biomarker,Leopard frog,0.078083256
+2.89E-07,soil,2.37,bifenthrin,I,8,0,Bif LF S 4 F,0.328681,OLS,dag_dermal_routes,Leopard frog,0.0745
+2.89E-07,soil,2.2342,bifenthrin,I,8,0,Bif LF S 6 F,0.317522,OLS,dag_dermal_routes,Leopard frog,0.073592
+3.45E-07,soil,2.49055,bifenthrin,I,8,0,MB 10 3 Bifenthrin,0.237632984,NA,dag_biomarker,Leopard frog,0.069767144
+3.45E-07,soil,3.28759,bifenthrin,I,8,0,TB 10 3 Bifenthrin,0.317034803,NA,dag_biomarker,Leopard frog,0.066427585
+3.45E-07,soil,3.75487,bifenthrin,I,8,0,BIF 10 8 Bifenthrin,0.996942773,NA,dag_biomarker,Leopard frog,0.064304246
+3.45E-07,soil,4.50144,bifenthrin,I,8,0,MB 10 7 Bifenthrin,0.29181208,NA,dag_biomarker,Leopard frog,0.059879811
+3.45E-07,soil,3.68372,bifenthrin,I,8,0,MB 10 8 Bifenthrin,0.232199001,NA,dag_biomarker,Leopard frog,0.058723246
+3.45E-07,soil,3.71079,bifenthrin,I,8,0,TB 10 5 Bifenthrin,0.396968354,NA,dag_biomarker,Leopard frog,0.053872147
+3.45E-07,soil,2.56017,bifenthrin,I,8,0,TB 10 4 Bifenthrin,0.186692296,NA,dag_biomarker,Leopard frog,0.053775567
+3.45E-07,soil,3.56468,bifenthrin,I,8,0,MB 10 4 Bifenthrin,0.268943149,NA,dag_biomarker,Leopard frog,0.050779401
+3.45E-07,soil,2.40548,bifenthrin,I,8,0,BIF 10 3 Bifenthrin,1.359242989,NA,dag_biomarker,Leopard frog,0.049910621
+3.45E-07,soil,4.16573,bifenthrin,I,8,0,TB 10 6 Bifenthrin,0.414224184,NA,dag_biomarker,Leopard frog,0.04661666
+3.45E-07,soil,2.90056,bifenthrin,I,8,0,BIF 10 5 Bifenthrin,1.296592999,NA,dag_biomarker,Leopard frog,0.046218882
+3.45E-07,soil,3.06037,bifenthrin,I,8,0,TB 10 1 Bifenthrin,0.290189375,NA,dag_biomarker,Leopard frog,0.036906396
+3.45E-07,soil,3.02731,bifenthrin,I,8,0,TB 10 2 Bifenthrin,0.478501779,NA,dag_biomarker,Leopard frog,0.035189166
+3.45E-07,soil,3.52853,bifenthrin,I,8,0,MB 10 5 Bifenthrin,0.387004018,NA,dag_biomarker,Leopard frog,0.030067637
+3.45E-07,soil,3.08223,bifenthrin,I,8,0,TMB 10 3 Bifenthrin,0.143972592,NA,dag_biomarker,Leopard frog,0.02551122
+3.45E-07,soil,2.63626,bifenthrin,I,8,0,MB 10 6 Bifenthrin,0.417565021,NA,dag_biomarker,Leopard frog,0.018037382
+3.45E-07,soil,4.12784,bifenthrin,I,8,0,MB 10 1 Bifenthrin,0.570895752,NA,dag_biomarker,Leopard frog,0.013397563
+3.45E-07,soil,6.73861,bifenthrin,I,8,0,MB 10 2 Bifenthrin,0.436696072,NA,dag_biomarker,Leopard frog,0.011975429
+3.45E-07,soil,4.64218,bifenthrin,I,8,0,TMB 10 4 Bifenthrin,0.255076091,NA,dag_biomarker,Leopard frog,0.011337348
+3.45E-06,soil,2.44937,bifenthrin,I,8,0,MB MAX 6 Bifenthrin,2.513401459,NA,dag_biomarker,Leopard frog,0.001061006
+4.43E-05,indirect,2.4102,chlorothalonil,F,8,0,LFCl2-5,126.1421937,PLE,dag_dehydration,Leopard frog,0.189112734
+4.43E-05,indirect,1.8824,chlorothalonil,F,8,0,LFCl6-3,177.201436,PLE,dag_dehydration,Leopard frog,0.177693722
+4.43E-05,indirect,1.0993,chlorothalonil,F,8,0,BACl6-5,33.49242945,PLE,dag_dehydration,Fowlers toad,0.143725039
+4.43E-05,indirect,1.1766,chlorothalonil,F,8,0,LFCl2-2,93.83616294,PLE,dag_dehydration,Leopard frog,0.137711222
+4.43E-05,indirect,1.5919,chlorothalonil,F,8,0,LFCl8-3,68.31816412,PLE,dag_dehydration,Leopard frog,0.135997717
+4.43E-05,indirect,2.9449,chlorothalonil,F,8,0,LFCl0-6,110.2800296,PLE,dag_dehydration,Leopard frog,0.110663384
+4.43E-05,indirect,0.8457,chlorothalonil,F,8,0,BACl0-2,102.3188471,PLE,dag_dehydration,Fowlers toad,0.109722213
+4.43E-05,indirect,0.6821,chlorothalonil,F,8,0,BACl4-3,53.53514586,PLE,dag_dehydration,Fowlers toad,0.103593147
+4.43E-05,indirect,3.1849,chlorothalonil,F,8,0,LFCl8-1,98.34669015,PLE,dag_dehydration,Leopard frog,0.100520033
+4.43E-05,indirect,0.7097,chlorothalonil,F,8,0,BACl0-5,46.51376561,PLE,dag_dehydration,Fowlers toad,0.099619209
+4.43E-05,indirect,3.6896,chlorothalonil,F,8,0,LFCl0-2,105.2068112,PLE,dag_dehydration,Leopard frog,0.09431606
+4.43E-05,indirect,0.7524,chlorothalonil,F,8,0,BACl4-4,55.85180318,PLE,dag_dehydration,Fowlers toad,0.093831051
+4.43E-05,indirect,0.7943,chlorothalonil,F,8,0,BACl2-3,64.92323527,PLE,dag_dehydration,Fowlers toad,0.092374798
+4.43E-05,indirect,0.9357,chlorothalonil,F,8,0,BACl6-3,71.16072307,PLE,dag_dehydration,Fowlers toad,0.089348773
+4.43E-05,indirect,1.1711,chlorothalonil,F,8,0,BACl8-4,74.75923468,PLE,dag_dehydration,Fowlers toad,0.088529318
+4.43E-05,indirect,0.8102,chlorothalonil,F,8,0,BACl2-5,61.33280569,PLE,dag_dehydration,Fowlers toad,0.087298087
+4.43E-05,indirect,1.8071,chlorothalonil,F,8,0,LFCl8-4,77.37304664,PLE,dag_dehydration,Leopard frog,0.086171947
+4.43E-05,indirect,0.821,chlorothalonil,F,8,0,BACl2-2,59.29310488,PLE,dag_dehydration,Fowlers toad,0.086024643
+4.43E-05,indirect,0.8993,chlorothalonil,F,8,0,BACl4-1,60.42139433,PLE,dag_dehydration,Fowlers toad,0.085652238
+4.43E-05,indirect,0.8614,chlorothalonil,F,8,0,BACl4-2,47.39084331,PLE,dag_dehydration,Fowlers toad,0.081921027
+4.43E-05,indirect,0.8843,chlorothalonil,F,8,0,BACl0-4,57.35048527,PLE,dag_dehydration,Fowlers toad,0.079830754
+4.43E-05,indirect,0.8934,chlorothalonil,F,8,0,BACl6-4,48.43648594,PLE,dag_dehydration,Fowlers toad,0.079091411
+4.43E-05,indirect,0.8989,chlorothalonil,F,8,0,BACl0-3,65.01196356,PLE,dag_dehydration,Fowlers toad,0.078574387
+4.43E-05,indirect,2.2279,chlorothalonil,F,8,0,LFCl4-4,108.8411455,PLE,dag_dehydration,Leopard frog,0.077330002
+4.43E-05,indirect,2.5177,chlorothalonil,F,8,0,LFCl4-6,112.551148,PLE,dag_dehydration,Leopard frog,0.075510303
+4.43E-05,indirect,0.9393,chlorothalonil,F,8,0,BACl8-5,83.98589503,PLE,dag_dehydration,Fowlers toad,0.075353305
+4.43E-05,indirect,2.4226,chlorothalonil,F,8,0,LFCl10-5,51.56836737,PLE,dag_dehydration,Leopard frog,0.074157011
+4.43E-05,indirect,0.9583,chlorothalonil,F,8,0,BACl0-1,57.75651281,PLE,dag_dehydration,Fowlers toad,0.073700244
+4.43E-05,indirect,0.9629,chlorothalonil,F,8,0,BACl8-2,37.1844573,PLE,dag_dehydration,Fowlers toad,0.073540839
+4.43E-05,indirect,2.5335,chlorothalonil,F,8,0,LFCl2-6,93.01431818,PLE,dag_dehydration,Leopard frog,0.073108651
+4.43E-05,indirect,1.0144,chlorothalonil,F,8,0,BACl2-1,33.60251806,PLE,dag_dehydration,Fowlers toad,0.072874896
+4.43E-05,indirect,2.3422,chlorothalonil,F,8,0,LFCl8-6,134.219346,PLE,dag_dehydration,Leopard frog,0.07148401
+4.43E-05,indirect,0.9878,chlorothalonil,F,8,0,BACl6-2,24.53526169,PLE,dag_dehydration,Fowlers toad,0.07145105
+4.43E-05,indirect,0.9994,chlorothalonil,F,8,0,BACl6-1,33.86589381,PLE,dag_dehydration,Fowlers toad,0.07063984
+4.43E-05,indirect,1.0066,chlorothalonil,F,8,0,BACl8-1,52.62528479,PLE,dag_dehydration,Fowlers toad,0.070210759
+4.43E-05,indirect,1.0174,chlorothalonil,F,8,0,BACl10-4,102.5827354,PLE,dag_dehydration,Fowlers toad,0.07005052
+4.43E-05,indirect,1.0264,chlorothalonil,F,8,0,BACl10-2,56.72626138,PLE,dag_dehydration,Fowlers toad,0.06896551
+4.43E-05,indirect,3.0961,chlorothalonil,F,8,0,LFCl0-4,87.83391191,PLE,dag_dehydration,Leopard frog,0.066735354
+4.43E-05,indirect,1.098,chlorothalonil,F,8,0,BACl4-5,67.77044045,PLE,dag_dehydration,Fowlers toad,0.066360019
+4.43E-05,indirect,2.1473,chlorothalonil,F,8,0,LFCl8-2,55.30487111,PLE,dag_dehydration,Leopard frog,0.066249062
+4.43E-05,indirect,2.5049,chlorothalonil,F,8,0,LFCl0-3,104.0471325,PLE,dag_dehydration,Leopard frog,0.065894674
+4.43E-05,indirect,1.0888,chlorothalonil,F,8,0,BACl2-4,31.45650376,PLE,dag_dehydration,Fowlers toad,0.064846902
+4.43E-05,indirect,1.1206,chlorothalonil,F,8,0,BACl10-3,68.01386873,PLE,dag_dehydration,Fowlers toad,0.063794163
+4.43E-05,indirect,1.2642,chlorothalonil,F,8,0,LFCl4-5,107.8351603,PLE,dag_dehydration,Leopard frog,0.061659489
+4.43E-05,indirect,1.2458,chlorothalonil,F,8,0,BACl10-5,79.54975475,PLE,dag_dehydration,Fowlers toad,0.057094309
+4.43E-05,indirect,3.3543,chlorothalonil,F,8,0,LFCl0-5,85.2705886,PLE,dag_dehydration,Leopard frog,0.05459792
+4.43E-05,indirect,1.3477,chlorothalonil,F,8,0,LFCl4-2,83.94471454,PLE,dag_dehydration,Leopard frog,0.054321653
+4.43E-05,indirect,1.3103,chlorothalonil,F,8,0,BACl10-1,38.25020684,PLE,dag_dehydration,Fowlers toad,0.053909403
+4.43E-05,indirect,1.9014,chlorothalonil,F,8,0,LFCl6-2,133.1324122,PLE,dag_dehydration,Leopard frog,0.051562219
+4.43E-05,indirect,1.4069,chlorothalonil,F,8,0,BACl8-3,73.57869825,PLE,dag_dehydration,Fowlers toad,0.050197187
+4.43E-05,indirect,2.9374,chlorothalonil,F,8,0,LFCl0-1,97.54771792,PLE,dag_dehydration,Leopard frog,0.049534914
+4.43E-05,indirect,1.6813,chlorothalonil,F,8,0,LFCl6-6,75.82071048,PLE,dag_dehydration,Leopard frog,0.048697065
+4.43E-05,indirect,1.9212,chlorothalonil,F,8,0,LFCl4-3,95.16597984,PLE,dag_dehydration,Leopard frog,0.047421024
+4.43E-05,indirect,2.1336,chlorothalonil,F,8,0,LFCl4-1,54.02956223,PLE,dag_dehydration,Leopard frog,0.046410221
+4.43E-05,indirect,1.9125,chlorothalonil,F,8,0,LFCl6-5,107.9943699,PLE,dag_dehydration,Leopard frog,0.040356887
+4.43E-05,indirect,1.8675,chlorothalonil,F,8,0,LFCl8-5,86.4407278,PLE,dag_dehydration,Leopard frog,0.039905604
+4.43E-05,indirect,2.5677,chlorothalonil,F,8,0,LFCl2-3,131.9151605,PLE,dag_dehydration,Leopard frog,0.038844494
+4.43E-05,indirect,3.9146,chlorothalonil,F,8,0,LFCl2-4,238.150189,PLE,dag_dehydration,Leopard frog,0.034159045
+4.43E-05,indirect,2.982,chlorothalonil,F,8,0,LFCl2-1,124.7136025,PLE,dag_dehydration,Leopard frog,0.034119313
+4.43E-05,indirect,2.3394,chlorothalonil,F,8,0,LFCl10-4,69.83049,PLE,dag_dehydration,Leopard frog,0.034005049
+4.43E-05,indirect,2.2261,chlorothalonil,F,8,0,LFCl10-2,56.13699941,PLE,dag_dehydration,Leopard frog,0.033621317
+4.43E-05,indirect,2.5262,chlorothalonil,F,8,0,LFCl10-6,114.5675617,PLE,dag_dehydration,Leopard frog,0.032016276
+4.43E-05,indirect,2.5356,chlorothalonil,F,8,0,LFCl6-4,80.2864709,PLE,dag_dehydration,Leopard frog,0.029626977
+4.43E-05,indirect,2.6744,chlorothalonil,F,8,0,LFCl6-1,103.9346865,PLE,dag_dehydration,Leopard frog,0.027463652
+4.43E-05,indirect,3.3763,chlorothalonil,F,8,0,LFCl10-3,149.7004603,PLE,dag_dehydration,Leopard frog,0.027361678
+4.43E-05,indirect,2.8692,chlorothalonil,F,8,0,LFCl10-1,102.4324273,PLE,dag_dehydration,Leopard frog,0.026595904
+3.11E-07,soil,2.35063,chlorpyrifos,I,8,0,CPF LF S 2 F,0.219906,OLS,dag_dermal_routes,Leopard frog,1.019965
+3.11E-07,soil,2.81971,chlorpyrifos,I,8,0,CPF LF S 8 F,0.309254,OLS,dag_dermal_routes,Leopard frog,1.005704
+3.11E-07,soil,1.92467,chlorpyrifos,I,8,0,CPF LF S 1 F,0.279786,OLS,dag_dermal_routes,Leopard frog,0.930317
+3.11E-07,soil,2.06684,chlorpyrifos,I,8,0,CPF LF S 7 F,0.224683,OLS,dag_dermal_routes,Leopard frog,0.881697
+3.11E-07,soil,1.10899,chlorpyrifos,I,8,0,CPF LF S 6 F,0.246053,OLS,dag_dermal_routes,Leopard frog,0.642246
+3.11E-07,soil,1.61425,chlorpyrifos,I,8,0,CPF LF S 5 F,0.14071,OLS,dag_dermal_routes,Leopard frog,0.538425
+3.11E-07,soil,1.74634,chlorpyrifos,I,8,0,CPF LF S 3 F,0.28037,OLS,dag_dermal_routes,Leopard frog,0.346872
+3.11E-07,soil,1.21391,chlorpyrifos,I,8,0,CPF LF S 4 F,0.281528,OLS,dag_dermal_routes,Leopard frog,0.276119
+1.43E-05,soil,2.2402,dt,I,8,0,ATZMED_DT,NA,NA,rvm2017,Rana_clamitans,0.38456094
+1.43E-05,soil,2.8407,dt,I,8,0,ATZD_DT,NA,NA,rvm2017,Rana_clamitans,0.275763099
+1.43E-05,soil,2.0136,dt,I,8,0,ATZMED_DT,NA,NA,rvm2017,Rana_clamitans,0.262662032
+1.43E-05,soil,1.6929,dt,I,8,0,ATZMED_DT,NA,NA,rvm2017,Rana_clamitans,0.165951211
+1.43E-05,soil,1.6688,dt,I,8,0,D_DT,NA,NA,rvm2017,Rana_clamitans,0.160589466
+1.43E-05,soil,1.7687,dt,I,8,0,ATZMED_DT,NA,NA,rvm2017,Rana_clamitans,0.156953688
+1.43E-05,soil,2.0948,dt,I,8,0,ATZD_DT,NA,NA,rvm2017,Rana_clamitans,0.156297393
+1.43E-05,soil,2.6828,dt,I,8,0,D_DT,NA,NA,rvm2017,Rana_clamitans,0.141821902
+1.43E-05,soil,2.2087,dt,I,8,0,ATZD_DT,NA,NA,rvm2017,Rana_clamitans,0.135238827
+1.43E-05,soil,1.686,dt,I,8,0,ATZD_DT,NA,NA,rvm2017,Rana_clamitans,0.111429034
+1.43E-05,soil,0.9971,dt,I,8,0,ATZMED_DT,NA,NA,rvm2017,Rana_clamitans,0.104347435
+1.43E-05,soil,2.2634,dt,I,8,0,MED_DT,NA,NA,rvm2017,Rana_clamitans,0.086351225
+1.43E-05,soil,1.6197,dt,I,8,0,MED_DT,NA,NA,rvm2017,Rana_clamitans,0.080271609
+1.43E-05,soil,2.2984,dt,I,8,0,MED_DT,NA,NA,rvm2017,Rana_clamitans,0.078111813
+1.43E-05,soil,2.7643,dt,I,8,0,ATZMED_DT,NA,NA,rvm2017,Rana_clamitans,0.076429258
+1.43E-05,soil,1.7835,dt,I,8,0,D_DT,NA,NA,rvm2017,Rana_clamitans,0.055846327
+1.43E-05,soil,0.9634,dt,I,8,0,MED_DT,NA,NA,rvm2017,Rana_clamitans,0.050444413
+1.43E-05,soil,1.6348,dt,I,8,0,ATZD_DT,NA,NA,rvm2017,Rana_clamitans,0.043914438
+1.43E-05,soil,2.541,dt,I,8,0,D_DT,NA,NA,rvm2017,Rana_clamitans,0.039291826
+1.43E-05,soil,1.8205,dt,I,8,0,MED_DT,NA,NA,rvm2017,Rana_clamitans,0.036982547
+1.43E-05,soil,2.0942,dt,I,8,0,D_DT,NA,NA,rvm2017,Rana_clamitans,0.0364
+1.43E-05,soil,1.5863,dt,I,8,0,MED_DT,NA,NA,rvm2017,Rana_clamitans,0.02218048
+1.43E-05,soil,1.9682,dt,I,8,0,D_DT,NA,NA,rvm2017,Rana_clamitans,0.009126477
+1.06E-06,overspray,2.6593,fipronil,I,8,0,HCOF2,3.951751488,PLE,rvm2015,Green treefrog,3.730847831
+1.10E-06,soil,0.4614,fipronil,I,2,0,fipronil_2hr_1,NA,NA,dag_metabolites,Fowlers toad,3.719393647
+1.06E-06,overspray,1.30684,fipronil,I,8,0,HCOF1,3.951751488,PLE,rvm2015,Green treefrog,2.729720739
+1.11E-06,overspray,2.73317,fipronil,I,8,0,HGOF1,3.492483429,PLE,rvm2015,Barking treefrog,2.400285765
+1.11E-06,overspray,1.73265,fipronil,I,8,0,HGOF4,3.492483429,PLE,rvm2015,Barking treefrog,2.07396123
+1.14E-06,soil,0.89804,fipronil,I,8,0,FTF5,3.366859313,PLE,rvm2015,Fowlers toad,2.07002135
+1.10E-06,soil,0.7862,fipronil,I,4,0,fipronil_4hr_2,NA,NA,dag_metabolites,Fowlers toad,2.023821797
+1.11E-06,overspray,1.52771,fipronil,I,8,0,HGOF5,3.492483429,PLE,rvm2015,Barking treefrog,1.915890199
+1.10E-06,soil,0.2284,fipronil,I,2,0,fipronil_2hr_2,NA,NA,dag_metabolites,Fowlers toad,1.880936052
+1.06E-06,overspray,1.88382,fipronil,I,8,0,HCOF3,3.951751488,PLE,rvm2015,Green treefrog,1.778989061
+1.11E-06,overspray,2.12849,fipronil,I,8,0,HGOF3,3.492483429,PLE,rvm2015,Barking treefrog,1.662784049
+1.11E-06,overspray,2.02542,fipronil,I,8,0,HGOF2,3.492483429,PLE,rvm2015,Barking treefrog,1.658107241
+1.10E-06,soil,0.2882,fipronil,I,4,0,fipronil_4hr_4,NA,NA,dag_metabolites,Fowlers toad,1.339780158
+1.10E-06,soil,0.3696,fipronil,I,2,0,fipronil_2hr_4,NA,NA,dag_metabolites,Fowlers toad,1.297795327
+1.14E-06,soil,2.48014,fipronil,I,8,0,FTF3,3.366859313,PLE,rvm2015,Fowlers toad,1.259008899
+1.06E-06,overspray,1.07051,fipronil,I,8,0,HCOF4,3.951751488,PLE,rvm2015,Green treefrog,1.159865558
+1.14E-06,soil,1.69321,fipronil,I,8,0,FTF4,3.366859313,PLE,rvm2015,Fowlers toad,1.158626237
+1.14E-06,soil,2.87106,fipronil,I,8,0,FTF1,3.366859313,PLE,rvm2015,Fowlers toad,1.155134535
+1.05E-06,soil,1.57444,fipronil,I,8,0,SF2,4.53176306,PLE,rvm2015,Mole salamander,1.117034512
+1.05E-06,soil,2.34673,fipronil,I,8,0,SF3,4.53176306,PLE,rvm2015,Mole salamander,1.105844253
+1.06E-06,overspray,1.77007,fipronil,I,8,0,HCOF5,3.951751488,PLE,rvm2015,Green treefrog,1.097300859
+1.12E-06,soil,1.22989,fipronil,I,8,0,HGF2,2.495701956,PLE,rvm2015,Barking treefrog,0.966721159
+1.10E-06,soil,0.6985,fipronil,I,4,0,fipronil_4hr_3,NA,NA,dag_metabolites,Fowlers toad,0.949591323
+1.05E-06,soil,2.29103,fipronil,I,8,0,HVF1,3.309695933,PLE,rvm2015,Gray treefrog,0.895649989
+1.10E-06,soil,0.9285,fipronil,I,4,0,fipronil_4hr_1,NA,NA,dag_metabolites,Fowlers toad,0.88914103
+1.10E-06,soil,0.8824,fipronil,I,12,0,fipronil_12hr_2,NA,NA,dag_metabolites,Fowlers toad,0.870180984
+1.12E-06,soil,1.62588,fipronil,I,8,0,HGF1,2.495701956,PLE,rvm2015,Barking treefrog,0.656150683
+1.05E-06,soil,1.73741,fipronil,I,8,0,HVF3,3.309695933,PLE,rvm2015,Gray treefrog,0.627210223
+1.12E-06,soil,1.6105,fipronil,I,8,0,LFF2,3.156807044,PLE,rvm2015,Leopard frog,0.608410201
+1.10E-06,soil,1.1638,fipronil,I,12,0,fipronil_12hr_1,NA,NA,dag_metabolites,Fowlers toad,0.608268662
+1.10E-06,soil,0.7639,fipronil,I,2,0,fipronil_2hr_3,NA,NA,dag_metabolites,Fowlers toad,0.570034283
+1.14E-06,soil,1.28161,fipronil,I,8,0,FTF2,3.366859313,PLE,rvm2015,Fowlers toad,0.524889572
+1.12E-06,soil,1.4102,fipronil,I,8,0,LFF4,3.156807044,PLE,rvm2015,Leopard frog,0.496870531
+1.05E-06,soil,2.0321,fipronil,I,8,0,SF1,4.53176306,PLE,rvm2015,Mole salamander,0.49304269
+1.10E-06,soil,1.4191,fipronil,I,12,0,fipronil_12hr_3,NA,NA,dag_metabolites,Fowlers toad,0.489633965
+1.12E-06,soil,3.07228,fipronil,I,8,0,LFF1,3.156807044,PLE,rvm2015,Leopard frog,0.474578788
+1.05E-06,soil,2.788,fipronil,I,8,0,SF4,4.53176306,PLE,rvm2015,Mole salamander,0.472718534
+1.05E-06,soil,1.75764,fipronil,I,8,0,SF5,4.53176306,PLE,rvm2015,Mole salamander,0.466888045
+1.12E-06,soil,2.00445,fipronil,I,8,0,HGF3,2.495701956,PLE,rvm2015,Barking treefrog,0.464139949
+1.12E-06,soil,1.99483,fipronil,I,8,0,HGF4,2.495701956,PLE,rvm2015,Barking treefrog,0.461519982
+1.05E-06,soil,2.48463,fipronil,I,8,0,HVF2,3.309695933,PLE,rvm2015,Gray treefrog,0.453031887
+1.06E-06,soil,1.05281,fipronil,I,8,0,HCF4,2.804569298,PLE,rvm2015,Green treefrog,0.427601059
+1.10E-06,soil,0.5969,fipronil,I,48,0,fipronil_48hr_2,NA,NA,dag_metabolites,Fowlers toad,0.389202422
+1.12E-06,soil,1.29821,fipronil,I,8,0,LFF3,3.156807044,PLE,rvm2015,Leopard frog,0.37917811
+1.10E-06,soil,0.5347,fipronil,I,24,0,fipronil_24hr_1,NA,NA,dag_metabolites,Fowlers toad,0.329936663
+1.12E-06,soil,1.56533,fipronil,I,8,0,HGF5,2.495701956,PLE,rvm2015,Barking treefrog,0.2997831
+1.10E-06,soil,1.4909,fipronil,I,12,0,fipronil_12hr_4,NA,NA,dag_metabolites,Fowlers toad,0.29574225
+1.10E-06,soil,0.764,fipronil,I,24,0,fipronil_24hr_2,NA,NA,dag_metabolites,Fowlers toad,0.278098705
+1.06E-06,soil,1.01293,fipronil,I,8,0,HCF5,2.804569298,PLE,rvm2015,Green treefrog,0.261173889
+1.10E-06,soil,0.3892,fipronil,I,24,0,fipronil_24hr_3,NA,NA,dag_metabolites,Fowlers toad,0.255766754
+1.10E-06,indirect,11.7796,fipronil,I,8,0,3_6_G,1.103307511,OLS,rvm2016,American toad,0.230546973
+1.10E-06,soil,0.9009,fipronil,I,48,0,fipronil_48hr_3,NA,NA,dag_metabolites,Fowlers toad,0.224047561
+1.10E-06,indirect,9.0658,fipronil,I,8,0,3_7_I,1.397009124,OLS,rvm2016,American toad,0.210706877
+1.10E-06,indirect,13.1914,fipronil,I,8,0,3_6_C,1.220139993,OLS,rvm2016,American toad,0.208656204
+1.10E-06,soil,0.638,fipronil,I,24,0,fipronil_24hr_4,NA,NA,dag_metabolites,Fowlers toad,0.206890648
+1.06E-06,soil,1.69128,fipronil,I,8,0,HCF1,2.804569298,PLE,rvm2015,Green treefrog,0.197411795
+1.05E-06,soil,2.34893,fipronil,I,8,0,HVF5,3.309695933,PLE,rvm2015,Gray treefrog,0.173233731
+1.10E-06,indirect,8.5539,fipronil,I,8,0,3_2_G,0.717592235,OLS,rvm2016,American toad,0.16426118
+1.10E-06,indirect,10.8321,fipronil,I,8,0,3_1_I,1.34295,PLE,rvm2016,American toad,0.16419294
+1.10E-06,soil,0.5355,fipronil,I,48,0,fipronil_48hr_4,NA,NA,dag_metabolites,Fowlers toad,0.151268165
+1.05E-06,soil,1.90828,fipronil,I,8,0,HVF4,3.309695933,PLE,rvm2015,Gray treefrog,0.144678333
+1.10E-06,indirect,11.2404,fipronil,I,8,0,3_7_C,1.530006724,PLE,rvm2016,American toad,0.129413289
+1.10E-06,indirect,11.465,fipronil,I,8,0,3_5_B,1.281327696,OLS,rvm2016,American toad,0.114864224
+1.10E-06,indirect,23.3405,fipronil,I,8,0,3_4_H,2.117466169,PLE,rvm2016,American toad,0.113813046
+1.06E-06,soil,2.0466,fipronil,I,8,0,HCF2,2.804569298,PLE,rvm2015,Green treefrog,0.111496024
+1.10E-06,soil,0.7873,fipronil,I,48,0,fipronil_48hr_1,NA,NA,dag_metabolites,Fowlers toad,0.083283566
+1.06E-06,soil,2.34143,fipronil,I,8,0,HCF3,2.804569298,PLE,rvm2015,Green treefrog,0.061188744
+1.10E-06,indirect,11.3478,fipronil,I,8,0,3_7_A,2.339183226,PLE,rvm2016,American toad,0.055741733
+1.10E-06,indirect,7.3804,fipronil,I,8,0,3_7_E,1.636974629,PLE,rvm2016,American toad,0.035164703
+1.10E-06,indirect,10.7426,fipronil,I,8,0,3_1_A,1.725175021,PLE,rvm2016,American toad,0.0321181
+1.10E-06,indirect,12.178,fipronil,I,8,0,3_3_A,1.047219343,OLS,rvm2016,American toad,0.021762222
+5.58E-06,overspray,2.61111,imidacloprid,I,8,0,HGOI2,0.47984644,PLE,rvm2015,Barking treefrog,1.636083216
+5.39E-06,indirect,1.8193,imidacloprid,I,8,0,LFI6-6,0.631287079,PLE,dag_dehydration,Leopard frog,1.581594004
+5.39E-06,indirect,1.5865,imidacloprid,I,8,0,LFI4-4,0.608288865,PLE,dag_dehydration,Leopard frog,1.269010141
+5.58E-06,overspray,2.49115,imidacloprid,I,8,0,HGOI5,0.47984644,PLE,rvm2015,Barking treefrog,1.08903614
+5.39E-06,indirect,1.9358,imidacloprid,I,8,0,LFI4-3,0.555449529,PLE,dag_dehydration,Leopard frog,1.073747665
+5.39E-06,indirect,1.8819,imidacloprid,I,8,0,LFI0-2,0.73091969,PLE,dag_dehydration,Leopard frog,1.058790605
+5.58E-06,overspray,1.73625,imidacloprid,I,8,0,HGOI1,0.47984644,PLE,rvm2015,Barking treefrog,1.015287169
+5.58E-06,overspray,1.82332,imidacloprid,I,8,0,HGOI3,0.47984644,PLE,rvm2015,Barking treefrog,0.926100389
+5.39E-06,indirect,1.8364,imidacloprid,I,8,0,LFI0-4,1.440136114,PLE,dag_dehydration,Leopard frog,0.813666458
+5.39E-06,indirect,1.2582,imidacloprid,I,8,0,LFI0-1,0.796630992,PLE,dag_dehydration,Leopard frog,0.73148169
+5.39E-06,indirect,1.0559,imidacloprid,I,8,0,LFI0-3,1.951106685,PLE,dag_dehydration,Leopard frog,0.729321829
+5.58E-06,overspray,2.91551,imidacloprid,I,8,0,HGOI4,0.47984644,PLE,rvm2015,Barking treefrog,0.718277624
+5.39E-06,indirect,1.1331,imidacloprid,I,8,0,LFI2-4,0.687118856,PLE,dag_dehydration,Leopard frog,0.706206114
+5.39E-06,indirect,2.0296,imidacloprid,I,8,0,LFI8-1,1.958668613,PLE,dag_dehydration,Leopard frog,0.692484167
+5.39E-06,indirect,1.7892,imidacloprid,I,8,0,LFI6-2,0.655219548,PLE,dag_dehydration,Leopard frog,0.65112938
+5.39E-06,indirect,1.4135,imidacloprid,I,8,0,LFI10-4,0.60830659,PLE,dag_dehydration,Leopard frog,0.630482061
+5.69E-06,soil,1.4839,imidacloprid,I,8,0,HGI5,2.565991685,PLE,rvm2015,Barking treefrog,0.622028925
+5.39E-06,indirect,1.0553,imidacloprid,I,8,0,LFI0-5,1.070180372,PLE,dag_dehydration,Leopard frog,0.607467098
+5.39E-06,indirect,1.5497,imidacloprid,I,8,0,LFI10-2,1.292096809,PLE,dag_dehydration,Leopard frog,0.601787596
+5.39E-06,indirect,1.2669,imidacloprid,I,8,0,LFI0-6,0.872011851,PLE,dag_dehydration,Leopard frog,0.588522987
+5.39E-06,indirect,2.1186,imidacloprid,I,8,0,LFI8-3,0.846438989,PLE,dag_dehydration,Leopard frog,0.5739569
+5.39E-06,indirect,1.6033,imidacloprid,I,8,0,LFI4-6,0.201720786,PLE,dag_dehydration,Leopard frog,0.55755347
+5.39E-06,indirect,2.0607,imidacloprid,I,8,0,LFI2-2,1.977314477,PLE,dag_dehydration,Leopard frog,0.515549221
+5.69E-06,soil,1.27439,imidacloprid,I,8,0,HGI3,2.565991685,PLE,rvm2015,Barking treefrog,0.50673308
+5.39E-06,indirect,1.8833,imidacloprid,I,8,0,LFI10-3,0.660569341,PLE,dag_dehydration,Leopard frog,0.501054316
+5.65E-06,soil,1.24292,imidacloprid,I,8,0,NTI5,2.024466739,PLE,rvm2015,Narrowmouth toad,0.49063891
+5.39E-06,indirect,1.0083,imidacloprid,I,8,0,LFI8-5,0.689399455,PLE,dag_dehydration,Leopard frog,0.484179759
+5.39E-06,indirect,3.7094,imidacloprid,I,8,0,LFI6-3,0.207025856,PLE,dag_dehydration,Leopard frog,0.476857989
+5.62E-06,soil,0.74614,imidacloprid,I,8,0,CFI2,2.072271639,PLE,rvm2015,Cricket frog,0.434782099
+5.39E-06,indirect,1.7363,imidacloprid,I,8,0,LFI8-2,0.934646981,PLE,dag_dehydration,Leopard frog,0.424924938
+5.39E-06,indirect,1.8333,imidacloprid,I,8,0,LFI8-6,0.566227325,PLE,dag_dehydration,Leopard frog,0.405938147
+5.39E-06,indirect,1.5084,imidacloprid,I,8,0,LFI10-1,0.945309838,PLE,dag_dehydration,Leopard frog,0.405218407
+5.65E-06,soil,0.92942,imidacloprid,I,8,0,NTI2,2.024466739,PLE,rvm2015,Narrowmouth toad,0.395986198
+5.39E-06,indirect,1.3617,imidacloprid,I,8,0,LFI2-6,1.906194111,PLE,dag_dehydration,Leopard frog,0.393655166
+5.39E-06,indirect,1.3821,imidacloprid,I,8,0,LFI2-1,2.471016152,PLE,dag_dehydration,Leopard frog,0.378511527
+5.39E-06,indirect,1.262,imidacloprid,I,8,0,LFI4-5,1.606632646,PLE,dag_dehydration,Leopard frog,0.377722198
+5.62E-06,soil,0.53965,imidacloprid,I,8,0,CFI3,2.072271639,PLE,rvm2015,Cricket frog,0.372214162
+5.39E-06,indirect,2.2314,imidacloprid,I,8,0,LFI4-2,1.64100778,PLE,dag_dehydration,Leopard frog,0.356860152
+5.62E-06,soil,0.71619,imidacloprid,I,8,0,CFI4,2.072271639,PLE,rvm2015,Cricket frog,0.339457748
+5.39E-06,indirect,2.1209,imidacloprid,I,8,0,LFI10-5,0.209484252,PLE,dag_dehydration,Leopard frog,0.338901353
+5.69E-06,soil,1.95576,imidacloprid,I,8,0,HGI1,2.565991685,PLE,rvm2015,Barking treefrog,0.329814712
+5.39E-06,indirect,1.4804,imidacloprid,I,8,0,LFI4-1,0.208026343,PLE,dag_dehydration,Leopard frog,0.326749679
+5.39E-06,indirect,3.1881,imidacloprid,I,8,0,LFI6-4,0.871009475,PLE,dag_dehydration,Leopard frog,0.325613627
+5.65E-06,soil,0.85968,imidacloprid,I,8,0,NTI4,2.024466739,PLE,rvm2015,Narrowmouth toad,0.319810784
+5.65E-06,soil,0.95183,imidacloprid,I,8,0,NTI1,2.024466739,PLE,rvm2015,Narrowmouth toad,0.294998693
+5.69E-06,soil,1.89439,imidacloprid,I,8,0,HGI4,2.565991685,PLE,rvm2015,Barking treefrog,0.292676446
+5.66E-06,soil,1.5308,imidacloprid,I,8,0,HVI5,2.865856558,PLE,rvm2015,Gray treefrog,0.27666374
+5.62E-06,soil,0.63282,imidacloprid,I,8,0,CFI5,2.072271639,PLE,rvm2015,Cricket frog,0.275966093
+5.62E-06,soil,0.7479,imidacloprid,I,8,0,CFI1,2.072271639,PLE,rvm2015,Cricket frog,0.253213485
+5.39E-06,indirect,2.613,imidacloprid,I,8,0,LFI2-3,1.728533516,PLE,dag_dehydration,Leopard frog,0.247500973
+5.39E-06,indirect,1.6021,imidacloprid,I,8,0,LFI6-5,0.839527548,PLE,dag_dehydration,Leopard frog,0.246360764
+5.39E-06,indirect,1.7318,imidacloprid,I,8,0,LFI2-5,0.578877665,PLE,dag_dehydration,Leopard frog,0.245622417
+5.39E-06,indirect,2.1168,imidacloprid,I,8,0,LFI10-6,1.037851792,PLE,dag_dehydration,Leopard frog,0.2421998
+5.65E-06,soil,0.9349,imidacloprid,I,8,0,NTI3,2.024466739,PLE,rvm2015,Narrowmouth toad,0.214460025
+5.69E-06,soil,2.26328,imidacloprid,I,8,0,HGI2,2.565991685,PLE,rvm2015,Barking treefrog,0.210770534
+5.39E-06,indirect,1.6878,imidacloprid,I,8,0,LFI8-4,0.321096879,PLE,dag_dehydration,Leopard frog,0.204579215
+5.66E-06,soil,1.50164,imidacloprid,I,8,0,HVI1,2.865856558,PLE,rvm2015,Gray treefrog,0.188500223
+5.66E-06,soil,1.89679,imidacloprid,I,8,0,HVI2,2.865856558,PLE,rvm2015,Gray treefrog,0.176685812
+5.76E-06,soil,1.29982,imidacloprid,I,8,0,HCI2,2.032637766,PLE,rvm2015,Green treefrog,0.160232247
+5.66E-06,soil,1.48929,imidacloprid,I,8,0,HVI3,2.865856558,PLE,rvm2015,Gray treefrog,0.158445082
+5.76E-06,soil,1.30898,imidacloprid,I,8,0,HCI4,2.032637766,PLE,rvm2015,Green treefrog,0.154999982
+5.66E-06,soil,2.47287,imidacloprid,I,8,0,HVI4,2.865856558,PLE,rvm2015,Gray treefrog,0.133043234
+5.76E-06,soil,1.46095,imidacloprid,I,8,0,HCI1,2.032637766,PLE,rvm2015,Green treefrog,0.128323626
+5.76E-06,soil,1.41647,imidacloprid,I,8,0,HCI3,2.032637766,PLE,rvm2015,Green treefrog,0.12428756
+5.76E-06,soil,1.2973,imidacloprid,I,8,0,HCI5,2.032637766,PLE,rvm2015,Green treefrog,0.103564099
+5.39E-06,indirect,2.912,imidacloprid,I,8,0,LFI6-1,0.879358614,PLE,dag_dehydration,Leopard frog,0.10171172
+5.70E-06,indirect,12.9241,imidacloprid,I,8,0,2_6_E,2.997491181,PLE,rvm2016,American toad,0.074721574
+5.70E-06,indirect,13.3005,imidacloprid,I,8,0,2_2_C,0.727272814,OLS,rvm2016,American toad,0.06442277
+5.70E-06,indirect,8,imidacloprid,I,8,0,2_5_I,1.347997271,PLE,rvm2016,American toad,0.062813074
+5.70E-06,indirect,14.0828,imidacloprid,I,8,0,2_7_F,0.478487305,OLS,rvm2016,American toad,0.061677525
+5.70E-06,indirect,18.1095,imidacloprid,I,8,0,2_2_B,1.646094454,PLE,rvm2016,American toad,0.050150934
+5.70E-06,indirect,6.9639,imidacloprid,I,8,0,2_4_G,1.0194954,OLS,rvm2016,American toad,0.025467962
+5.70E-06,indirect,10.7167,imidacloprid,I,8,0,2_2_A,1.293386968,OLS,rvm2016,American toad,0.022283481
+5.70E-06,indirect,13.0377,imidacloprid,I,8,0,2_7_I,0.785382305,PLE,rvm2016,American toad,0.019896995
+5.70E-06,indirect,12.9804,imidacloprid,I,8,0,2_6_I,1.035391151,OLS,rvm2016,American toad,0.019752402
+5.70E-06,indirect,9.7913,imidacloprid,I,8,0,2_4_A,1.123159241,OLS,rvm2016,American toad,0.018261231
+5.70E-06,indirect,13.986,imidacloprid,I,8,0,2_1_I,0.970934893,PLE,rvm2016,American toad,0.018120187
+5.70E-06,indirect,13.1817,imidacloprid,I,8,0,2_6_C,0.205311904,PLE,rvm2016,American toad,0.015920471
+2.59E-05,soil,1.8822,malathion,I,8,0,ATZMAPZ_MAT,NA,NA,rvm2017,Rana_clamitans,13.42028218
+2.59E-05,soil,2.0137,malathion,I,8,0,ATZMA_MAT,NA,NA,rvm2017,Rana_clamitans,6.064364174
+5.00E-05,soil,20.89,malathion,I,48,NA,sal4,NA,NA,hr2008,Ambystoma_tigrinum,3.73
+2.59E-05,soil,1.7623,malathion,I,8,0,ATZMAPZ_MAT,NA,NA,rvm2017,Rana_clamitans,3.417440919
+2.59E-05,soil,1.7856,malathion,I,8,0,ATZMAPZ_MAT,NA,NA,rvm2017,Rana_clamitans,2.513366509
+2.59E-05,soil,2.897,malathion,I,8,0,MA_MAT,NA,NA,rvm2017,Rana_clamitans,2.335542663
+2.59E-05,soil,2.2464,malathion,I,8,0,ATZMA_MAT,NA,NA,rvm2017,Rana_clamitans,2.008416532
+2.59E-05,soil,4.0141,malathion,I,8,0,MAPZ_MAT,NA,NA,rvm2017,Rana_clamitans,1.896347283
+5.00E-05,soil,50.92,malathion,I,24,NA,sal2,NA,NA,hr2008,Ambystoma_tigrinum,1.61
+5.00E-05,soil,39.07,malathion,I,48,NA,sal7,NA,NA,hr2008,Ambystoma_tigrinum,1.47
+5.00E-05,soil,48.93,malathion,I,24,NA,sal1,NA,NA,hr2008,Ambystoma_tigrinum,1.46
+5.00E-05,soil,46.26,malathion,I,48,NA,sal6,NA,NA,hr2008,Ambystoma_tigrinum,1.42
+2.59E-05,soil,2.1656,malathion,I,8,0,MAPZ_MAT,NA,NA,rvm2017,Rana_clamitans,1.410094829
+2.59E-05,soil,1.2746,malathion,I,8,0,ATZMA_MAT,NA,NA,rvm2017,Rana_clamitans,1.104790883
+2.59E-05,soil,1.3043,malathion,I,8,0,ATZMAPZ_MAT,NA,NA,rvm2017,Rana_clamitans,1.067061599
+2.59E-05,soil,1.8167,malathion,I,8,0,ATZMA_MAT,NA,NA,rvm2017,Rana_clamitans,0.890422935
+2.59E-05,soil,2.3087,malathion,I,8,0,MAPZ_MAT,NA,NA,rvm2017,Rana_clamitans,0.699286298
+2.59E-05,soil,2.0931,malathion,I,8,0,MA_MAT,NA,NA,rvm2017,Rana_clamitans,0.653088188
+2.59E-05,soil,1.4277,malathion,I,8,0,ATZMAPZ_MAT,NA,NA,rvm2017,Rana_clamitans,0.465758248
+2.59E-05,soil,1.7896,malathion,I,8,0,MAPZ_MAT,NA,NA,rvm2017,Rana_clamitans,0.432463641
+2.59E-05,soil,2.0002,malathion,I,8,0,MA_MAT,NA,NA,rvm2017,Rana_clamitans,0.401201109
+5.00E-05,soil,47.59,malathion,I,48,NA,sal5,NA,NA,hr2008,Ambystoma_tigrinum,0.39
+5.00E-05,soil,44.15,malathion,I,24,NA,sal3,NA,NA,hr2008,Ambystoma_tigrinum,0.35
+2.59E-05,soil,1.766,malathion,I,8,0,ATZMA_MAT,NA,NA,rvm2017,Rana_clamitans,0.300451872
+2.59E-05,soil,1.8155,malathion,I,8,0,MA_MAT,NA,NA,rvm2017,Rana_clamitans,0.284731883
+2.59E-05,soil,2.0876,malathion,I,8,0,MAPZ_MAT,NA,NA,rvm2017,Rana_clamitans,0.279045154
+2.59E-05,soil,2.4281,malathion,I,8,0,MA_MAT,NA,NA,rvm2017,Rana_clamitans,0.255474657
+2.59E-05,soil,1.822,malathion,I,8,0,MAPZ_MAT,NA,NA,rvm2017,Rana_clamitans,0.252248141
+5.00E-05,soil,49.98,malathion,I,48,NA,sal9,NA,NA,hr2008,Ambystoma_tigrinum,0.19
+2.59E-05,soil,1.9827,malathion,I,8,0,ATZMA_MAT,NA,NA,rvm2017,Rana_clamitans,0.188357852
+2.59E-05,soil,2.6348,malathion,I,8,0,ATZMAPZ_MAT,NA,NA,rvm2017,Rana_clamitans,0.146541193
+2.59E-05,soil,2.2664,malathion,I,8,0,MA_MAT,NA,NA,rvm2017,Rana_clamitans,0.14012427
+5.00E-05,soil,45.8,malathion,I,48,NA,sal8,NA,NA,hr2008,Ambystoma_tigrinum,0.05
+3.09E-05,soil,2.4907,metolachlor,H,8,0,ATZME_MET,NA,NA,rvm2017,Rana_clamitans,20.39940997
+3.06E-05,soil,4.0735,metolachlor,H,8,0,MET MAX 6 Metolachlor,4.100488269,NA,dag_biomarker,Leopard frog,19.87978305
+3.09E-05,soil,2.0979,metolachlor,H,8,0,ATZME_MET,NA,NA,rvm2017,Rana_clamitans,18.90724611
+3.09E-05,soil,2.2402,metolachlor,H,8,0,ATZMED_MET,NA,NA,rvm2017,Rana_clamitans,16.86405718
+3.10E-05,indirect,1.0815,metolachlor,H,8,0,BAM2-4,15.50951631,PLE,dag_dehydration,Fowlers toad,16.00337772
+3.06E-05,soil,3.44297,metolachlor,H,8,0,MET MAX 2 Metolachlor,3.243151244,NA,dag_biomarker,Leopard frog,12.89730323
+3.09E-05,soil,1.8136,metolachlor,H,8,0,ATZME_MET,NA,NA,rvm2017,Rana_clamitans,12.43368085
+3.09E-05,soil,2.0136,metolachlor,H,8,0,ATZMED_MET,NA,NA,rvm2017,Rana_clamitans,11.13214931
+3.10E-05,indirect,1.8572,metolachlor,H,8,0,LFM0-5,77.00037621,PLE,dag_dehydration,Leopard frog,10.63925511
+3.09E-05,soil,1.6929,metolachlor,H,8,0,ATZMED_MET,NA,NA,rvm2017,Rana_clamitans,10.44074438
+3.09E-05,soil,1.7687,metolachlor,H,8,0,ATZMED_MET,NA,NA,rvm2017,Rana_clamitans,9.950841611
+3.06E-05,soil,3.46513,metolachlor,H,8,0,MET MAX 8 Metolachlor,3.462219678,NA,dag_biomarker,Leopard frog,9.393892544
+3.09E-05,soil,2.4927,metolachlor,H,8,0,ME_MET,NA,NA,rvm2017,Rana_clamitans,8.198402807
+3.09E-05,soil,1.2846,metolachlor,H,8,0,ME_MET,NA,NA,rvm2017,Rana_clamitans,8.053698309
+3.10E-05,indirect,0.7978,metolachlor,H,8,0,BAM4-2,18.89979206,PLE,dag_dehydration,Fowlers toad,7.808781543
+3.09E-05,soil,0.9971,metolachlor,H,8,0,ATZMED_MET,NA,NA,rvm2017,Rana_clamitans,7.203617706
+3.09E-05,soil,1.8523,metolachlor,H,8,0,ATZME_MET,NA,NA,rvm2017,Rana_clamitans,6.907670877
+3.10E-05,indirect,2.2216,metolachlor,H,8,0,LFM8-3,21.33112732,PLE,dag_dehydration,Leopard frog,6.060241405
+3.10E-05,indirect,2.0778,metolachlor,H,8,0,LFM0-2,48.47519919,PLE,dag_dehydration,Leopard frog,5.721956829
+3.10E-05,indirect,2.4944,metolachlor,H,8,0,LFM2-2,25.33585131,PLE,dag_dehydration,Leopard frog,5.639864337
+3.10E-05,indirect,2.2348,metolachlor,H,8,0,LFM6-5,24.42190264,PLE,dag_dehydration,Leopard frog,5.376753972
+3.06E-05,soil,2.82174,metolachlor,H,8,0,MET MAX 1 Metolachlor,4.292591832,NA,dag_biomarker,Leopard frog,5.36222537
+3.10E-05,indirect,2.2357,metolachlor,H,8,0,LFM4-6,23.64525737,PLE,dag_dehydration,Leopard frog,5.291092536
+3.06E-05,soil,2.68341,metolachlor,H,8,0,MB MAX 7 Metolachlor,5.144323392,NA,dag_biomarker,Leopard frog,5.165929832
+3.09E-05,soil,2.2984,metolachlor,H,8,0,MED_MET,NA,NA,rvm2017,Rana_clamitans,5.026680818
+3.09E-05,soil,1.1019,metolachlor,H,8,0,ME_MET,NA,NA,rvm2017,Rana_clamitans,4.795233731
+3.06E-05,soil,3.25947,metolachlor,H,8,0,MET MAX 4 Metolachlor,4.379856444,NA,dag_biomarker,Leopard frog,4.624100901
+3.10E-05,indirect,1.0286,metolachlor,H,8,0,BAM2-3,22.89913875,PLE,dag_dehydration,Fowlers toad,4.602085515
+3.10E-05,indirect,1.6635,metolachlor,H,8,0,LFM0-1,40.64853462,PLE,dag_dehydration,Leopard frog,4.267677087
+3.06E-05,soil,2.4111,metolachlor,H,8,0,MB MAX 8 Metolachlor,4.353728494,NA,dag_biomarker,Leopard frog,4.17662374
+3.06E-05,soil,3.22387,metolachlor,H,8,0,TM MAX 8 Metolachlor,5.847174958,NA,dag_biomarker,Leopard frog,4.046131238
+3.06E-05,soil,4.76735,metolachlor,H,8,0,MET MAX 7 Metolachlor,6.720931236,NA,dag_biomarker,Leopard frog,4.015917523
+3.10E-05,indirect,2.076,metolachlor,H,8,0,LFM8-4,24.93070926,PLE,dag_dehydration,Leopard frog,3.979074337
+3.10E-05,indirect,0.8958,metolachlor,H,8,0,BAM4-3,16.48638399,PLE,dag_dehydration,Fowlers toad,3.96665148
+3.10E-05,indirect,1.0263,metolachlor,H,8,0,BAM10-1,22.5379891,PLE,dag_dehydration,Fowlers toad,3.784805012
+3.10E-05,indirect,1.0449,metolachlor,H,8,0,BAM6-2,19.84548436,PLE,dag_dehydration,Fowlers toad,3.779128738
+3.10E-05,indirect,1.121,metolachlor,H,8,0,LFM0-6,48.49721515,PLE,dag_dehydration,Leopard frog,3.688639048
+3.06E-05,soil,3.11787,metolachlor,H,8,0,TMB MAX 7 Metolachlor,4.441795432,NA,dag_biomarker,Leopard frog,3.638882442
+3.06E-05,soil,3.0214,metolachlor,H,8,0,MB MAX 1 Metolachlor,4.464874444,NA,dag_biomarker,Leopard frog,3.623175086
+3.06E-05,soil,3.1128,metolachlor,H,8,0,MB MAX 4 Metolachlor,5.61106733,NA,dag_biomarker,Leopard frog,3.511136898
+3.06E-05,soil,3.92043,metolachlor,H,8,0,TMB MAX 2 Metolachlor,6.189053383,NA,dag_biomarker,Leopard frog,3.485863233
+3.10E-05,indirect,2.016,metolachlor,H,8,0,LFM8-6,30.64444223,PLE,dag_dehydration,Leopard frog,3.452448894
+3.06E-05,soil,2.1484,metolachlor,H,8,0,MB MAX 3 Metolachlor,5.234829277,NA,dag_biomarker,Leopard frog,3.434281439
+3.10E-05,indirect,0.8966,metolachlor,H,8,0,BAM8-1,21.17580719,PLE,dag_dehydration,Fowlers toad,3.302635326
+3.10E-05,indirect,0.8499,metolachlor,H,8,0,BAM4-5,21.78738591,PLE,dag_dehydration,Fowlers toad,3.211494858
+3.10E-05,indirect,2.7615,metolachlor,H,8,0,LFM2-6,25.00006343,PLE,dag_dehydration,Leopard frog,3.19002649
+3.10E-05,indirect,1.0177,metolachlor,H,8,0,BAM10-5,13.50246957,PLE,dag_dehydration,Fowlers toad,3.06875616
+3.06E-05,soil,2.63713,metolachlor,H,8,0,TM MAX 7 Metolachlor,5.305181167,NA,dag_biomarker,Leopard frog,2.990017152
+3.10E-05,indirect,0.7276,metolachlor,H,8,0,BAM0-1,24.61731819,PLE,dag_dehydration,Fowlers toad,2.931282055
+3.10E-05,indirect,1.3226,metolachlor,H,8,0,BAM10-4,25.49063619,PLE,dag_dehydration,Fowlers toad,2.909853436
+3.10E-05,indirect,1.1094,metolachlor,H,8,0,BAM8-4,19.10055727,PLE,dag_dehydration,Fowlers toad,2.62816273
+3.06E-05,soil,2.44937,metolachlor,H,8,0,MB MAX 6 Metolachlor,5.249523908,NA,dag_biomarker,Leopard frog,2.608922206
+3.10E-05,indirect,1.9886,metolachlor,H,8,0,LFM2-5,27.78584836,PLE,dag_dehydration,Leopard frog,2.57235133
+3.10E-05,indirect,2.2104,metolachlor,H,8,0,LFM10-3,26.60999165,PLE,dag_dehydration,Leopard frog,2.558654328
+3.10E-05,indirect,0.8325,metolachlor,H,8,0,BAM2-1,21.78269156,PLE,dag_dehydration,Fowlers toad,2.479837754
+3.10E-05,indirect,0.7619,metolachlor,H,8,0,BAM8-2,24.81521768,PLE,dag_dehydration,Fowlers toad,2.478218461
+3.10E-05,indirect,1.8156,metolachlor,H,8,0,LFM4-1,19.25500126,PLE,dag_dehydration,Leopard frog,2.3898984
+3.10E-05,indirect,1.0956,metolachlor,H,8,0,BAM6-4,21.61340567,PLE,dag_dehydration,Fowlers toad,2.372274856
+3.10E-05,indirect,2.746,metolachlor,H,8,0,LFM4-5,30.3513881,PLE,dag_dehydration,Leopard frog,2.345929412
+3.10E-05,indirect,1.8,metolachlor,H,8,0,LFM6-4,23.06676914,PLE,dag_dehydration,Leopard frog,2.253704813
+3.06E-05,soil,3.07945,metolachlor,H,8,0,TMB MAX 4 Metolachlor,5.498749272,NA,dag_biomarker,Leopard frog,2.217178709
+3.06E-05,soil,2.90877,metolachlor,H,8,0,TMB MAX 6 Metolachlor,6.758011841,NA,dag_biomarker,Leopard frog,2.209644474
+3.10E-05,indirect,0.9489,metolachlor,H,8,0,BAM6-1,19.7286363,PLE,dag_dehydration,Fowlers toad,2.189307645
+3.10E-05,indirect,2.6894,metolachlor,H,8,0,LFM10-5,25.62284834,PLE,dag_dehydration,Leopard frog,2.179127319
+3.09E-05,soil,2.6159,metolachlor,H,8,0,ME_MET,NA,NA,rvm2017,Rana_clamitans,2.17788472
+3.10E-05,indirect,2.9968,metolachlor,H,8,0,LFM6-1,16.91928433,PLE,dag_dehydration,Leopard frog,2.100173605
+3.06E-05,soil,4.01293,metolachlor,H,8,0,TMB MAX 8 Metolachlor,4.956674405,NA,dag_biomarker,Leopard frog,2.062401656
+3.06E-05,soil,2.85755,metolachlor,H,8,0,MET MAX 3 Metolachlor,5.594560465,NA,dag_biomarker,Leopard frog,2.036386907
+3.06E-05,soil,3.14163,metolachlor,H,8,0,MB MAX 5 Metolachlor,5.680586542,NA,dag_biomarker,Leopard frog,2.03575044
+3.06E-05,soil,3.07982,metolachlor,H,8,0,MET MAX 5 Metolachlor,3.36534273,NA,dag_biomarker,Leopard frog,2.035236939
+3.06E-05,soil,3.66098,metolachlor,H,8,0,TM MAX 3 Metolachlor,5.442118912,NA,dag_biomarker,Leopard frog,1.9556543
+3.10E-05,indirect,3.201,metolachlor,H,8,0,LFM10-4,18.22540327,PLE,dag_dehydration,Leopard frog,1.949552248
+3.09E-05,soil,1.2984,metolachlor,H,8,0,ME_MET,NA,NA,rvm2017,Rana_clamitans,1.930289923
+3.06E-05,soil,2.83645,metolachlor,H,8,0,TM MAX 6 Metolachlor,5.806050229,NA,dag_biomarker,Leopard frog,1.897054658
+3.06E-05,soil,2.74486,metolachlor,H,8,0,TM MAX 5 Metolachlor,5.579087766,NA,dag_biomarker,Leopard frog,1.889836248
+3.10E-05,indirect,2.2879,metolachlor,H,8,0,LFM4-4,19.02585998,PLE,dag_dehydration,Leopard frog,1.829340286
+3.10E-05,indirect,3.0818,metolachlor,H,8,0,LFM4-2,25.00425435,PLE,dag_dehydration,Leopard frog,1.780858408
+3.09E-05,soil,2.7419,metolachlor,H,8,0,ATZME_MET,NA,NA,rvm2017,Rana_clamitans,1.776787088
+3.09E-05,soil,1.8205,metolachlor,H,8,0,MED_MET,NA,NA,rvm2017,Rana_clamitans,1.761326684
+3.10E-05,indirect,0.9169,metolachlor,H,8,0,BAM2-5,22.61379371,PLE,dag_dehydration,Fowlers toad,1.76131318
+3.10E-05,indirect,2.593,metolachlor,H,8,0,LFM0-3,41.79217276,PLE,dag_dehydration,Leopard frog,1.748897837
+3.10E-05,indirect,1.7367,metolachlor,H,8,0,LFM6-6,21.24319583,PLE,dag_dehydration,Leopard frog,1.702141197
+3.10E-05,indirect,2.2456,metolachlor,H,8,0,LFM2-1,21.427727,PLE,dag_dehydration,Leopard frog,1.640306185
+3.10E-05,indirect,2.0918,metolachlor,H,8,0,LFM10-1,12.49664326,PLE,dag_dehydration,Leopard frog,1.574839899
+3.10E-05,indirect,1.0415,metolachlor,H,8,0,BAM4-4,18.69187814,PLE,dag_dehydration,Fowlers toad,1.54276093
+3.10E-05,indirect,0.9821,metolachlor,H,8,0,BAM8-5,20.51550224,PLE,dag_dehydration,Fowlers toad,1.469074059
+3.10E-05,indirect,0.8769,metolachlor,H,8,0,BAM0-4,22.93092162,PLE,dag_dehydration,Fowlers toad,1.458126997
+3.10E-05,indirect,2.5535,metolachlor,H,8,0,LFM6-3,23.36243329,PLE,dag_dehydration,Leopard frog,1.378698045
+3.10E-05,indirect,0.9067,metolachlor,H,8,0,BAM6-5,34.53939533,PLE,dag_dehydration,Fowlers toad,1.347353954
+3.09E-05,soil,1.5863,metolachlor,H,8,0,MED_MET,NA,NA,rvm2017,Rana_clamitans,1.337994897
+3.06E-05,soil,2.46222,metolachlor,H,8,0,TM MAX 1 Metolachlor,4.993537743,NA,dag_biomarker,Leopard frog,1.31979888
+3.06E-05,soil,3.12813,metolachlor,H,8,0,TM MAX 2 Metolachlor,4.799478852,NA,dag_biomarker,Leopard frog,1.290118057
+3.10E-05,indirect,2.8781,metolachlor,H,8,0,LFM8-1,18.25491609,PLE,dag_dehydration,Leopard frog,1.181846159
+3.10E-05,indirect,1.095,metolachlor,H,8,0,BAM6-3,18.30042699,PLE,dag_dehydration,Fowlers toad,1.181637111
+3.10E-05,indirect,2.0734,metolachlor,H,8,0,LFM2-4,28.23363196,PLE,dag_dehydration,Leopard frog,1.159396793
+3.10E-05,indirect,2.3257,metolachlor,H,8,0,LFM10-6,18.37523411,PLE,dag_dehydration,Leopard frog,1.130277738
+3.10E-05,indirect,1.8813,metolachlor,H,8,0,LFM10-2,29.0739971,PLE,dag_dehydration,Leopard frog,1.123669198
+3.10E-05,indirect,2.5795,metolachlor,H,8,0,LFM6-2,22.04401189,PLE,dag_dehydration,Leopard frog,1.114810193
+3.10E-05,indirect,2.8691,metolachlor,H,8,0,LFM4-3,16.93924625,PLE,dag_dehydration,Leopard frog,1.08822026
+3.10E-05,indirect,2.5987,metolachlor,H,8,0,LFM2-3,22.98479209,PLE,dag_dehydration,Leopard frog,0.985224834
+3.09E-05,soil,2.7643,metolachlor,H,8,0,ATZMED_MET,NA,NA,rvm2017,Rana_clamitans,0.931411968
+3.06E-05,soil,3.26942,metolachlor,H,8,0,TMB MAX 5 Metolachlor,3.850651342,NA,dag_biomarker,Leopard frog,0.906982786
+3.10E-05,indirect,1.7311,metolachlor,H,8,0,LFM8-5,21.60699195,PLE,dag_dehydration,Leopard frog,0.90171309
+3.06E-05,soil,2.36009,metolachlor,H,8,0,TMB MAX 1 Metolachlor,5.009781459,NA,dag_biomarker,Leopard frog,0.849540751
+3.10E-05,indirect,1.1394,metolachlor,H,8,0,BAM0-5,16.69841723,PLE,dag_dehydration,Fowlers toad,0.842005182
+3.10E-05,indirect,1.2425,metolachlor,H,8,0,BAM10-3,17.64342834,PLE,dag_dehydration,Fowlers toad,0.83816974
+3.09E-05,soil,2.9835,metolachlor,H,8,0,ME_MET,NA,NA,rvm2017,Rana_clamitans,0.81982627
+3.10E-05,indirect,2.8358,metolachlor,H,8,0,LFM0-4,24.38427683,PLE,dag_dehydration,Leopard frog,0.806456941
+3.10E-05,indirect,0.8754,metolachlor,H,8,0,BAM0-3,21.93039744,PLE,dag_dehydration,Fowlers toad,0.747111843
+3.10E-05,indirect,3.0126,metolachlor,H,8,0,LFM8-2,20.24836634,PLE,dag_dehydration,Leopard frog,0.746445245
+3.09E-05,soil,1.6197,metolachlor,H,8,0,MED_MET,NA,NA,rvm2017,Rana_clamitans,0.724555439
+3.06E-05,soil,3.83407,metolachlor,H,8,0,TM MAX 4 Metolachlor,4.590831425,NA,dag_biomarker,Leopard frog,0.674511363
+3.09E-05,soil,0.9634,metolachlor,H,8,0,MED_MET,NA,NA,rvm2017,Rana_clamitans,0.662223621
+3.10E-05,indirect,0.7677,metolachlor,H,8,0,BAM4-1,18.84383325,PLE,dag_dehydration,Fowlers toad,0.649917011
+3.06E-05,soil,3.7417,metolachlor,H,8,0,TMB MAX 3 Metolachlor,6.662387486,NA,dag_biomarker,Leopard frog,0.534913854
+3.09E-05,soil,2.2634,metolachlor,H,8,0,MED_MET,NA,NA,rvm2017,Rana_clamitans,0.508831642
+3.06E-06,soil,3.09445,metolachlor,H,8,0,TMB 10 5 Metolachlor,1.430114752,NA,dag_biomarker,Leopard frog,0.491945976
+3.10E-05,indirect,0.8689,metolachlor,H,8,0,BAM8-3,17.06118215,PLE,dag_dehydration,Fowlers toad,0.477943521
+3.06E-06,soil,2.24268,metolachlor,H,8,0,TMB 10 7 Metolachlor,2.399323232,NA,dag_biomarker,Leopard frog,0.474065217
+3.06E-06,soil,3.27729,metolachlor,H,8,0,TMB 10 6 Metolachlor,1.765514029,NA,dag_biomarker,Leopard frog,0.45250331
+3.06E-06,soil,2.19297,metolachlor,H,8,0,TMB 10 1 Metolachlor,2.035629975,NA,dag_biomarker,Leopard frog,0.422172015
+3.06E-06,soil,3.08223,metolachlor,H,8,0,TMB 10 3 Metolachlor,1.312987011,NA,dag_biomarker,Leopard frog,0.392817388
+3.10E-05,indirect,0.9548,metolachlor,H,8,0,BAM2-2,30.13938696,PLE,dag_dehydration,Fowlers toad,0.390457959
+3.06E-06,soil,3.90043,metolachlor,H,8,0,TMB 10 2 Metolachlor,1.645669298,NA,dag_biomarker,Leopard frog,0.379119058
+3.06E-06,soil,3.55455,metolachlor,H,8,0,MET 10 7 Metolachlor,2.013960336,NA,dag_biomarker,Leopard frog,0.36881986
+3.06E-05,soil,2.84461,metolachlor,H,8,0,MB MAX 2 Metolachlor,6.190772788,NA,dag_biomarker,Leopard frog,0.362472922
+3.06E-06,soil,3.44938,metolachlor,H,8,0,TM 10 2 Metolachlor,1.826387909,NA,dag_biomarker,Leopard frog,0.349810069
+3.10E-05,indirect,0.8474,metolachlor,H,8,0,BAM0-2,21.3388881,PLE,dag_dehydration,Fowlers toad,0.347103824
+3.06E-06,soil,2.67273,metolachlor,H,8,0,TM 10 3 Metolachlor,1.85061315,NA,dag_biomarker,Leopard frog,0.284401783
+3.06E-06,soil,3.68372,metolachlor,H,8,0,MB 10 8 Metolachlor,1.404143105,NA,dag_biomarker,Leopard frog,0.270763369
+3.06E-06,soil,4.07006,metolachlor,H,8,0,TM 10 6 Metolachlor,1.72490137,NA,dag_biomarker,Leopard frog,0.26690249
+3.06E-06,soil,3.80045,metolachlor,H,8,0,TMB 10 8 Metolachlor,1.857273318,NA,dag_biomarker,Leopard frog,0.227271709
+3.06E-06,soil,3.18725,metolachlor,H,8,0,MET 10 2 Metolachlor,1.542380972,NA,dag_biomarker,Leopard frog,0.206513977
+3.06E-06,soil,3.11913,metolachlor,H,8,0,TM 10 4 Metolachlor,1.52132447,NA,dag_biomarker,Leopard frog,0.20014472
+3.06E-06,soil,2.81167,metolachlor,H,8,0,TM 10 8 Metolachlor,2.220494115,NA,dag_biomarker,Leopard frog,0.180013677
+3.10E-05,indirect,0.9157,metolachlor,H,8,0,BAM10-2,18.45842534,PLE,dag_dehydration,Fowlers toad,0.178266663
+3.06E-06,soil,3.56468,metolachlor,H,8,0,MB 10 4 Metolachlor,1.082808843,NA,dag_biomarker,Leopard frog,0.177314424
+3.06E-06,soil,4.94575,metolachlor,H,8,0,TM 10 5*2 Metolachlor,2.703353969,NA,dag_biomarker,Leopard frog,0.167752439
+3.06E-06,soil,3.52853,metolachlor,H,8,0,MB 10 5 Metolachlor,1.498084682,NA,dag_biomarker,Leopard frog,0.160823035
+3.06E-06,soil,3.78497,metolachlor,H,8,0,MET 10 1 Metolachlor,2.064177488,NA,dag_biomarker,Leopard frog,0.152944737
+3.06E-06,soil,2.49055,metolachlor,H,8,0,MB 10 3 Metolachlor,1.317311337,NA,dag_biomarker,Leopard frog,0.150177434
+3.09E-05,soil,1.8649,metolachlor,H,8,0,ATZME_MET,NA,NA,rvm2017,Rana_clamitans,0.149639783
+3.06E-06,soil,4.50144,metolachlor,H,8,0,MB 10 7 Metolachlor,2.023158189,NA,dag_biomarker,Leopard frog,0.14783611
+3.06E-06,soil,3.68221,metolachlor,H,8,0,TM 10 7 Metolachlor,2.061994526,NA,dag_biomarker,Leopard frog,0.146231556
+3.06E-06,soil,4.2446,metolachlor,H,8,0,MET 10 4 Metolachlor,1.778041896,NA,dag_biomarker,Leopard frog,0.137271461
+3.06E-06,soil,2.30381,metolachlor,H,8,0,MET 10 5 Metolachlor,1.537162742,NA,dag_biomarker,Leopard frog,0.13055497
+3.06E-06,soil,3.20917,metolachlor,H,8,0,MET 10 6 Metolachlor,1.841173843,NA,dag_biomarker,Leopard frog,0.130384165
+3.06E-06,soil,3.70742,metolachlor,H,8,0,MET 10 8 Metolachlor,1.565281083,NA,dag_biomarker,Leopard frog,0.103876029
+3.06E-06,soil,6.73861,metolachlor,H,8,0,MB 10 2 Metolachlor,1.324075341,NA,dag_biomarker,Leopard frog,0.085769975
+3.06E-06,soil,2.49189,metolachlor,H,8,0,MET 10 3 Metolachlor,1.225901644,NA,dag_biomarker,Leopard frog,0.07558169
+3.06E-06,soil,2.70438,metolachlor,H,8,0,TM 10 1 Metolachlor,1.989203071,NA,dag_biomarker,Leopard frog,0.072603918
+3.06E-06,soil,2.63626,metolachlor,H,8,0,MB 10 6 Metolachlor,1.454812076,NA,dag_biomarker,Leopard frog,0.05389036
+3.06E-06,soil,4.12784,metolachlor,H,8,0,MB 10 1 Metolachlor,1.636604635,NA,dag_biomarker,Leopard frog,0.045959582
+3.06E-06,soil,4.64218,metolachlor,H,8,0,TMB 10 4 Metolachlor,1.873165754,NA,dag_biomarker,Leopard frog,0.029809487
+2.00E-05,overspray,2.02547,pendimethalin,H,8,0,HCOP2,12.5210311,PLE,rvm2015,Green treefrog,7.113543563
+6.98E-05,indirect,14.8081,pendimethalin,H,8,0,3_3_G,6.310025314,OLS,rvm2016,American toad,6.874438593
+6.98E-05,indirect,10.5726,pendimethalin,H,8,1,1_7_E,14.91187384,PLE,rvm2016,American toad,5.703493109
+6.98E-05,indirect,7.5145,pendimethalin,H,8,0,3_2_G,10.58560279,PLE,rvm2016,American toad,5.199951046
+2.02E-05,soil,2.58239,pendimethalin,H,8,0,SP1,32.37428285,PLE,rvm2015,Mole salamander,4.801958486
+6.98E-05,indirect,12.498,pendimethalin,H,8,0,3_3_B,11.00768858,OLS,rvm2016,American toad,4.729568549
+6.98E-05,indirect,8.3589,pendimethalin,H,8,0,3_5_I,17.79580859,OLS,rvm2016,American toad,4.287971426
+6.98E-05,indirect,10.0699,pendimethalin,H,8,0,3_3_H,13.10595638,PLE,rvm2016,American toad,3.993612884
+6.98E-05,indirect,13.7458,pendimethalin,H,8,1,0_1_I,11.64651601,PLE,rvm2016,American toad,3.750781295
+6.98E-05,indirect,9.9412,pendimethalin,H,8,1,1_5_B,10.84702222,OLS,rvm2016,American toad,3.719878758
+2.02E-05,soil,2.0028,pendimethalin,H,8,0,SP5,32.37428285,PLE,rvm2015,Mole salamander,3.236333259
+2.00E-05,overspray,1.56058,pendimethalin,H,8,0,HCOP3,12.5210311,PLE,rvm2015,Green treefrog,3.039240379
+2.02E-05,soil,2.07789,pendimethalin,H,8,0,SP3,32.37428285,PLE,rvm2015,Mole salamander,2.957076964
+6.98E-05,indirect,8.7943,pendimethalin,H,8,0,3_1_E,8.780199562,OLS,rvm2016,American toad,2.917259067
+6.98E-05,indirect,13.5285,pendimethalin,H,8,1,0_1_A,8.724259234,PLE,rvm2016,American toad,2.879433002
+2.00E-05,overspray,2.70413,pendimethalin,H,8,0,HGOP4,12.11934838,PLE,rvm2015,Barking treefrog,2.767161376
+6.98E-05,indirect,11.8384,pendimethalin,H,8,0,3_5_F,20.31371332,PLE,rvm2016,American toad,2.758089025
+6.98E-05,indirect,11.4246,pendimethalin,H,8,1,0_4_H,11.21634881,PLE,rvm2016,American toad,2.648653905
+6.98E-05,indirect,11.6099,pendimethalin,H,8,0,3_7_H,8.079352476,PLE,rvm2016,American toad,2.539315815
+1.99E-05,soil,2.01645,pendimethalin,H,8,0,FTP4,12.47076761,PLE,rvm2015,Fowlers toad,2.450801741
+6.98E-05,indirect,10.0043,pendimethalin,H,8,1,0_7_A,5.697537118,PLE,rvm2016,American toad,2.314244032
+2.00E-05,overspray,1.72083,pendimethalin,H,8,0,HGOP3,12.11934838,PLE,rvm2015,Barking treefrog,2.28849235
+2.00E-05,overspray,2.09766,pendimethalin,H,8,0,HGOP1,12.11934838,PLE,rvm2015,Barking treefrog,2.138795205
+2.00E-05,overspray,2.41178,pendimethalin,H,8,0,HGOP2,12.11934838,PLE,rvm2015,Barking treefrog,2.01901591
+2.00E-05,overspray,1.17217,pendimethalin,H,8,0,HCOP5,12.5210311,PLE,rvm2015,Green treefrog,1.924313318
+6.98E-05,indirect,13.5552,pendimethalin,H,8,0,3_5_H,13.91754836,OLS,rvm2016,American toad,1.888097365
+2.02E-05,soil,3.99315,pendimethalin,H,8,0,SP4,32.37428285,PLE,rvm2015,Mole salamander,1.851006799
+6.98E-05,indirect,13.2906,pendimethalin,H,8,0,3_3_D,12.26733887,PLE,rvm2016,American toad,1.811674231
+6.98E-05,indirect,11.3268,pendimethalin,H,8,1,1_6_G,8.871930181,OLS,rvm2016,American toad,1.648936582
+6.98E-05,indirect,10.2275,pendimethalin,H,8,1,1_7_I,14.06687759,OLS,rvm2016,American toad,1.540378381
+6.98E-05,indirect,13.4299,pendimethalin,H,8,0,3_5_E,10.01366331,OLS,rvm2016,American toad,1.492402712
+6.98E-05,indirect,13.469,pendimethalin,H,8,0,3_4_B,22.90681995,PLE,rvm2016,American toad,1.38470843
+6.98E-05,indirect,13.6417,pendimethalin,H,8,1,1_3_A,24.88780061,OLS,rvm2016,American toad,1.356762725
+2.02E-05,soil,1.87511,pendimethalin,H,8,0,SP2,32.37428285,PLE,rvm2015,Mole salamander,1.295372009
+6.98E-05,indirect,16.3062,pendimethalin,H,8,1,1_6_C,5.135481376,OLS,rvm2016,American toad,1.277680298
+2.00E-05,overspray,2.23741,pendimethalin,H,8,0,HGOP5,12.11934838,PLE,rvm2015,Barking treefrog,1.232549848
+2.00E-05,overspray,0.82568,pendimethalin,H,8,0,HCOP4,12.5210311,PLE,rvm2015,Green treefrog,1.070092765
+1.99E-05,soil,1.44625,pendimethalin,H,8,0,FTP1,12.47076761,PLE,rvm2015,Fowlers toad,1.015765216
+6.98E-05,indirect,13.4038,pendimethalin,H,8,1,1_7_C,6.758968643,PLE,rvm2016,American toad,0.896933721
+6.98E-05,indirect,17.4496,pendimethalin,H,8,1,1_2_G,16.05643523,OLS,rvm2016,American toad,0.875538299
+1.99E-05,soil,1.4138,pendimethalin,H,8,0,FTP2,12.47076761,PLE,rvm2015,Fowlers toad,0.793134917
+2.00E-05,overspray,1.96213,pendimethalin,H,8,0,HCOP1,12.5210311,PLE,rvm2015,Green treefrog,0.673117238
+2.00E-05,soil,1.8955,pendimethalin,H,8,0,LFP4,17.57581532,PLE,rvm2015,Leopard frog,0.522692823
+2.00E-05,soil,2.64224,pendimethalin,H,8,0,LFP2,17.57581532,PLE,rvm2015,Leopard frog,0.41907742
+1.98E-05,soil,2.44812,pendimethalin,H,8,0,HGP1,13.61565316,PLE,rvm2015,Barking treefrog,0.409017886
+1.99E-05,soil,1.73866,pendimethalin,H,8,0,FTP5,12.47076761,PLE,rvm2015,Fowlers toad,0.348901972
+1.99E-05,soil,2.55184,pendimethalin,H,8,0,HCP3,12.43513533,PLE,rvm2015,Green treefrog,0.285295401
+1.99E-05,soil,1.10908,pendimethalin,H,8,0,HCP2,12.43513533,PLE,rvm2015,Green treefrog,0.264552068
+1.98E-05,soil,2.46997,pendimethalin,H,8,0,HGP2,13.61565316,PLE,rvm2015,Barking treefrog,0.257508419
+1.99E-05,soil,2.94055,pendimethalin,H,8,0,FTP3,12.47076761,PLE,rvm2015,Fowlers toad,0.232912294
+2.00E-05,soil,1.2242,pendimethalin,H,8,0,LFP1,17.57581532,PLE,rvm2015,Leopard frog,0.131424428
+1.99E-05,soil,2.18431,pendimethalin,H,8,0,HCP1,12.43513533,PLE,rvm2015,Green treefrog,0.106088831
+1.98E-05,soil,2.2234,pendimethalin,H,8,0,HGP5,13.61565316,PLE,rvm2015,Barking treefrog,0.099338888
+1.98E-05,soil,2.01387,pendimethalin,H,8,0,HGP3,13.61565316,PLE,rvm2015,Barking treefrog,0.094968352
+2.00E-05,soil,2.90779,pendimethalin,H,8,0,LFP3,17.57581532,PLE,rvm2015,Leopard frog,0.092921182
+1.99E-05,soil,2.44681,pendimethalin,H,8,0,HCP4,12.43513533,PLE,rvm2015,Green treefrog,0.087572337
+1.99E-05,soil,2.26759,pendimethalin,H,8,0,HCP5,12.43513533,PLE,rvm2015,Green treefrog,0.083610081
+1.98E-05,soil,2.29373,pendimethalin,H,8,0,HGP4,13.61565316,PLE,rvm2015,Barking treefrog,0.08250324
+1.99E-05,soil,1.42942,pendimethalin,H,8,0,HVP1,10.66105625,PLE,rvm2015,Gray treefrog,0.077086057
+1.99E-05,soil,1.77209,pendimethalin,H,8,0,HVP3,10.66105625,PLE,rvm2015,Gray treefrog,0.062623285
+1.99E-05,soil,1.59253,pendimethalin,H,8,0,HVP5,10.66105625,PLE,rvm2015,Gray treefrog,0.060285257
+1.99E-05,soil,1.72685,pendimethalin,H,8,0,HVP2,10.66105625,PLE,rvm2015,Gray treefrog,0.04141364
+1.99E-05,soil,1.59006,pendimethalin,H,8,0,HVP4,10.66105625,PLE,rvm2015,Gray treefrog,0.018846949
+2.60E-06,soil,1.7623,propiconazole,F,8,0,ATZMAPZ_PROPT,NA,NA,rvm2017,Rana_clamitans,2.330295203
+2.60E-06,soil,1.8822,propiconazole,F,8,0,ATZMAPZ_PROPT,NA,NA,rvm2017,Rana_clamitans,1.951847538
+2.60E-06,soil,3.5113,propiconazole,F,8,0,ATZPZ_PROPT,NA,NA,rvm2017,Rana_clamitans,1.481646981
+2.60E-06,soil,2.8777,propiconazole,F,8,0,ATZPZ_PROPT,NA,NA,rvm2017,Rana_clamitans,1.438248563
+2.60E-06,soil,1.7856,propiconazole,F,8,0,ATZMAPZ_PROPT,NA,NA,rvm2017,Rana_clamitans,1.269632524
+2.60E-06,soil,1.3043,propiconazole,F,8,0,ATZMAPZ_PROPT,NA,NA,rvm2017,Rana_clamitans,0.826026215
+2.60E-06,soil,1.6593,propiconazole,F,8,0,ATZPZ_PROPT,NA,NA,rvm2017,Rana_clamitans,0.759930247
+2.60E-06,soil,1.4277,propiconazole,F,8,0,ATZMAPZ_PROPT,NA,NA,rvm2017,Rana_clamitans,0.729029923
+2.60E-06,soil,4.0141,propiconazole,F,8,0,MAPZ_PROPT,NA,NA,rvm2017,Rana_clamitans,0.723961607
+2.60E-06,soil,2.1656,propiconazole,F,8,0,MAPZ_PROPT,NA,NA,rvm2017,Rana_clamitans,0.618946465
+2.60E-06,soil,2.6348,propiconazole,F,8,0,ATZMAPZ_PROPT,NA,NA,rvm2017,Rana_clamitans,0.423424017
+2.60E-06,soil,2.8816,propiconazole,F,8,0,PZ_PROPT,NA,NA,rvm2017,Rana_clamitans,0.380895431
+2.60E-06,soil,1.998,propiconazole,F,8,0,PZ_PROPT,NA,NA,rvm2017,Rana_clamitans,0.375235724
+2.60E-06,soil,1.7896,propiconazole,F,8,0,MAPZ_PROPT,NA,NA,rvm2017,Rana_clamitans,0.328610724
+2.60E-06,soil,3.0233,propiconazole,F,8,0,ATZPZ_PROPT,NA,NA,rvm2017,Rana_clamitans,0.314333427
+2.60E-06,soil,2.3087,propiconazole,F,8,0,MAPZ_PROPT,NA,NA,rvm2017,Rana_clamitans,0.305997543
+2.60E-06,soil,1.1879,propiconazole,F,8,0,PZ_PROPT,NA,NA,rvm2017,Rana_clamitans,0.285562211
+2.60E-06,soil,2.0876,propiconazole,F,8,0,MAPZ_PROPT,NA,NA,rvm2017,Rana_clamitans,0.277662174
+2.60E-06,soil,1.822,propiconazole,F,8,0,MAPZ_PROPT,NA,NA,rvm2017,Rana_clamitans,0.251331918
+2.60E-06,soil,1.9545,propiconazole,F,8,0,PZ_PROPT,NA,NA,rvm2017,Rana_clamitans,0.247443503
+2.60E-06,soil,2.2353,propiconazole,F,8,0,ATZPZ_PROPT,NA,NA,rvm2017,Rana_clamitans,0.205578453
+2.60E-06,soil,3.4314,propiconazole,F,8,0,ATZPZ_PROPT,NA,NA,rvm2017,Rana_clamitans,0.177311228
+2.60E-06,soil,2.3395,propiconazole,F,8,0,PZ_PROPT,NA,NA,rvm2017,Rana_clamitans,0.139716725
+2.60E-06,soil,3.9973,propiconazole,F,8,0,PZ_PROPT,NA,NA,rvm2017,Rana_clamitans,0.000537811
+2.91E-06,indirect,1.1049,triadimefon,F,8,0,BAT4-5,6.945352858,PLE,dag_dehydration,Fowlers toad,3.217423384
+2.79E-06,overspray,1.72177,triadimefon,F,8,0,HCOT2,8.090520249,PLE,rvm2015,Green treefrog,3.099302175
+2.70E-06,soil,0.9826,triadimefon,F,24,0,triadimefon_24hr_4,NA,NA,dag_metabolites,Fowlers toad,2.114540569
+2.79E-06,soil,0.6273,triadimefon,F,8,0,CFT1,10.06719167,PLE,rvm2015,Cricket frog,2.077130886
+2.79E-06,soil,0.50037,triadimefon,F,8,0,CFT2,10.06719167,PLE,rvm2015,Cricket frog,1.756096815
+2.79E-06,soil,0.70107,triadimefon,F,8,0,CFT3,10.06719167,PLE,rvm2015,Cricket frog,1.744838243
+2.79E-06,overspray,1.53205,triadimefon,F,8,0,HCOT1,8.090520249,PLE,rvm2015,Green treefrog,1.511168861
+2.91E-06,indirect,2.0488,triadimefon,F,8,0,LFT0-2,2.985716329,PLE,dag_dehydration,Leopard frog,1.471139657
+2.79E-06,soil,0.69761,triadimefon,F,8,0,CFT4,10.06719167,PLE,rvm2015,Cricket frog,1.460137338
+2.79E-06,overspray,1.38441,triadimefon,F,8,0,HCOT3,8.090520249,PLE,rvm2015,Green treefrog,1.440452008
+2.79E-06,soil,0.70298,triadimefon,F,8,0,CFT5,10.06719167,PLE,rvm2015,Cricket frog,1.373422118
+2.79E-06,overspray,3.21721,triadimefon,F,8,0,HCOT4,8.090520249,PLE,rvm2015,Green treefrog,1.363591664
+2.70E-06,soil,0.1879,triadimefon,F,12,0,triadimefon_12hr_2,NA,NA,dag_metabolites,Fowlers toad,1.163882256
+2.79E-06,overspray,1.0386,triadimefon,F,8,0,HCOT5,8.090520249,PLE,rvm2015,Green treefrog,1.152513756
+2.87E-06,soil,2.42958,triadimefon,F,8,0,ST1,6.136541259,PLE,rvm2015,Mole salamander,1.119874054
+2.91E-06,indirect,1.2971,triadimefon,F,8,0,LFT2-1,2.271520449,PLE,dag_dehydration,Leopard frog,1.110827258
+2.91E-06,indirect,1.0845,triadimefon,F,8,0,LFT8-5,4.037190801,PLE,dag_dehydration,Leopard frog,1.106344271
+2.91E-06,indirect,0.8175,triadimefon,F,8,0,BAT2-2,4.565613817,PLE,dag_dehydration,Fowlers toad,1.101694818
+2.91E-06,indirect,1.0271,triadimefon,F,8,0,BAT4-1,6.019197262,PLE,dag_dehydration,Fowlers toad,1.070383806
+2.91E-06,indirect,1.7103,triadimefon,F,8,0,LFT2-5,7.040172007,PLE,dag_dehydration,Leopard frog,1.064277918
+2.91E-06,indirect,1.2942,triadimefon,F,8,0,BAT4-3,3.940413307,PLE,dag_dehydration,Fowlers toad,1.020881176
+2.70E-06,soil,1.0199,triadimefon,F,4,0,triadimefon_4hr_1,NA,NA,dag_metabolites,Fowlers toad,0.97804843
+2.85E-06,overspray,1.94887,triadimefon,F,8,0,HGOT2,8.451291713,PLE,rvm2015,Barking treefrog,0.972799964
+2.91E-06,indirect,2.5715,triadimefon,F,8,0,LFT6-3,2.790064544,PLE,dag_dehydration,Leopard frog,0.959499205
+2.91E-06,indirect,1.6677,triadimefon,F,8,0,LFT6-2,4.502512043,PLE,dag_dehydration,Leopard frog,0.938534356
+2.91E-06,indirect,2.2852,triadimefon,F,8,0,LFT0-1,4.130434828,PLE,dag_dehydration,Leopard frog,0.930939899
+2.91E-06,indirect,2.3475,triadimefon,F,8,0,LFT6-4,3.966455208,PLE,dag_dehydration,Leopard frog,0.910419362
+2.91E-06,indirect,1.4964,triadimefon,F,8,0,LFT6-5,2.731170077,PLE,dag_dehydration,Leopard frog,0.867963913
+2.70E-06,soil,0.8139,triadimefon,F,12,0,triadimefon_12hr_4,NA,NA,dag_metabolites,Fowlers toad,0.850015349
+2.78E-06,soil,2.51534,triadimefon,F,8,0,HVT2,5.80984816,PLE,rvm2015,Gray treefrog,0.841704915
+2.91E-06,indirect,1.52467,triadimefon,F,8,0,LFT0-4,2.414613283,PLE,dag_dehydration,Leopard frog,0.833541754
+2.91E-06,indirect,1.764,triadimefon,F,8,0,LFT0-3,1.642733275,PLE,dag_dehydration,Leopard frog,0.829340824
+2.91E-06,indirect,2.5988,triadimefon,F,8,0,LFT0-6,1.937626035,PLE,dag_dehydration,Leopard frog,0.78432732
+2.91E-06,indirect,1.0839,triadimefon,F,8,0,BAT10-1,4.821906293,PLE,dag_dehydration,Fowlers toad,0.761585411
+2.91E-06,indirect,1.0474,triadimefon,F,8,0,BAT8-4,3.31837221,PLE,dag_dehydration,Fowlers toad,0.75550304
+2.70E-06,soil,0.7494,triadimefon,F,24,0,triadimefon_24hr_1,NA,NA,dag_metabolites,Fowlers toad,0.753354385
+2.87E-06,soil,3.11787,triadimefon,F,8,0,TMB MAX 7 Triadimefon,2.489511931,NA,dag_biomarker,Leopard frog,0.740876519
+2.91E-06,indirect,2.0291,triadimefon,F,8,0,LFT6-6,3.617116849,PLE,dag_dehydration,Leopard frog,0.734727511
+2.91E-06,indirect,2.1663,triadimefon,F,8,0,LFT2-3,5.681194498,PLE,dag_dehydration,Leopard frog,0.72766123
+2.91E-06,indirect,1.7873,triadimefon,F,8,0,LFT2-2,4.918286446,PLE,dag_dehydration,Leopard frog,0.723150994
+2.91E-06,indirect,1.2054,triadimefon,F,8,0,BAT10-3,3.640657566,PLE,dag_dehydration,Fowlers toad,0.722003836
+2.91E-06,indirect,1.7104,triadimefon,F,8,0,LFT8-6,2.929395097,PLE,dag_dehydration,Leopard frog,0.710860385
+2.91E-06,indirect,0.8584,triadimefon,F,8,0,BAT0-1,4.623967642,PLE,dag_dehydration,Fowlers toad,0.705452479
+2.91E-06,indirect,0.9862,triadimefon,F,8,0,BAT10-4,3.0485444,PLE,dag_dehydration,Fowlers toad,0.693917992
+2.78E-06,soil,1.20172,triadimefon,F,8,0,HVT4,5.80984816,PLE,rvm2015,Gray treefrog,0.691676628
+2.87E-06,soil,3.22387,triadimefon,F,8,0,TM MAX 8 Triadimefon,3.303556098,NA,dag_biomarker,Leopard frog,0.687355258
+2.91E-06,indirect,2.1421,triadimefon,F,8,0,LFT10-4,2.560020486,PLE,dag_dehydration,Leopard frog,0.687153909
+2.91E-06,indirect,0.8715,triadimefon,F,8,0,BAT4-2,3.720045765,PLE,dag_dehydration,Fowlers toad,0.681923819
+2.91E-06,indirect,2.631,triadimefon,F,8,0,LFT2-4,3.706855988,PLE,dag_dehydration,Leopard frog,0.680213893
+2.91E-06,indirect,1.2155,triadimefon,F,8,0,BAT2-1,4.002153511,PLE,dag_dehydration,Fowlers toad,0.67893805
+2.91E-06,indirect,1.1256,triadimefon,F,8,0,BAT8-3,5.011321534,PLE,dag_dehydration,Fowlers toad,0.676020901
+2.87E-06,soil,3.85382,triadimefon,F,8,0,TB MAX 2 Triadimefon,3.630034992,NA,dag_biomarker,Leopard frog,0.673547062
+2.91E-06,indirect,1.1097,triadimefon,F,8,0,BAT0-5,3.813555416,PLE,dag_dehydration,Fowlers toad,0.656741344
+2.91E-06,indirect,1.5553,triadimefon,F,8,0,LFT10-5,3.946266825,PLE,dag_dehydration,Leopard frog,0.654064226
+2.85E-06,overspray,2.37346,triadimefon,F,8,0,HGOT4,8.451291713,PLE,rvm2015,Barking treefrog,0.642604155
+2.85E-06,overspray,1.72511,triadimefon,F,8,0,HGOT1,8.451291713,PLE,rvm2015,Barking treefrog,0.636157453
+2.91E-06,indirect,1.5065,triadimefon,F,8,0,LFT4-1,2.032910322,PLE,dag_dehydration,Leopard frog,0.635182857
+2.91E-06,indirect,1.5704,triadimefon,F,8,0,LFT6-1,4.202597231,PLE,dag_dehydration,Leopard frog,0.62355419
+2.91E-06,indirect,1.1919,triadimefon,F,8,0,LFT0-5,5.771808013,PLE,dag_dehydration,Leopard frog,0.62294824
+2.91E-06,indirect,2.7226,triadimefon,F,8,0,LFT8-1,3.153568431,PLE,dag_dehydration,Leopard frog,0.613327957
+2.91E-06,indirect,1.3548,triadimefon,F,8,0,LFT10-2,2.533600442,PLE,dag_dehydration,Leopard frog,0.60216825
+2.87E-06,soil,4.62295,triadimefon,F,8,0,TB MAX 6 Triadimefon,2.448738902,NA,dag_biomarker,Leopard frog,0.601484781
+2.78E-06,soil,1.1547,triadimefon,F,8,0,HVT3,5.80984816,PLE,rvm2015,Gray treefrog,0.590151651
+2.91E-06,indirect,0.9955,triadimefon,F,8,0,BAT0-3,4.945654456,PLE,dag_dehydration,Fowlers toad,0.579612536
+2.91E-06,indirect,1.5337,triadimefon,F,8,0,LFT4-2,4.664332334,PLE,dag_dehydration,Leopard frog,0.572624649
+2.91E-06,indirect,1.2775,triadimefon,F,8,0,BAT6-5,4.591640691,PLE,dag_dehydration,Fowlers toad,0.569826956
+2.91E-06,indirect,1.9138,triadimefon,F,8,0,LFT10-3,2.598936796,PLE,dag_dehydration,Leopard frog,0.560831784
+2.87E-06,soil,3.25691,triadimefon,F,8,0,TDN MAX 4 Triadimefon,2.452764997,NA,dag_biomarker,Leopard frog,0.557583879
+2.71E-06,soil,2.15294,triadimefon,F,8,0,HCT5,5.245912662,PLE,rvm2015,Green treefrog,0.557152367
+2.91E-06,indirect,0.8524,triadimefon,F,8,0,BAT8-1,5.459072604,PLE,dag_dehydration,Fowlers toad,0.556191253
+2.70E-06,soil,0.5932,triadimefon,F,4,0,triadimefon_4hr_4,NA,NA,dag_metabolites,Fowlers toad,0.533983287
+2.70E-06,soil,0.8768,triadimefon,F,12,0,triadimefon_12hr_3,NA,NA,dag_metabolites,Fowlers toad,0.518446024
+2.87E-06,soil,2.55504,triadimefon,F,8,0,TB MAX 3 Triadimefon,2.25541285,NA,dag_biomarker,Leopard frog,0.516990209
+2.91E-06,indirect,0.9313,triadimefon,F,8,0,BAT10-5,3.77031985,PLE,dag_dehydration,Fowlers toad,0.514549742
+2.91E-06,indirect,1.1198,triadimefon,F,8,0,BAT4-4,5.296550596,PLE,dag_dehydration,Fowlers toad,0.509585728
+2.91E-06,indirect,2.1926,triadimefon,F,8,0,LFT4-5,4.132548212,PLE,dag_dehydration,Leopard frog,0.509286041
+2.87E-06,soil,2.33583,triadimefon,F,8,0,ST2,6.136541259,PLE,rvm2015,Mole salamander,0.506757885
+2.91E-06,indirect,1.842,triadimefon,F,8,0,LFT4-3,2.734473466,PLE,dag_dehydration,Leopard frog,0.504992098
+2.87E-06,soil,2.46557,triadimefon,F,8,0,ST4,6.136541259,PLE,rvm2015,Mole salamander,0.499320716
+2.71E-06,soil,1.4684,triadimefon,F,8,0,HCT4,5.245912662,PLE,rvm2015,Green treefrog,0.495725615
+2.87E-06,soil,3.92043,triadimefon,F,8,0,TMB MAX 2 Triadimefon,3.399114389,NA,dag_biomarker,Leopard frog,0.492042465
+2.29E-05,soil,1.1024,triadimefon,F,2,0,triadimefon_2hr_1,NA,NA,dag_metabolites,Fowlers toad,0.489601403
+2.91E-06,indirect,1.4596,triadimefon,F,8,0,LFT10-6,2.772104224,PLE,dag_dehydration,Leopard frog,0.489223561
+2.70E-06,soil,0.5875,triadimefon,F,12,0,triadimefon_12hr_1,NA,NA,dag_metabolites,Fowlers toad,0.487313921
+2.70E-06,indirect,11.4182,triadimefon,F,8,0,0_5_D,2.191303526,OLS,rvm2016,American toad,0.486458171
+2.85E-06,overspray,1.57685,triadimefon,F,8,0,HGOT5,8.451291713,PLE,rvm2015,Barking treefrog,0.48091159
+2.72E-06,soil,1.09861,triadimefon,F,8,0,NTT1,6.241574746,PLE,rvm2015,Narrowmouth toad,0.479349927
+2.70E-06,indirect,10.4409,triadimefon,F,8,1,3_6_B,3.11171161,OLS,rvm2016,American toad,0.474085035
+2.91E-06,indirect,0.851,triadimefon,F,8,0,BAT2-3,3.940878794,PLE,dag_dehydration,Fowlers toad,0.471731541
+2.87E-06,soil,4.6015,triadimefon,F,8,0,TDN MAX 8 Triadimefon,1.848091809,NA,dag_biomarker,Leopard frog,0.466138777
+2.91E-06,indirect,1.5188,triadimefon,F,8,0,LFT4-4,2.622252408,PLE,dag_dehydration,Leopard frog,0.46549435
+2.72E-06,soil,0.81689,triadimefon,F,8,0,NTT3,6.241574746,PLE,rvm2015,Narrowmouth toad,0.459769244
+2.87E-06,soil,4.40605,triadimefon,F,8,0,TDN MAX 1 Triadimefon,2.362105741,NA,dag_biomarker,Leopard frog,0.453151778
+2.78E-06,soil,2.49658,triadimefon,F,8,0,HVT1,5.80984816,PLE,rvm2015,Gray treefrog,0.45289549
+2.72E-06,soil,0.79306,triadimefon,F,8,0,NTT4,6.241574746,PLE,rvm2015,Narrowmouth toad,0.447331937
+2.78E-06,soil,2.91091,triadimefon,F,8,0,HVT5,5.80984816,PLE,rvm2015,Gray treefrog,0.446716578
+2.91E-06,indirect,1.2336,triadimefon,F,8,0,BAT6-4,4.897593016,PLE,dag_dehydration,Fowlers toad,0.440267136
+2.91E-06,indirect,0.9142,triadimefon,F,8,0,BAT8-2,4.507937226,PLE,dag_dehydration,Fowlers toad,0.432994464
+2.70E-06,indirect,13.9438,triadimefon,F,8,0,0_2_F,5.190326785,PLE,rvm2016,American toad,0.426705134
+2.91E-06,indirect,0.9303,triadimefon,F,8,0,LFT10-1,3.532352552,PLE,dag_dehydration,Leopard frog,0.41777656
+2.87E-06,soil,2.63713,triadimefon,F,8,0,TM MAX 7 Triadimefon,3.101576559,NA,dag_biomarker,Leopard frog,0.416861811
+2.91E-06,indirect,2.5539,triadimefon,F,8,0,LFT8-2,4.090939835,PLE,dag_dehydration,Leopard frog,0.411175415
+2.74E-06,soil,3.32274,triadimefon,F,8,0,FTT4,7.010390361,PLE,rvm2015,Fowlers toad,0.404606482
+2.85E-06,overspray,1.55295,triadimefon,F,8,0,HGOT3,8.451291713,PLE,rvm2015,Barking treefrog,0.397699131
+2.71E-06,soil,1.56597,triadimefon,F,8,0,HCT2,5.245912662,PLE,rvm2015,Green treefrog,0.393093957
+2.87E-06,soil,2.90877,triadimefon,F,8,0,TMB MAX 6 Triadimefon,3.19186732,NA,dag_biomarker,Leopard frog,0.391647931
+2.70E-06,indirect,13.2227,triadimefon,F,8,0,0_2_B,3.389932459,OLS,rvm2016,American toad,0.388854872
+2.91E-06,indirect,0.8935,triadimefon,F,8,0,BAT6-3,6.322726358,PLE,dag_dehydration,Fowlers toad,0.386336954
+2.72E-06,soil,0.79105,triadimefon,F,8,0,NTT5,6.241574746,PLE,rvm2015,Narrowmouth toad,0.379035618
+2.70E-06,soil,0.663,triadimefon,F,2,0,triadimefon_2hr_3,NA,NA,dag_metabolites,Fowlers toad,0.376458575
+2.70E-06,soil,0.6024,triadimefon,F,2,0,triadimefon_2hr_4,NA,NA,dag_metabolites,Fowlers toad,0.374511404
+2.87E-06,soil,2.71935,triadimefon,F,8,0,TB MAX 1 Triadimefon,2.252562849,NA,dag_biomarker,Leopard frog,0.370377692
+2.70E-06,indirect,8.1326,triadimefon,F,8,0,0_2_E,6.291932781,OLS,rvm2016,American toad,0.369952253
+2.87E-06,soil,3.96452,triadimefon,F,8,0,TB MAX 8 Triadimefon,2.308989013,NA,dag_biomarker,Leopard frog,0.368922939
+2.91E-06,indirect,1.8285,triadimefon,F,8,0,LFT2-6,5.554855056,PLE,dag_dehydration,Leopard frog,0.368484816
+2.87E-06,soil,2.74486,triadimefon,F,8,0,TM MAX 5 Triadimefon,2.9479363,NA,dag_biomarker,Leopard frog,0.365446882
+2.91E-06,indirect,0.8654,triadimefon,F,8,0,BAT2-5,2.12684801,PLE,dag_dehydration,Fowlers toad,0.356340814
+2.91E-06,indirect,1.0826,triadimefon,F,8,0,BAT2-4,3.048173056,PLE,dag_dehydration,Fowlers toad,0.355762936
+2.91E-06,indirect,1.0281,triadimefon,F,8,0,BAT0-4,2.883188373,PLE,dag_dehydration,Fowlers toad,0.355740799
+2.70E-06,soil,0.6506,triadimefon,F,4,0,triadimefon_4hr_3,NA,NA,dag_metabolites,Fowlers toad,0.347101261
+2.87E-06,soil,4.04797,triadimefon,F,8,0,TB MAX 5 Triadimefon,3.050076067,NA,dag_biomarker,Leopard frog,0.346274927
+2.70E-06,soil,0.7765,triadimefon,F,48,0,triadimefon_48hr_1,NA,NA,dag_metabolites,Fowlers toad,0.337985638
+2.70E-06,soil,0.9525,triadimefon,F,4,0,triadimefon_4hr_2,NA,NA,dag_metabolites,Fowlers toad,0.335365342
+2.70E-06,soil,0.7957,triadimefon,F,24,0,triadimefon_24hr_3,NA,NA,dag_metabolites,Fowlers toad,0.324932505
+2.87E-06,soil,2.68042,triadimefon,F,8,0,ST5,6.136541259,PLE,rvm2015,Mole salamander,0.322065257
+2.72E-06,soil,0.8174,triadimefon,F,8,0,NTT2,6.241574746,PLE,rvm2015,Narrowmouth toad,0.318840389
+2.74E-06,soil,1.09363,triadimefon,F,8,0,FTT5,7.010390361,PLE,rvm2015,Fowlers toad,0.318423813
+2.74E-06,soil,1.37367,triadimefon,F,8,0,FTT3,7.010390361,PLE,rvm2015,Fowlers toad,0.309893558
+2.70E-06,soil,0.9285,triadimefon,F,2,0,triadimefon_2hr_2,NA,NA,dag_metabolites,Fowlers toad,0.306581872
+2.91E-06,indirect,1.0612,triadimefon,F,8,0,BAT6-2,3.750249506,PLE,dag_dehydration,Fowlers toad,0.294702812
+2.70E-06,soil,0.6693,triadimefon,F,48,0,triadimefon_48hr_4,NA,NA,dag_metabolites,Fowlers toad,0.29378644
+2.87E-06,soil,2.83645,triadimefon,F,8,0,TM MAX 6 Triadimefon,3.286341479,NA,dag_biomarker,Leopard frog,0.292241761
+2.91E-06,indirect,0.7637,triadimefon,F,8,0,BAT6-1,3.602278375,PLE,dag_dehydration,Fowlers toad,0.286638101
+2.91E-06,indirect,1.6119,triadimefon,F,8,0,LFT4-6,3.806634854,PLE,dag_dehydration,Leopard frog,0.284854462
+2.91E-06,indirect,1.649,triadimefon,F,8,0,LFT8-4,3.7801442,PLE,dag_dehydration,Leopard frog,0.284065308
+2.87E-06,soil,3.66098,triadimefon,F,8,0,TM MAX 3 Triadimefon,2.971117633,NA,dag_biomarker,Leopard frog,0.282356132
+2.79E-06,soil,1.61382,triadimefon,F,8,0,HGT4,5.94731458,PLE,rvm2015,Barking treefrog,0.274522017
+2.70E-06,indirect,14.0841,triadimefon,F,8,0,0_7_F,3.866282728,OLS,rvm2016,American toad,0.273508383
+2.71E-06,soil,1.26341,triadimefon,F,8,0,HCT1,5.245912662,PLE,rvm2015,Green treefrog,0.273380103
+2.70E-06,soil,0.7533,triadimefon,F,24,0,triadimefon_24hr_2,NA,NA,dag_metabolites,Fowlers toad,0.268774096
+2.79E-06,soil,1.30797,triadimefon,F,8,0,HGT1,5.94731458,PLE,rvm2015,Barking treefrog,0.268608762
+2.91E-06,indirect,0.8709,triadimefon,F,8,0,BAT8-5,5.387182037,PLE,dag_dehydration,Fowlers toad,0.264939632
+2.87E-06,soil,3.07945,triadimefon,F,8,0,TMB MAX 4 Triadimefon,3.392374833,NA,dag_biomarker,Leopard frog,0.264401557
+2.70E-06,indirect,10.8067,triadimefon,F,8,0,0_2_I,4.692698035,OLS,rvm2016,American toad,0.259962468
+2.87E-06,soil,2.64047,triadimefon,F,8,0,TDN MAX 2 Triadimefon,3.415463291,NA,dag_biomarker,Leopard frog,0.255930687
+2.87E-06,soil,2.77718,triadimefon,F,8,0,TDN MAX 3 Triadimefon,1.949410995,NA,dag_biomarker,Leopard frog,0.255284255
+2.74E-06,soil,1.74647,triadimefon,F,8,0,FTT2,7.010390361,PLE,rvm2015,Fowlers toad,0.249114027
+2.87E-06,soil,2.92225,triadimefon,F,8,0,TDN MAX 5 Triadimefon,2.97085706,NA,dag_biomarker,Leopard frog,0.244318558
+2.87E-06,soil,1.92159,triadimefon,F,8,0,ST3,6.136541259,PLE,rvm2015,Mole salamander,0.23751407
+2.91E-06,indirect,0.8488,triadimefon,F,8,0,BAT0-2,4.576445003,PLE,dag_dehydration,Fowlers toad,0.234413969
+2.87E-06,soil,3.25703,triadimefon,F,8,0,TB MAX 7 Triadimefon,1.899100592,NA,dag_biomarker,Leopard frog,0.23377432
+2.87E-06,soil,4.01293,triadimefon,F,8,0,TMB MAX 8 Triadimefon,2.157179114,NA,dag_biomarker,Leopard frog,0.230570061
+2.91E-06,indirect,1.007,triadimefon,F,8,0,BAT10-2,3.750142848,PLE,dag_dehydration,Fowlers toad,0.227798267
+2.70E-06,indirect,7.533,triadimefon,F,8,1,3_3_C,6.887993016,OLS,rvm2016,American toad,0.218474134
+2.79E-06,soil,1.082,triadimefon,F,8,0,HGT2,5.94731458,PLE,rvm2015,Barking treefrog,0.216919024
+2.70E-06,indirect,7.9909,triadimefon,F,8,1,3_6_A,5.763070813,PLE,rvm2016,American toad,0.21362006
+2.87E-06,soil,2.46222,triadimefon,F,8,0,TM MAX 1 Triadimefon,2.703026788,NA,dag_biomarker,Leopard frog,0.211215757
+2.91E-06,indirect,1.7762,triadimefon,F,8,0,LFT8-3,4.910453014,PLE,dag_dehydration,Leopard frog,0.200725621
+2.87E-06,soil,4.36943,triadimefon,F,8,0,TB MAX 4 Triadimefon,2.455250301,NA,dag_biomarker,Leopard frog,0.191693179
+2.70E-06,indirect,12.0198,triadimefon,F,8,0,0_6_I,6.594152401,OLS,rvm2016,American toad,0.189434186
+2.87E-06,soil,4.08803,triadimefon,F,8,0,TDN MAX 7 Triadimefon,2.348587371,NA,dag_biomarker,Leopard frog,0.18854089
+2.70E-06,soil,1.0258,triadimefon,F,48,0,triadimefon_48hr_2,NA,NA,dag_metabolites,Fowlers toad,0.18812362
+2.87E-06,soil,3.75048,triadimefon,F,8,0,TDN MAX 6 Triadimefon,2.615866672,NA,dag_biomarker,Leopard frog,0.186175502
+2.81E-06,soil,3.13315,triadimefon,F,8,0,LFT2,6.669240533,PLE,rvm2015,Leopard frog,0.179231247
+2.74E-06,soil,0.95994,triadimefon,F,8,0,FTT1,7.010390361,PLE,rvm2015,Fowlers toad,0.17768118
+2.81E-06,soil,2.11943,triadimefon,F,8,0,LFT1,6.669240533,PLE,rvm2015,Leopard frog,0.1766496
+2.70E-06,indirect,9.5231,triadimefon,F,8,0,0_5_C,3.108359096,PLE,rvm2016,American toad,0.175676804
+2.70E-06,soil,0.8476,triadimefon,F,48,0,triadimefon_48hr_3,NA,NA,dag_metabolites,Fowlers toad,0.174854226
+2.79E-06,soil,2.84579,triadimefon,F,8,0,HGT5,5.94731458,PLE,rvm2015,Barking treefrog,0.173080623
+2.70E-06,indirect,11.5642,triadimefon,F,8,0,0_7_D,3.280654333,PLE,rvm2016,American toad,0.165848057
+2.71E-06,soil,1.34966,triadimefon,F,8,0,HCT3,5.245912662,PLE,rvm2015,Green treefrog,0.151943337
+2.87E-06,soil,3.12813,triadimefon,F,8,0,TM MAX 2 Triadimefon,2.569206003,NA,dag_biomarker,Leopard frog,0.144613773
+2.79E-06,soil,2.56323,triadimefon,F,8,0,HGT3,5.94731458,PLE,rvm2015,Barking treefrog,0.143700399
+2.70E-06,indirect,11.141,triadimefon,F,8,1,3_6_D,3.832105687,OLS,rvm2016,American toad,0.142626446
+2.70E-06,indirect,12.1126,triadimefon,F,8,1,3_6_E,8.179491858,PLE,rvm2016,American toad,0.141794761
+2.87E-06,soil,2.36009,triadimefon,F,8,0,TMB MAX 1 Triadimefon,2.592199783,NA,dag_biomarker,Leopard frog,0.140575907
+2.87E-06,soil,3.26942,triadimefon,F,8,0,TMB MAX 5 Triadimefon,2.136380929,NA,dag_biomarker,Leopard frog,0.120181868
+2.70E-06,indirect,15.9483,triadimefon,F,8,1,3_5_A,5.640249186,OLS,rvm2016,American toad,0.119080734
+2.70E-06,indirect,8.8434,triadimefon,F,8,0,0_4_G,4.831822198,PLE,rvm2016,American toad,0.119037947
+2.70E-06,indirect,12.4407,triadimefon,F,8,0,0_1_B,5.213751666,PLE,rvm2016,American toad,0.115492748
+2.87E-07,soil,1.0121,triadimefon,F,8,0,TB 10 8 Triadimefon,0.276586385,NA,dag_biomarker,Leopard frog,0.108863627
+2.87E-06,soil,3.7417,triadimefon,F,8,0,TMB MAX 3 Triadimefon,3.336122436,NA,dag_biomarker,Leopard frog,0.108228486
+2.70E-06,indirect,13.8218,triadimefon,F,8,1,3_4_A,2.629241417,PLE,rvm2016,American toad,0.105756154
+2.70E-06,indirect,11.4482,triadimefon,F,8,1,3_1_H,3.623115759,OLS,rvm2016,American toad,0.10558682
+2.87E-06,soil,3.83407,triadimefon,F,8,0,TM MAX 4 Triadimefon,1.877005109,NA,dag_biomarker,Leopard frog,0.10542327
+2.70E-06,indirect,15.0158,triadimefon,F,8,1,0_1_C,3.806583386,PLE,rvm2016,American toad,0.103279426
+2.87E-07,soil,3.09445,triadimefon,F,8,0,TMB 10 5 Triadimefon,0.290186356,NA,dag_biomarker,Leopard frog,0.099790835
+2.70E-06,indirect,10.5903,triadimefon,F,8,0,0_1_G,8.969771357,PLE,rvm2016,American toad,0.089322481
+2.87E-07,soil,3.22551,triadimefon,F,8,0,TB 10 7 Triadimefon,0.341926228,NA,dag_biomarker,Leopard frog,0.087897493
+2.87E-07,soil,2.24268,triadimefon,F,8,0,TMB 10 7 Triadimefon,0.456822224,NA,dag_biomarker,Leopard frog,0.076882839
+2.87E-07,soil,2.19297,triadimefon,F,8,0,TMB 10 1 Triadimefon,0.446978269,NA,dag_biomarker,Leopard frog,0.072947406
+2.70E-06,indirect,14.8152,triadimefon,F,8,1,0_3_I,8.660951317,PLE,rvm2016,American toad,0.071629345
+2.81E-06,soil,1.44049,triadimefon,F,8,0,LFT4,6.669240533,PLE,rvm2015,Leopard frog,0.070844227
+2.87E-07,soil,3.27729,triadimefon,F,8,0,TMB 10 6 Triadimefon,0.365030796,NA,dag_biomarker,Leopard frog,0.069818082
+2.87E-07,soil,2.56272,triadimefon,F,8,0,TDN 10 8 Triadimefon,0.338061132,NA,dag_biomarker,Leopard frog,0.066918348
+2.87E-07,soil,3.80045,triadimefon,F,8,0,TMB 10 8 Triadimefon,0.344443448,NA,dag_biomarker,Leopard frog,0.065196036
+2.87E-07,soil,3.44938,triadimefon,F,8,0,TM 10 2 Triadimefon,0.524758651,NA,dag_biomarker,Leopard frog,0.062733725
+2.87E-07,soil,3.90043,triadimefon,F,8,0,TMB 10 2 Triadimefon,0.34390215,NA,dag_biomarker,Leopard frog,0.057089044
+2.87E-07,soil,2.56017,triadimefon,F,8,0,TB 10 4 Triadimefon,0.136195528,NA,dag_biomarker,Leopard frog,0.056833005
+2.87E-07,soil,3.71079,triadimefon,F,8,0,TB 10 5 Triadimefon,0.352537224,NA,dag_biomarker,Leopard frog,0.056626619
+2.81E-06,soil,3.32121,triadimefon,F,8,0,LFT3,6.669240533,PLE,rvm2015,Leopard frog,0.052193986
+2.87E-07,soil,2.67273,triadimefon,F,8,0,TM 10 3 Triadimefon,0.572339614,NA,dag_biomarker,Leopard frog,0.052134025
+2.87E-07,soil,3.08223,triadimefon,F,8,0,TMB 10 3 Triadimefon,0.276459836,NA,dag_biomarker,Leopard frog,0.051659608
+2.87E-07,soil,3.09899,triadimefon,F,8,0,TDN 10 2 Triadimefon,0.241381324,NA,dag_biomarker,Leopard frog,0.05024723
+2.87E-07,soil,2.75098,triadimefon,F,8,0,TDN 10 1 Triadimefon,0.41596296,NA,dag_biomarker,Leopard frog,0.047052746
+2.87E-07,soil,3.02731,triadimefon,F,8,0,TB 10 2 Triadimefon,0.305345267,NA,dag_biomarker,Leopard frog,0.04680927
+2.70E-06,indirect,12.2923,triadimefon,F,8,1,3_7_G,5.388595843,OLS,rvm2016,American toad,0.04358855
+2.87E-07,soil,3.28759,triadimefon,F,8,0,TB 10 3 Triadimefon,0.201559422,NA,dag_biomarker,Leopard frog,0.043004273
+2.87E-07,soil,3.06037,triadimefon,F,8,0,TB 10 1 Triadimefon,0.302149564,NA,dag_biomarker,Leopard frog,0.042048529
+2.87E-07,soil,3.87295,triadimefon,F,8,0,TDN 10 6 Triadimefon,0.25905723,NA,dag_biomarker,Leopard frog,0.040578848
+2.87E-07,soil,3.68221,triadimefon,F,8,0,TM 10 7 Triadimefon,0.55037013,NA,dag_biomarker,Leopard frog,0.039921602
+2.87E-07,soil,4.16573,triadimefon,F,8,0,TB 10 6 Triadimefon,0.470789773,NA,dag_biomarker,Leopard frog,0.037372302
+2.87E-07,soil,4.07006,triadimefon,F,8,0,TM 10 6 Triadimefon,0.437847254,NA,dag_biomarker,Leopard frog,0.037147319
+2.87E-07,soil,4.94575,triadimefon,F,8,0,TM 10 5*2 Triadimefon,0.415514351,NA,dag_biomarker,Leopard frog,0.034488858
+2.87E-07,soil,2.85984,triadimefon,F,8,0,TDN 10 4 Triadimefon,0.289275579,NA,dag_biomarker,Leopard frog,0.031934824
+2.87E-07,soil,2.81167,triadimefon,F,8,0,TM 10 8 Triadimefon,0.517464159,NA,dag_biomarker,Leopard frog,0.031432338
+2.87E-07,soil,3.11913,triadimefon,F,8,0,TM 10 4 Triadimefon,0.332434082,NA,dag_biomarker,Leopard frog,0.02959404
+2.87E-07,soil,2.66383,triadimefon,F,8,0,TDN 10 5 Triadimefon,0.425225654,NA,dag_biomarker,Leopard frog,0.027603549
+2.70E-06,indirect,7.1089,triadimefon,F,8,1,3_4_I,7.05712632,PLE,rvm2016,American toad,0.026010568
+2.87E-07,soil,2.86645,triadimefon,F,8,0,TDN 10 3 Triadimefon,0.452890194,NA,dag_biomarker,Leopard frog,0.023072409
+2.87E-07,soil,2.4581,triadimefon,F,8,0,TDN 10 7 Triadimefon,0.250626044,NA,dag_biomarker,Leopard frog,0.016853651
+2.87E-07,soil,2.70438,triadimefon,F,8,0,TM 10 1 Triadimefon,0.377502949,NA,dag_biomarker,Leopard frog,0.014126725
+2.87E-07,soil,4.64218,triadimefon,F,8,0,TMB 10 4 Triadimefon,0.457850893,NA,dag_biomarker,Leopard frog,0.009321115
+3.02E-07,soil,2.13002,trifloxystrobin,F,8,0,TFS LF S 7 F,0.266023,OLS,dag_dermal_routes,Leopard frog,0.194161
+3.02E-07,soil,1.56956,trifloxystrobin,F,8,0,TFS LF S 6 F,0.1125,OLS,dag_dermal_routes,Leopard frog,0.163043
+3.02E-07,soil,2.02866,trifloxystrobin,F,8,0,TFS LF S 5 F,0.143468,OLS,dag_dermal_routes,Leopard frog,0.129535
+3.02E-07,soil,1.15759,trifloxystrobin,F,8,0,TFS LF S 3 F,0.251442,OLS,dag_dermal_routes,Leopard frog,0.111039
+3.02E-07,soil,1.80722,trifloxystrobin,F,8,0,TFS LF S 8 F,0.279262,OLS,dag_dermal_routes,Leopard frog,0.099954
+3.02E-07,soil,2.43309,trifloxystrobin,F,8,0,TFS LF S 1 F,0.343198,OLS,dag_dermal_routes,Leopard frog,0.089418
+3.02E-07,soil,1.61034,trifloxystrobin,F,8,0,TFS LF S 4 F,0.312696,OLS,dag_dermal_routes,Leopard frog,0.08372
+3.02E-07,soil,1.82782,trifloxystrobin,F,8,0,TFS LF S 2 F,0.367461,OLS,dag_dermal_routes,Leopard frog,0.065756

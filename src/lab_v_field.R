@@ -8,16 +8,38 @@ if(Sys.info()[4]=="LZ26EPAULUKO"){
   ams_dir <- "c:/git/amphibian_model_selection/"
 }
 
-sw<-read.csv('swanson.csv')
-bg<-read.csv('battaglin.csv')
-sm15<-read.csv('smalling15.csv')
-sm13<-read.csv('smalling13.csv')
-sm18<-read.csv('smalling18.csv')
-g13<-read.csv('glinski13_fin.csv')
-lab<-read.csv('lab_bb.csv')
+#subdirectories
+ams_dir_input <- paste(ams_dir, "data_in/", sep = "")
+ams_dir_output <- paste(ams_dir, "data_out/", sep = "")
+ams_dir_graphics <- paste(ams_dir, "graphics/", sep = "")
+
+#import pesticide data from comptox, test and opera predictors
+#1835 in total
+#cpcat term pesticides
+#comptox batch search
+#dropped any pesticides missing values for saved columns
+comptox_data_filename <- "CompTox_Pesticide_search_subset.csv"
+comptox_data <- read.csv(file = paste(ams_dir_input, comptox_data_filename, sep = ""), header = TRUE)
+dim(comptox_data)
+colnames(comptox_data)
+
+sw<-'swanson.csv'
+bg<-'battaglin.csv'
+sm15<-'smalling15.csv'
+sm13<-'smalling13.csv'
+sm18<-'smalling18.csv'
+g13<-'glinski13_fin.csv'
+lab<-'lab_bb.csv'
+
+sw <- read.csv(file = paste(ams_dir_input, sw, sep = ""), header = TRUE)
+bg <- read.csv(file = paste(ams_dir_input, bg, sep = ""), header = TRUE)
+sm15 <- read.csv(file = paste(ams_dir_input, sm15, sep = ""), header = TRUE)
+sm13 <- read.csv(file = paste(ams_dir_input, sm13, sep = ""), header = TRUE)
+sm18 <- read.csv(file = paste(ams_dir_input, sm18, sep = ""), header = TRUE)
+g13 <- read.csv(file = paste(ams_dir_input, g13, sep = ""), header = TRUE)
+lab <- read.csv(file = paste(ams_dir_input, lab, sep = ""), header = TRUE)
 
 ###group plots by type, study, pesticide
-
 ##Field
 #Battaglin16 (Var.)
 head(bg)
@@ -100,6 +122,8 @@ str(field)
 field<-rbind(field,g13f) #add in glinski, which is already in ug/g
 field$applicationrate<-'unknown'
 write.csv(field,'field_bodyburdensNEW.csv')
+
+
 
 ##Lab
 #match names/structure of lab data to field data
@@ -232,3 +256,4 @@ plot_grid(ps, psl,
           labels = c('Fig A','Fig B'),
           label_x = 0.2,
           nrow = 2)
+

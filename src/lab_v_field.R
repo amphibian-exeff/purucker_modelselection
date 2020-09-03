@@ -13,16 +13,6 @@ ams_dir_input <- paste(ams_dir, "data_in/", sep = "")
 ams_dir_output <- paste(ams_dir, "data_out/", sep = "")
 ams_dir_graphics <- paste(ams_dir, "graphics/", sep = "")
 
-#import pesticide data from comptox, test and opera predictors
-#1835 in total
-#cpcat term pesticides
-#comptox batch search
-#dropped any pesticides missing values for saved columns
-comptox_data_filename <- "CompTox_Pesticide_search_subset.csv"
-comptox_data <- read.csv(file = paste(ams_dir_input, comptox_data_filename, sep = ""), header = TRUE)
-dim(comptox_data)
-colnames(comptox_data)
-
 sw<-'swanson.csv'
 bg<-'battaglin.csv'
 sm15<-'smalling15.csv'

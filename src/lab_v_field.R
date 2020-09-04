@@ -13,6 +13,7 @@ ams_dir_input <- paste(ams_dir, "data_in/", sep = "")
 ams_dir_output <- paste(ams_dir, "data_out/", sep = "")
 ams_dir_graphics <- paste(ams_dir, "graphics/", sep = "")
 
+#note; if compiled already, skip and instead read compiled field_bodyburdens9_4.csv from data_in
 sw<-'swanson.csv'
 bg<-'battaglin.csv'
 sm15<-'smalling15.csv'
@@ -30,7 +31,7 @@ g13 <- read.csv(file = paste(ams_dir_input, g13, sep = ""), header = TRUE)
 lab <- read.csv(file = paste(ams_dir_input, lab, sep = ""), header = TRUE)
 
 ###group plots by type, study, pesticide
-##Field
+##Prep field data
 #Battaglin16 (Var.)
 head(bg)
 bg_f<-gather(bg, "chemical","tissue",6:21)
@@ -93,7 +94,7 @@ colnames(g13)[1]<-'chemical'
 colnames(g13)[2]<-'ID'
 colnames(g13)[4]<-'Species'
 g13$Type<-'Field'
-g13$Source<-'Glinski 2013'
+g13$Source<-'Glinski 2020'
 g13$unit<-'ug/g' 
 names(g13)
 names(bg_f)
@@ -111,9 +112,10 @@ field$tissue<-field$tissue/1000 #put all in same units; both ug/kg and ng/g to u
 str(field)
 field<-rbind(field,g13f) #add in glinski, which is already in ug/g
 field$applicationrate<-'unknown'
-write.csv(field,'field_bodyburdensNEW.csv')
+write.csv(field,'field_bodyburdens9_4.csv')
 
-
+#fd<-'field_bodyburdens9_4.csv'
+#field<-read.csv(file = paste(ams_dir_input, fd, sep = ""), header = TRUE)
 
 ##Lab
 #match names/structure of lab data to field data
@@ -197,9 +199,10 @@ pp
 
 
 
+
 ###plot by density, source (KDES, figure 2) - make some alterations to names and structure to align plots
 #stack figures on top of each other; one with all lab studies, and one with all field studies
-#drop lab data for figure 2a, field data for 2b
+#drop lab data for figure 2a
 
 allf<-subset(all, Type!="Lab")
 allf$Paper<-allf$Source
@@ -208,12 +211,27 @@ ps <- ggplot(allf, aes(x=tissue, group=Paper)) +
   scale_fill_manual(values=c("#E69F00", "#CC0000", "#56B4E9", "#009E73", "#CC79A7","#F0E442", "#000000"))+
   xlab('Log normalized tissue concentrations by study across all pesticides and species (ug/g), Field')+
   ylab('Density')+
+  scale_x_continuous(limits = c(-10, 5))+
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
         panel.background = element_blank(), axis.line = element_line(colour = "black"), axis.text.x = element_text(size = 12))
 ps
 
+# # build the data displayed on the plot.
+# ps.data <- ggplot_build(ps)$data[[1]]
+# # Note that column 'scaled' is used for plotting
+# # so we extract the max density row for each group
+# ps.text <- lapply(split(ps.data, f = ps.data$group), function(df){
+#   df[which.max(df$scaled), ]
+# })
+# ps.text <- do.call(rbind, ps.text)
+# # now add the text layer to the plot
+# ps + annotate('text', x = ps.text$x, y = ps.text$y,
+#               label = sprintf('n = %d', ps.text$n), vjust = -0.6, hjust =1.0, angle=0, size=5)
+
+
 #use original lab data
 #add in names for each source
+
 #Van Meter 2016
 #Van Meter 2015
 #Van Meter 2017
@@ -223,14 +241,14 @@ ps
 #Glinski 201 (metabolites)
 #Glinski 2018b (dermal)
 lab_f$Paper<-lab_f$Source
-lab_f$Paper<- gsub("rvm2015", "Van Meter 2015", lab_f$Paper)
-lab_f$Paper<- gsub("rvm2016", "Van Meter 2016", lab_f$Paper)
-lab_f$Paper<- gsub("rvm2017", "Van Meter 2017", lab_f$Paper)
-lab_f$Paper<- gsub("dag_dehydration", "Glinski 2018a", lab_f$Paper)
-lab_f$Paper<- gsub("dag_metabolites", "Glinski 2018b", lab_f$Paper)
-lab_f$Paper<- gsub("dag_biomarker", "Glinski 2019", lab_f$Paper)
-lab_f$Paper<- gsub("dag_dermal_routes", "Glinski 2020", lab_f$Paper)
-lab_f$Paper<- gsub("hr2008", "Henson-Ramsey 2008", lab_f$Paper)
+lab_f$Paper<- gsub("rvm2015", "Van Meter et al. 2015", lab_f$Paper)
+lab_f$Paper<- gsub("rvm2016", "Van Meter et al. 2016", lab_f$Paper)
+lab_f$Paper<- gsub("rvm2017", "Van Meter et al. 2017", lab_f$Paper)
+lab_f$Paper<- gsub("dag_dehydration", "Glinski et al. 2018a", lab_f$Paper)
+lab_f$Paper<- gsub("dag_metabolites", "Glinski et al. 2018b", lab_f$Paper)
+lab_f$Paper<- gsub("dag_biomarker", "Glinski et al. 2019", lab_f$Paper)
+lab_f$Paper<- gsub("dag_dermal_routes", "Glinski et al. 2020", lab_f$Paper)
+lab_f$Paper<- gsub("hr2008", "Henson-Ramsey et al. 2008", lab_f$Paper)
 unique(lab_f$Paper)
 
 lab_f$tissue<-log(lab_f$tissue) 
@@ -239,11 +257,27 @@ psl <- ggplot(lab_f, aes(x=tissue, group=Paper)) +
   scale_fill_manual(values=c("#E69F00", "#CC0000", "#56B4E9", "#009E73", "#CC79A7","#F0E442", "#003300","#CC3300"))+
   xlab('Log normalized tissue concentrations by study across all pesticides and species (ug/g), Lab')+
   ylab('Density')+
+  scale_x_continuous(limits = c(-10, 5))+
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
         panel.background = element_blank(), axis.line = element_line(colour = "black"), axis.text.x = element_text(size = 12))
 psl
+
+# # build the data displayed on the plot.
+# psl.data <- ggplot_build(psl)$data[[1]]
+# # Note that column 'scaled' is used for plotting
+# # so we extract the max density row for each group
+# psl.text <- lapply(split(psl.data, f = psl.data$group), function(df){
+#   df[which.max(df$scaled), ]
+# })
+# psl.text <- do.call(rbind, psl.text)
+# # now add the text layer to the plot
+# psl + annotate('text', x = psl.text$x, y = psl.text$y,
+#               label = sprintf('n = %d', psl.text$n), vjust = -0.6, hjust =1.0, angle=0, size=5)
+
+
 plot_grid(ps, psl,
           labels = c('Fig A','Fig B'),
           label_x = 0.2,
           nrow = 2)
+
 

@@ -20,7 +20,7 @@ sm15<-'smalling15.csv'
 sm13<-'smalling13.csv'
 sm18<-'smalling18.csv'
 g13<-'glinski13_fin.csv'
-lab<-'lab_bb.csv'
+lab<-'amphibian_dermal_collated.csv'
 
 sw <- read.csv(file = paste(ams_dir_input, sw, sep = ""), header = TRUE)
 bg <- read.csv(file = paste(ams_dir_input, bg, sep = ""), header = TRUE)
@@ -31,7 +31,7 @@ g13 <- read.csv(file = paste(ams_dir_input, g13, sep = ""), header = TRUE)
 lab <- read.csv(file = paste(ams_dir_input, lab, sep = ""), header = TRUE)
 
 ###group plots by type, study, pesticide
-##Prep field data
+##Prep field data - each dataset should be carefully examined individually
 #Battaglin16 (Var.)
 head(bg)
 bg_f<-gather(bg, "chemical","tissue",6:21)

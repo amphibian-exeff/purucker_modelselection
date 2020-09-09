@@ -1,4 +1,4 @@
-﻿casrn,dsstox_substance_id,preferred_name,experiment_name,dsstox_structure_id,standard_InChI,standard_InChIKey
+casrn,dsstox_substance_id,preferred_name,experiment_name,dsstox_structure_id,standard_InChI,standard_InChIKey
 1912-24-9,DTXSID9020112,Atrazine,atrazine,DTXCID90112,"InChI=1S/C8H14ClN5/c1-4-10-7-12-6(9)13-8(14-7)11-5(2)3/h5H,4H2,1-3H3,(H2,10,11,12,13,14)",MXWJVTOOROXGIU-UHFFFAOYSA-N
 82657-04-3,DTXSID9020160,Bifenthrin,bifenthrin,DTXCID9032402,"InChI=1S/C23H22ClF3O2/c1-14-16(10-7-11-17(14)15-8-5-4-6-9-15)13-29-21(28)20-18(22(20,2)3)12-19(24)23(25,26)27/h4-12,18,20H,13H2,1-3H3/b19-12-/t18-,20-/m0/s1",OMFRMAHOUUJSGP-IRHGGOMRSA-N
 2921-88-2,DTXSID4020458,Chlorpyrifos,chlorpyrifos,DTXCID80458,"InChI=1S/C9H11Cl3NO3PS/c1-3-14-17(18,15-4-2)16-9-7(11)5-6(10)8(12)13-9/h5H,3-4H2,1-2H3",SBPBAQFWLVIOKP-UHFFFAOYSA-N

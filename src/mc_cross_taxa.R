@@ -65,7 +65,7 @@ dim(fmr_all)
 ggplot(data=fmr_all, aes(x=bw_generic, y=fmr_generic_nagy))+
   geom_line()
 
-# body weights
+# dermal thickness
 dt_amphib <- runif(nsims, min=0.001, max=0.003)
 dt_reptile <- runif(nsims, min=0.025, max=0.075)
 dt_bird <- runif(nsims, min=0.025, max=0.075)
@@ -85,7 +85,7 @@ dsa_reptile <- 0.3 * 8.42 * bw_reptile^0.694
 dsa_bird <- 0.07 * 10 *  bw_bird^0.667 #wildlife exposure factors handbook
 dsa_mammal <- 0.22 * 12.3 * bw_mammal^0.65 # generic from Hope 1995
 
-#other variables
+#other constants
 dat = 12 #dermal averaging time 12 hours/day
 csoil = 11.2 #soil concentration from 1 lb/acre application (112 mg/m2), mixed evenly 1 cm depth, contact top mm
 bioavail = 0.1 #organics

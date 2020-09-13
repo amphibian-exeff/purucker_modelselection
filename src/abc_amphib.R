@@ -1,9 +1,10 @@
 #check to make sure required packages are installed
-list.of.packages <- c("ggplot2")
+list.of.packages <- c("ggplot2","GLDEX")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)>0) {install.packages(new.packages)}
 
 library(ggplot2)
+library(GLDEX)
 
 #tom epa laptop home
 if(Sys.info()[4]=="LZ2626UTPURUCKE"){
@@ -23,7 +24,16 @@ tr_observations_covars_filename <- "tr_observations_w_covars.csv"
 tr_observations_abc <- read.csv(file = paste(ams_dir_output, tr_observations_covars_filename, sep = ""), header = TRUE)
 colnames(tr_observations_abc)
 
-#calculate permeability coefficients based on logkow and molecular weight
+# experimental soil concentrations
+# use when available, otherwise a function of application rate
+soil_concs <- tr_observations_abc$soil_conc_ugg
+#change this to equation from Weir which gives 11.2 for 1 lb/ac
+#soil concentration from 1 lb/acre application (112 mg/m2), mixed evenly 1 cm depth, contact top mm
+#original soil concs are in ug/g, convert to /m2
+soil_concs[which.na(soil_concs)] <- 11.2
+
+#calculate permeability coefficients based on logkow and molecular weight, cm/hr
+#walker et al 2003 eq 4 for organics except phenols and aliphatic aldohols
 logKow <- tr_observations_abc$LogP_pred
 mol_weight <- tr_observations_abc$MolWeight
 tr_observations_abc$kp <- 10^(-2.72 + (0.71 * logKow) - (0.0061 * mol_weight))
@@ -36,10 +46,16 @@ namphibs <- length(bw_amphib)
 
 #uncertain parameters
 dt_amphib <- runif(nsims, min=0.001, max=0.003)
- 
+
+#poisson movement rate
+movement_mean <- runif(nsims, min=0.001, max=10)
+movement_rate <- vector(mode="numeric", length=nsims)
+for(i in 1:nsims){
+  movement_rate[i] <- rpois(1,movement_mean[i])
+}
+
 #constants
 dat <- rep(12,namphibs) #dermal averaging time 12 hours/day
-csoil <- rep(11.2,namphibs) #soil concentration from 1 lb/acre application (112 mg/m2), mixed evenly 1 cm depth, contact top mm
 bioavail = rep(0.1,namphibs) #organics
 
 #create matrix namphib rows and nsim columns
@@ -53,13 +69,32 @@ dermal_sum_abs_differences <- matrix(data=NA, nrow=20, ncol=nsims)
 amphib_concs <- tr_observations_abc$tissue_conc_ugg
 
 #calculate tissue residues
+# movement_rate[i] + 1 is for initial position
 generation = 1
 for(i in 1:nsims){
-  dt_amphib <- rep(dt_amphib[i],namphibs)
-  dermal_dose_amphib[,i] <- (csoil * kp * dat * (dsa_amphib/dt_amphib) * bioavail)/bw_amphib
+  dt_amphib_iteration <- rep(dt_amphib[i],namphibs)
+  movement_rate_iteration <- rep(movement_rate[i],namphibs)
+  dermal_dose_amphib[,i] <- (soil_concs * kp * (dsa_amphib/dt_amphib_iteration) * bioavail)/bw_amphib
   dermal_sum_abs_differences[generation,i] <- sum(abs(dermal_dose_amphib[,i] - amphib_concs))
 }
+
+#visual check
+hist(dermal_dose_amphib[,1]/amphib_concs)
+head(dermal_dose_amphib[,1])
+head(amphib_concs)
+head(dermal_dose_amphib[,2])
+head(sort(dermal_dose_amphib[,1]/amphib_concs,decreasing=T))
+head(sort(dermal_dose_amphib[,2]/amphib_concs,decreasing=T))
+min(dermal_dose_amphib[,1]/amphib_concs)
+max(dermal_dose_amphib[,1]/amphib_concs)
+
+dermal_sum_abs_differences[generation,]
 #View(dermal_dose_amphib)
+
+# create the cbind matrix of inputs and fit scores
+cbind(dermal_sum_abs_differences[generation,],dt_amphib,movement_rate)
+
+# update input distributions
 
 #You have already done 50k simulations from the uniform priors. We are going to take the first 10k (not the best 10k, do not sort) of these as the first generation of simulations. We are simply throwing away the last 40k and not using them for the official simulations for the manuscript. This is necessary to honor the assumptions behind ABC-MC.
 #Calculate the average of the 3 nses for each of the 10k simulations: nse_average = mean(nse_conc, nse_flow, nse_ flux)

@@ -29,7 +29,7 @@ opera_predictions_filename <- "dsstox_ids_pesticides_opera.csv"
 opera_predictions <- read.csv(file = paste(ams_dir_input, opera_predictions_filename, sep = ""), header = TRUE)
 dim(opera_predictions)
 colnames(opera_predictions)
-opera_predictions <- subset(opera_predictions,select=c(MoleculeID,MolWeight,LogP_pred))
+opera_predictions <- subset(opera_predictions,select=c(MoleculeID,MolWeight,LogP_pred,BioDeg_LogHalfLife_pred))
 
 #list dtxsids of opera predictors
 opera_predictions$MoleculeID
@@ -55,4 +55,4 @@ tr_observations_write <- merge(tr_observations_temp,opera_predictions)
 #View(tr_observations_write)
 
 tr_observations_write_filename <- "tr_observations_w_covars.csv"
-tr_observations_data <- write.csv(tr_observations_write,paste(ams_dir_output, tr_observations_write_filename, sep = ""))
+write.csv(tr_observations_write,paste(ams_dir_output, tr_observations_write_filename, sep = ""))

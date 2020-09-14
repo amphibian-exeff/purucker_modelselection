@@ -8,6 +8,8 @@ library(ggplot2)
 library(GLDEX)
 library(truncnorm)
 
+
+###############################################################
 #tom epa laptop home
 if(Sys.info()[4]=="LZ2626UTPURUCKE"){
   ams_dir <- "c:/git/amphibian_model_selection/"
@@ -19,7 +21,7 @@ ams_dir_output <- paste(ams_dir, "data_out/", sep = "")
 ams_dir_graphics <- paste(ams_dir, "graphics/", sep = "")
 
 # simulations for each generation
-nsims <- 10000
+nsims <- 20000
 
 #load in observational body burdens
 tr_observations_covars_filename <- "tr_observations_w_covars.csv"
@@ -53,16 +55,26 @@ hist(dat)
 # tissue concentration observations
 amphib_concs <- tr_observations_abc$tissue_conc_ugg
 
-#create matrix to accept the sums of absoulte differences for each simulation in each gneration
-# 20 generations by 10000 sims
-dermal_sum_abs_differences <- matrix(data=NA, nrow=20, ncol=nsims)
-
 ##################################################################
 ### INITIAL Generation
 generation = 1
 
+#initialize empty arrays in case we want to increase them later
+#create matrix to accept the sums of absolute differences for each simulation in each gneration
+# 20 generations by nsims
+dermal_sum_abs_differences <- matrix(data=NA, nrow=20, ncol=nsims)
+
 # tracker for proportion of underpredicted concentrations for a generation
 prop_underpredict <- vector(mode="numeric", length=nsims)
+
+#parameters that will be uncertain
+dt_amphib <- vector(mode="numeric", length=nsims)
+movement_mean <- vector(mode="numeric", length=nsims)
+movement_rate <- vector(mode="numeric", length=nsims)
+bioavail <- vector(mode="numeric", length=nsims)
+dermal_sa_slope <- vector(mode="numeric", length=nsims)
+dermal_sa_exponent <- vector(mode="numeric", length=nsims)
+dermal_fraction <- vector(mode="numeric", length=nsims)
 
 #uncertain parameters
 #dermal thickness
@@ -70,7 +82,6 @@ dt_amphib <- runif(nsims, min=0.001, max=0.003)
 
 #poisson movement rate
 movement_mean <- runif(nsims, min=0.001, max=10)
-movement_rate <- vector(mode="numeric", length=nsims)
 for(i in 1:nsims){
   movement_rate[i] <- rpois(1,movement_mean[i])+1 #+1 since they occupy a patch when they dont move
 }
@@ -123,58 +134,61 @@ for(i in 1:nsims){
   dermal_sum_abs_differences[generation,i] <- sum(abs(dermal_dose_amphib[,i] - amphib_concs))
   prop_underpredict[i] <- sum(dermal_dose_amphib[,i]<amphib_concs)/namphibs
 }
-
 prop_underpredict_mean <- mean(prop_underpredict)
 
 # create the cbind matrix of inputs and fit scores
 # this matrix is nsims rows
 scores_inputs <- matrix(c(dermal_sum_abs_differences[generation,],prop_underpredict,dt_amphib,movement_rate,bioavail,
-                          dermal_sa_slope,dermal_sa_exponent, dermal_fraction),nrow=10000,ncol=8,byrow = FALSE)
+                          dermal_sa_slope,dermal_sa_exponent, dermal_fraction),nrow=nsims,ncol=8,byrow = FALSE)
 dim(scores_inputs)
 colnames(scores_inputs) <- c("score","prop_underpredict","dt_amphib","movement_rate","bioavail",
                              "dermal_sa_slope","dermal_sa_exponent","dermal_fraction")
 head(scores_inputs)
+#View(scores_inputs)
 
 # sort by score and take the top 25%
-winners_2500 <- as.data.frame(scores_inputs[order(scores_inputs[,1], decreasing = FALSE),][1:2500,])
-#View(winners_2500)
-dim(winners_2500)
-colnames(winners_2500)
+winners_10000 <- as.data.frame(scores_inputs[order(scores_inputs[,1], decreasing = FALSE),][1:10000,])
+dim(winners_10000)
+colnames(winners_10000)
 
 # update input distributions and plot them
-hist(winners_2500$dt_amphib)
-update_dt_amphib <- fitdist(winners_2500$dt_amphib*1000, "norm") #*1000 due to precision issues
-hist(winners_2500$movement_rate)
-update_movement_rate <- fitdist(winners_2500$movement_rate, "pois")
-hist(winners_2500$bioavail)
-update_bioavail <- fitdist(winners_2500$bioavail, "norm")
-hist(winners_2500$dermal_sa_slope)
-update_dermal_sa_slope <- fitdist(winners_2500$dermal_sa_slope, "norm")
-hist(winners_2500$dermal_sa_exponent)
-update_dermal_sa_exponent <- fitdist(winners_2500$dermal_sa_exponent, "norm")
-hist(winners_2500$dermal_fraction)
-update_dermal_fraction <- fitdist(winners_2500$dermal_fraction, "norm")
+hist(winners_10000$dt_amphib)
+update_dt_amphib <- fitdist(winners_10000$dt_amphib*1000, "norm") #*1000 due to precision issues
+hist(winners_10000$movement_rate)
+movement_rate_less_1 <- winners_10000$movement_rate-1 #removing the 1 that was added for the initital patch
+update_movement_rate <- fitdist(movement_rate_less_1, "pois") 
+hist(winners_10000$bioavail)
+update_bioavail <- fitdist(winners_10000$bioavail, "norm")
+hist(winners_10000$dermal_sa_slope)
+update_dermal_sa_slope <- fitdist(winners_10000$dermal_sa_slope, "norm")
+hist(winners_10000$dermal_sa_exponent)
+update_dermal_sa_exponent <- fitdist(winners_10000$dermal_sa_exponent, "norm")
+hist(winners_10000$dermal_fraction)
+update_dermal_fraction <- fitdist(winners_10000$dermal_fraction, "norm")
 
 #find the median of the 2500 as the criterion for the next round
-hist(winners_2500$score)
-gen_score_median <- median(winners_2500$score)
-
+hist(winners_10000$score)
+gen_score_median <- median(winners_10000$score)
+next_generation <- generation + 1
 #store the updated parameters by generation
 generation_moments[generation,1] = generation
 generation_moments[generation,2] = prop_underpredict_mean
-generation_moments[generation+1,3] = update_dt_amphib$estimate[1]/1000
-generation_moments[generation+1,4] = update_dt_amphib$estimate[2]/1000
-generation_moments[generation+1,5] = update_movement_rate$estimate
-generation_moments[generation+1,6] = update_movement_rate$estimate #kept poisson sd because it was uniform in first gen
-generation_moments[generation+1,7] = update_bioavail$estimate[1]
-generation_moments[generation+1,8] = update_bioavail$estimate[2]
-generation_moments[generation+1,9] = update_dermal_sa_slope$estimate[1]
-generation_moments[generation+1,10] = update_dermal_sa_slope$estimate[2]
-generation_moments[generation+1,11] = update_dermal_sa_exponent$estimate[1]
-generation_moments[generation+1,12] = update_dermal_sa_exponent$estimate[2]
-generation_moments[generation+1,13] = update_dermal_fraction$estimate[1]
-generation_moments[generation+1,14] = update_dermal_fraction$estimate[2]
-generation_moments[generation+1,15] = gen_score_median
+generation_moments[next_generation,3] = update_dt_amphib$estimate[1]/1000
+generation_moments[next_generation,4] = update_dt_amphib$estimate[2]/1000
+generation_moments[next_generation,5] = update_movement_rate$estimate
+generation_moments[next_generation,6] = update_movement_rate$estimate #kept poisson sd because it was uniform in first gen
+generation_moments[next_generation,7] = update_bioavail$estimate[1]
+generation_moments[next_generation,8] = update_bioavail$estimate[2]
+generation_moments[next_generation,9] = update_dermal_sa_slope$estimate[1]
+generation_moments[next_generation,10] = update_dermal_sa_slope$estimate[2]
+generation_moments[next_generation,11] = update_dermal_sa_exponent$estimate[1]
+generation_moments[next_generation,12] = update_dermal_sa_exponent$estimate[2]
+generation_moments[next_generation,13] = update_dermal_fraction$estimate[1]
+generation_moments[next_generation,14] = update_dermal_fraction$estimate[2]
+generation_moments[next_generation,15] = gen_score_median
+#gen_score_median  [1] 2537.324
+gen_score_median
+#View(generation_moments)
 
 ##################################################################
 ### qa type visuals
@@ -195,38 +209,10 @@ head(dermal_sum_abs_differences[generation,])
 
 #visual on underpredictions
 hist(prop_underpredict)
+
 #the scores of the best and the worst simulations
 head(sort(dermal_sum_abs_differences[generation,],decreasing=F))
 head(sort(dermal_sum_abs_differences[generation,],decreasing=T))
 
-#find the median of the 2500 as the criterion for the next round
-hist(winners_2500$score)
-median(winners_2500$score)
 
-##################################################################
-### NEXT Generation
-generation = 2
-generation_moments[generation,1] = generation
 
-nsims = 10000
-
-#draw from updated distributions
-CN2<-rtruncnorm(nsims, min(sim_pars_2$CN2), max(sim_pars_2$CN2), mean = -0.03060313, sd = 0.16970975)
-
-#You have already done 50k simulations from the uniform priors. We are going to take the first 10k (not the best 10k, do not sort) of these as the first generation of simulations. We are simply throwing away the last 40k and not using them for the official simulations for the manuscript. This is necessary to honor the assumptions behind ABC-MC.
-#Calculate the average of the 3 nses for each of the 10k simulations: nse_average = mean(nse_conc, nse_flow, nse_ flux)
-#Take the top 2.5k simulations based on the nse_average, disregarding the other 7.5K simulations.
-#Use the 2.5k set of inputs associated with these top 2.5k simulations. Calculate the unweighted kernel densities using the kde package and fit to a normal distribution, truncate at the range limits for each parameter.
-#Find the first_quartile_average_nse of the original 10k nse_averages, this will be the average of the 2500 and 2501st highest average_nse of the first 10k of generation zero.
-
-#These steps are only for generation 1 of the simulation sets, this approach is slightly different than above for generation zero.
-#6.	Use the truncated normal distributions from 4) to set up the next round of simulations. Simulate with these inputs. For each simulation, calculate the average_nse. We will only keep individual simulations if the average_nse is higher that the first_quartile_average_nse (calculated in step 5) from the last set of simulations. 
-#7.	Keep simulating until we get 10k new simulations with an average_nse greater than the first_quartile_average_nse from step 5 calculated for the previous set of 10k simulation results. You can make this decision of which ones to keep on the hpc server or afterwards after doing a bunch of simulations.
-#8.	Calculate the updated unweighted kernel densities based on these new 10k simulations and fit to the normal distribution, truncate at the original range limits for each parameter.
-#9.	Now use these new 10k simulations to calculate the updated first_quartile_average_nse, this will be the average of the 2500 and 2501st highest average_nse.
-#These steps are for generations 2 . N of the simulation sets, this approach is slightly different than for generations zero and 1.
-#10.	Use the truncated normal distributions from the previous generation of simulations to set up the next round of simulations. Simulate with these inputs. For each simulation, calculate the average_nse. We will only keep individual simulations if the average_nse is higher that the first_quartile_average_nse from the last set of simulations. 
-#11.	Keep simulating until we get 10k new simulations with an average_nse greater than the first_quartile_average_nse calculated for the previous set of 10k simulation results.  You can make this decision of which ones to keep on the hpc server or afterwards after doing a bunch of simulations. Note that this may require more than 50k simulations to get the needed 10k good simulations.
-#12.	Calculate the updated unweighted kernel densities based on the latest set of 10k simulations and fit to the normal distribution, truncating at the original range limit.
-#13.	Calculate the updated first_quartile_average_nse for the new set of 10k simulations, this will be the average of the 2500 and 2501st highest average_nse.
-#14.	Repeat steps 10)-13) over and over until the median_average_nse fails to improve by X% versus the median_average_nse from the last generation. We have not explicitly defined what this percentage is just yet. It will probably be something like 1% or less.

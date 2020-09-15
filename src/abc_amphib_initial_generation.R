@@ -22,6 +22,7 @@ ams_dir_graphics <- paste(ams_dir, "graphics/", sep = "")
 
 # simulations for each generation
 nsims <- 20000
+max_generations <- 40
 
 #load in observational body burdens
 tr_observations_covars_filename <- "tr_observations_w_covars.csv"
@@ -50,7 +51,7 @@ namphibs <- length(bw_amphib)
 
 #assign exposure duration
 dat <- tr_observations_abc$exp_duration
-hist(dat)
+#hist(dat)
 
 # tissue concentration observations
 amphib_concs <- tr_observations_abc$tissue_conc_ugg
@@ -62,7 +63,7 @@ generation = 1
 #initialize empty arrays in case we want to increase them later
 #create matrix to accept the sums of absolute differences for each simulation in each gneration
 # 20 generations by nsims
-dermal_sum_abs_differences <- matrix(data=NA, nrow=20, ncol=nsims)
+dermal_sum_abs_differences <- matrix(data=NA, nrow=max_generations, ncol=nsims)
 
 # tracker for proportion of underpredicted concentrations for a generation
 prop_underpredict <- vector(mode="numeric", length=nsims)
@@ -131,10 +132,17 @@ for(i in 1:nsims){
   dermal_fraction_iteration <- rep(dermal_fraction[i],namphibs)
   dermal_dose_amphib[,i] <- (soil_concs^soil_concs_degradation * kp * (dsa_amphib/dt_amphib_iteration) * dermal_fraction_iteration * 
                                bioavailability_iteration)/bw_amphib
-  dermal_sum_abs_differences[generation,i] <- sum(abs(dermal_dose_amphib[,i] - amphib_concs))
+  dermal_sum_abs_differences[generation,i] <- sum(abs(log(dermal_dose_amphib[,i]) - log(amphib_concs)))
   prop_underpredict[i] <- sum(dermal_dose_amphib[,i]<amphib_concs)/namphibs
 }
 prop_underpredict_mean <- mean(prop_underpredict)
+
+#write amphib_concs and prediction posteriors for each frog
+dim(dermal_dose_amphib)
+amphib_sim_means <- rowMeans(dermal_dose_amphib)
+concs_v_sims <- as.data.frame(cbind(amphib_concs, amphib_sim_means))
+concs_v_sims_write_filename <- paste("concs_v_sims_generation_",generation,".csv",sep="")
+write.csv(concs_v_sims,paste(ams_dir_output, concs_v_sims_write_filename, sep = ""))
 
 # create the cbind matrix of inputs and fit scores
 # this matrix is nsims rows
@@ -146,24 +154,28 @@ colnames(scores_inputs) <- c("score","prop_underpredict","dt_amphib","movement_r
 head(scores_inputs)
 #View(scores_inputs)
 
+#write the inputs and fit scores
+inputs_fits_write_filename <- paste("inputs_fits_generation_",generation,".csv",sep="")
+write.csv(scores_inputs,paste(ams_dir_output, inputs_fits_write_filename, sep = ""))
+
 # sort by score and take the top 25%
 winners_10000 <- as.data.frame(scores_inputs[order(scores_inputs[,1], decreasing = FALSE),][1:10000,])
 dim(winners_10000)
 colnames(winners_10000)
 
 # update input distributions and plot them
-hist(winners_10000$dt_amphib)
+#hist(winners_10000$dt_amphib)
 update_dt_amphib <- fitdist(winners_10000$dt_amphib*1000, "norm") #*1000 due to precision issues
-hist(winners_10000$movement_rate)
+#hist(winners_10000$movement_rate)
 movement_rate_less_1 <- winners_10000$movement_rate-1 #removing the 1 that was added for the initital patch
 update_movement_rate <- fitdist(movement_rate_less_1, "pois") 
-hist(winners_10000$bioavail)
+#hist(winners_10000$bioavail)
 update_bioavail <- fitdist(winners_10000$bioavail, "norm")
-hist(winners_10000$dermal_sa_slope)
+#hist(winners_10000$dermal_sa_slope)
 update_dermal_sa_slope <- fitdist(winners_10000$dermal_sa_slope, "norm")
-hist(winners_10000$dermal_sa_exponent)
+#hist(winners_10000$dermal_sa_exponent)
 update_dermal_sa_exponent <- fitdist(winners_10000$dermal_sa_exponent, "norm")
-hist(winners_10000$dermal_fraction)
+#hist(winners_10000$dermal_fraction)
 update_dermal_fraction <- fitdist(winners_10000$dermal_fraction, "norm")
 
 #find the median of the 2500 as the criterion for the next round
@@ -189,6 +201,12 @@ generation_moments[next_generation,15] = gen_score_median
 #gen_score_median  [1] 2537.324
 gen_score_median
 #View(generation_moments)
+
+moments_write_filename <- paste("moments_generation_",generation,".csv",sep="")
+write.csv(generation_moments,paste(ams_dir_output, moments_write_filename, sep = ""))
+
+plot_title=paste("Generation",generation,"; prop underpredict =",round(prop_underpredict_mean,3))
+plot(concs_v_sims,main =plot_title)
 
 ##################################################################
 ### qa type visuals

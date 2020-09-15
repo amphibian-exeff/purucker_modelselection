@@ -1,3 +1,5 @@
+data_out/inputs_fits*.*
+
 .idea/
 
 # Byte-compiled / optimized / DLL files

@@ -2,7 +2,18 @@ library(ggplot2)
 library(ggfortify)
 library(cowplot)
 
-par <- read.csv("data_out/moments_generation_6.csv")
+#tom epa laptop home
+if(Sys.info()[4]=="LZ2626UTPURUCKE"){
+  ams_dir <- "c:/git/amphibian_model_selection/"
+}
+
+#subdirectories
+ams_dir_input <- paste(ams_dir, "data_in/", sep = "")
+ams_dir_output <- paste(ams_dir, "data_out/", sep = "")
+ams_dir_graphics <- paste(ams_dir, "graphics/", sep = "")
+
+generations_file <- paste(ams_dir_output,"moments_generation_6_old.csv", sep="")
+par <- read.csv(generations_file)
 names(par)
 
 #go ahead remove 7th row; priors for the 7th gen, but stopping at 6
@@ -35,8 +46,8 @@ p1 <- ggplot(data = data.frame(x = c(0,10)), aes(x)) +
   stat_function(fun = dpois, n = num, args = list(lambda = par_n[6,2]), aes(col='Generation 6'),size=1.2) + 
   scale_color_manual(values=c("#E69F00", "#CC0000", "#56B4E9", "#009E73", "#CC79A7", "#000000"))+
   labs(color='Prior') +
-  ylab("Prior Density - Movement Rate") +
-  xlab("Tissue Concentration (ug/g)")+
+  ylab("Density") +
+  xlab("Movement Rate")+
   scale_y_continuous()+
   scale_x_continuous()+
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
@@ -58,8 +69,8 @@ p2 <- ggplot(data = data.frame(x = c(-0.03, 0.2)), aes(x)) +
   stat_function(fun = dnorm, n = num, args = list(mean = par_n[6,4], sd = par_n[6,5]), aes(col='Generation 6'),size=1.2) + 
   scale_color_manual(values=c("#E69F00", "#CC0000", "#56B4E9", "#009E73", "#CC79A7", "#000000"))+
   labs(color='Prior') +
-  ylab("Prior Density - Bioavailability") +
-  xlab("Tissue Concentration (ug/g)")+
+  ylab("Density") +
+  xlab("Bioavailability")+
   scale_y_continuous()+
   scale_x_continuous()+
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
@@ -79,8 +90,8 @@ p3 <- ggplot(data = data.frame(x = c(-5, 15)), aes(x)) +
   stat_function(fun = dnorm, n = num, args = list(mean = par_n[6,6], sd = par_n[6,7]), aes(col='Generation 6'),size=1.2) + 
   scale_color_manual(values=c("#E69F00", "#CC0000", "#56B4E9", "#009E73", "#CC79A7", "#000000"))+
   labs(color='Prior') +
-  ylab("Prior Density - Dermal Allometric Slope") +
-  xlab("Tissue Concentration (ug/g)")+
+  ylab("Density") +
+  xlab("Dermal Allometric Slope")+
   scale_y_continuous()+
   scale_x_continuous()+
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
@@ -99,8 +110,8 @@ p4 <- ggplot(data = data.frame(x = c(0.55,0.65)), aes(x)) +
   stat_function(fun = dnorm, n = num, args = list(mean = par_n[6,8], sd = par_n[6,9]), aes(col='Generation 6'),size=1.2) + 
   scale_color_manual(values=c("#E69F00", "#CC0000", "#56B4E9", "#009E73", "#CC79A7", "#000000"))+
   labs(color='Prior') +
-  ylab("Prior Density - Dermal Allometric Exponent") +
-  xlab("Tissue Concentration (ug/g)")+
+  ylab("Density") +
+  xlab("Dermal Allometric Exponent")+
   scale_y_continuous()+
   scale_x_continuous()+
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
@@ -119,8 +130,8 @@ p5 <- ggplot(data = data.frame(x = c(-0.2,0.8)), aes(x)) +
   stat_function(fun = dnorm, n = num, args = list(mean = par_n[6,10], sd = par_n[6,11]), aes(col='Generation 6'),size=1.2) + 
   scale_color_manual(values=c("#E69F00", "#CC0000", "#56B4E9", "#009E73", "#CC79A7", "#000000"))+
   labs(color='Prior') +
-  ylab("Prior Density - Dermal Fraction Exposed") +
-  xlab("Tissue Concentration (ug/g)")+
+  ylab("Density") +
+  xlab("Dermal Fraction Exposed")+
   scale_y_continuous()+
   scale_x_continuous()+
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
@@ -139,8 +150,8 @@ p6 <- ggplot(data = data.frame(x = c(0,0.005)), aes(x)) +
   stat_function(fun = dnorm, n = num, args = list(mean = par_n[6,12], sd = par_n[6,13]), aes(col='Generation 6'),size=1.2) + 
   scale_color_manual(values=c("#E69F00", "#CC0000", "#56B4E9", "#009E73", "#CC79A7", "#000000"))+
   labs(color='Prior') +
-  ylab("Prior Density - Dermal Thickness") +
-  xlab("Tissue Concentration (ug/g)")+
+  ylab("Density") +
+  xlab("Dermal Thickness")+
   scale_y_continuous()+
   scale_x_continuous()+
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),

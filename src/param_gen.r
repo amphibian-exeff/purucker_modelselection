@@ -43,7 +43,7 @@ p1 <- ggplot(data = data.frame(x = c(0:15)), aes(x)) +
   scale_color_manual(values=c("#E69F00", "#CC0000", "#56B4E9", "#009E73", "#CC79A7", "#000000"))+
   labs(color='Prior') +
   ylab("Density") +
-  xlab("Movement Rate")+
+  xlab("Movement Rate (hr)")+
   scale_y_continuous()+
   scale_x_continuous()+
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
@@ -149,7 +149,7 @@ p6 <- ggplot(data = data.frame(x = c(0,0.005)), aes(x)) +
   scale_color_manual(values=c("#E69F00", "#CC0000", "#56B4E9", "#009E73", "#CC79A7", "#000000"))+
   labs(color='Prior') +
   ylab("Density") +
-  xlab("Dermal Thickness")+
+  xlab("Dermal Thickness (cm)")+
   scale_y_continuous()+
   scale_x_continuous()+
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),

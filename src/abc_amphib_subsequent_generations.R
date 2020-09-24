@@ -152,3 +152,6 @@ while(winner_count >= 2500){
   plot_title=paste("Gen",generation,"; p_under =",round(prop_underpredict_mean,3), "; good_sims =", winner_count, "; improve = ", round(score_improvement, 3))
   plot(concs_v_sims,main =plot_title)
 }
+
+
+

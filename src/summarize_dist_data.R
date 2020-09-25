@@ -10,19 +10,14 @@ levels(lab$source) #10 sources
 #split by source
 
 by_s<-split(lab, lab$source) 
-  out<-lapply(by_s,function(x){
+
+  out<-do.call(rbind.data.frame, lapply(by_s,function(x){
     with(x, aggregate(tissue_conc_ugg ~ species + chemical, 
                       FUN =  function(y) c( MN= mean(y), SD = sd(y) ))) 
-  })
-  
-out
-out<-do.call(rbind.data.frame,out) #convert to workable df
-out$source<-rownames(out)
 
+  }))
+  
+out #check structure
+out$source<-rownames(out)
 #fix nested dimensions within output, final output
 fin_list<-do.call(data.frame, out)
-
-
-
-
- 

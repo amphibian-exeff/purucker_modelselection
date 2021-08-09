@@ -1,12 +1,2 @@
-# amphibian_model_selection
-Python code for evaluating amphibian dermal exposure models.
-
-# create conda environment
-conda create amphibian_model_selection
-conda install (the files in requirements.txt)
-
-# activate conda envirnonment
-conda activate amphibian_model_selection
-
-# run jupyter notebook
-jupyter notebook
+# purucker_modelselection repository
+Purucker ST, Snyder MN, Awkerman JA, Chelsvig EA, Etterson ME, Glinski DA, Minucci JM, Paulukonis EA, Raimondo SR, Van Meter RJ, Henderson WM, 2021. Parameterization of amphibian dermal exposure models to refine pesticide risk assessment.
